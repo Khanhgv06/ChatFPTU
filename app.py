@@ -1,97 +1,115 @@
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
 import os
-import time
-import streamlit as st
-from streamlit_chat import message
-from rag import ChatDOC
+import logging
+from langchain_core.globals import set_verbose
+from langchain_ollama import ChatOllama, OllamaEmbeddings
+from langchain.schema.output_parser import StrOutputParser
+from langchain_community.vectorstores import Chroma
+from langchain_community.document_loaders import TextLoader
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.schema.runnable import RunnablePassthrough
+from langchain_core.prompts import ChatPromptTemplate
+import chromadb
+import glob
 
-st.set_page_config(page_title="RAG")
+set_verbose(True)
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
+# Disable Chroma telemetry
+client_settings = chromadb.Settings(anonymized_telemetry=False)
 
-def display_messages():
-    st.subheader("Chat History")
-    for i, (msg, is_user) in enumerate(st.session_state["messages"]):
-        message(msg, is_user=is_user, key=str(i))
-    st.session_state["thinking_spinner"] = st.empty()
+app = FastAPI()
 
+class QueryRequest(BaseModel):
+    question: str
 
-def process_input():
-    if st.session_state["user_input"] and len(st.session_state["user_input"].strip()) > 0:
-        user_text = st.session_state["user_input"].strip()
-        with st.session_state["thinking_spinner"], st.spinner("Thinking..."):
+class TextRAG:
+    def __init__(self, docs_folder: str, llm_model: str = "llama3.3", embedding_model: str = "mxbai-embed-large"):
+        self.docs_folder = docs_folder
+        self.model = ChatOllama(model=llm_model)
+        self.embeddings = OllamaEmbeddings(model=embedding_model)
+        self.text_splitter = RecursiveCharacterTextSplitter(chunk_size=2048, chunk_overlap=200)
+        self.prompt = ChatPromptTemplate.from_template(
+            """
+            Bạn là một trợ lý AI hỗ trợ sinh viên. Sử dụng thông tin từ cơ sở tri thức để đưa ra câu trả lời chính xác.
+            Bối cảnh: {context}
+            Câu hỏi: {question}
+            """
+        )
+        self.vector_store = None
+        self.retriever = None
+
+    def load_documents(self):
+        """Load all text files from the specified folder."""
+        logger.info(f"Loading text files from {self.docs_folder}")
+        self.vector_store = None
+        self.retriever = None
+        
+        text_files = glob.glob(os.path.join(self.docs_folder, "**/*.txt"), recursive=True)
+        if not text_files:
+            raise ValueError(f"No text files found in {self.docs_folder}")
+
+        all_chunks = []
+        for file_path in text_files:
             try:
-                agent_text = st.session_state["assistant"].ask(
-                    user_text,
-                    k=st.session_state["retrieval_k"],
-                    score_threshold=st.session_state["retrieval_threshold"],
-                )
-            except ValueError as e:
-                agent_text = str(e)
+                loader = TextLoader(file_path, encoding='utf-8')
+                docs = loader.load()
+                chunks = self.text_splitter.split_documents(docs)
+                for chunk in chunks:
+                    chunk.metadata['source'] = os.path.relpath(file_path, self.docs_folder)
+                all_chunks.extend(chunks)
+            except Exception as e:
+                logger.error(f"Error processing {file_path}: {str(e)}")
 
-        st.session_state["messages"].append((user_text, True))
-        st.session_state["messages"].append((agent_text, False))
+        if not all_chunks:
+            raise ValueError("No documents were successfully processed")
 
+        self.vector_store = Chroma.from_documents(
+            documents=all_chunks,
+            embedding=self.embeddings,
+            persist_directory="markdown_db",
+            client_settings=client_settings
+        )
+        logger.info(f"Loaded {len(text_files)} files with {len(all_chunks)} chunks")
 
-def read_and_save_file():
-    st.session_state["assistant"].clear()
-    st.session_state["messages"] = []
-    st.session_state["user_input"] = ""
+    def ask(self, query: str, k: int = 3):
+        if not self.vector_store:
+            raise ValueError("No documents loaded. Call load_documents() first.")
 
-    for uploaded_file in st.session_state["file_uploader"]:
-        with st.session_state["ingestion_spinner"], st.spinner(f"Ingesting {uploaded_file.name}..."):
-            t0 = time.time()
-            file_content = uploaded_file.read()
-            
-            # Create a temporary file in memory
-            file_path = os.path.join(os.getcwd(), uploaded_file.name)
-            with open(file_path, 'wb') as f:
-                f.write(file_content)
-            
-            try:
-                st.session_state["assistant"].ingest(file_path)
-                t1 = time.time()
-                st.session_state["messages"].append(
-                    (f"Ingested {uploaded_file.name} in {t1 - t0:.2f} seconds", False)
-                )
-            finally:
-                # Clean up the file after ingestion
-                if os.path.exists(file_path):
-                    os.remove(file_path)
+        if not self.retriever:
+            self.retriever = self.vector_store.as_retriever(search_kwargs={"k": k})
 
+        retrieved_docs = self.retriever.invoke(query)
+        
+        context_parts = []
+        for doc in retrieved_docs:
+            source = doc.metadata.get('source', 'unknown')
+            context_parts.append(f"[From: {source}]\n{doc.page_content}")
+        
+        formatted_input = {
+            "context": "\n\n".join(context_parts),
+            "question": query
+        }
 
-def page():
-    if len(st.session_state) == 0:
-        st.session_state["messages"] = []
-        st.session_state["assistant"] = ChatDOC()
+        chain = (
+            RunnablePassthrough()
+            | self.prompt
+            | self.model
+            | StrOutputParser()
+        )
 
-    st.header("RAG")
+        return chain.invoke(formatted_input)
 
-    st.subheader("Upload a Document")
-    st.file_uploader(
-        "Upload a PDF document",
-        type=["pdf", "docx", "pptx", "txt", "md"],
-        key="file_uploader",
-        on_change=read_and_save_file,
-        label_visibility="collapsed",
-        accept_multiple_files=True,
-    )
+docs_folder = "data\\txt\\" 
+rag_system = TextRAG(docs_folder)
+rag_system.load_documents()
 
-    st.session_state["ingestion_spinner"] = st.empty()
-
-    st.subheader("Settings")
-    st.session_state["retrieval_k"] = st.slider(
-        "Number of Retrieved Results (k)", min_value=1, max_value=10, value=5
-    )
-    st.session_state["retrieval_threshold"] = st.slider(
-        "Similarity Score Threshold", min_value=0.0, max_value=1.0, value=0.2, step=0.05
-    )
-
-    display_messages()
-    st.text_input("Message", key="user_input", on_change=process_input)
-
-    if st.button("Clear Chat"):
-        st.session_state["messages"] = []
-        st.session_state["assistant"].clear()
-
-
-if __name__ == "__main__":
-    page()
+@app.post("/query")
+async def query(request: QueryRequest):
+    try:
+        response = rag_system.ask(request.question)
+        return {"answer": response}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

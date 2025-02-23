@@ -1,574 +1,2290 @@
 [
-    {
-      "input": "Hướng dẫn nạp tiền vào ví FAP (Nộp HP, phụ trội KTX)",
-      "output": ""
-    },
-    {
-      "input": "Thủ tục xin tạm ngừng học đi\\/ bảo lưu để học lại?",
-      "output": ""
-    },
-    {
-      "input": "Cách thức đăng ký học lại ?",
-      "output": ""
-    },
-    {
-      "input": "Thủ tục xin bảo lưu\\/tạm ngừng 1 học kỳ ?",
-      "output": ""
-    },
-    {
-      "input": "Cách thức đăng ký học môn chậm kỳ?",
-      "output": ""
-    },
-    {
-      "input": "Thủ tục đổi chéo lớp?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên có thể học đi và học lại, học chậm kỳ song song ?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên được học tối đa bao nhiêu môn một học kỳ?",
-      "output": ""
-    },
-    {
-      "input": "Điều kiện để được đi OJT là gì?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên không đủ điều kiện đi OJT có cần làm bảo lưu để học lại?",
-      "output": ""
-    },
-    {
-      "input": "Sau khi đăng ký học lại, sinh viên có được phép hủy đăng ký không ?",
-      "output": ""
-    },
-    {
-      "input": "Có được phép đổi môn tự chọn đã fail?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên được miễn điểm danh khi nào?",
-      "output": ""
-    },
-    {
-      "input": "Quyền lợi và trách nhiệm của sinh viên khi được miễn điểm danh?",
-      "output": ""
-    },
-    {
-      "input": "Cách thức xử lý khi bị điểm danh sai?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên đã nghỉ hết 20% số buổi, sau đó gặp trường hợp bất khả kháng bị nghỉ quá 1 buổi có đủ điều kiện dự thi cuối kỳ không ?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên muốn làm đơn đề nghị một vấn đề không có trong danh mục đơn từ thì phải làm thế nào?",
-      "output": ""
-    },
-    {
-      "input": "Điểm đánh giá OJT có tính vào điểm GPA ?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên đã học các môn học tương tự tại một trường khác, vậy các môn này có được công nhận tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Những môn học nào không được tính vào điểm GPA?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên chuyển ngành, chuyển cơ sở có phải thay đổi mã số sinh viên?",
-      "output": ""
-    },
-    {
-      "input": "Thủ tục chuyển ngành ?",
-      "output": ""
-    },
-    {
-      "input": "Thủ tục chuyển combo chuyên sâu?",
-      "output": ""
-    },
-    {
-      "input": "Thủ tục chuyển cơ sở?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên có được hưởng nhiều học bổng, ưu đãi cùng một lúc?",
-      "output": ""
-    },
-    {
-      "input": "Thời gian nhận bằng Tốt nghiệp ?",
-      "output": ""
-    },
-    {
-      "input": "Nhà trường có cấp giấy xác nhận tốt nghiệp tạm thời?",
-      "output": ""
-    },
-    {
-      "input": "Wishlist là gì?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để hủy wishlist (Danh sách chờ)?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên có phải làm đơn đăng ký thi lại nếu thi trượt lần 1 không?",
-      "output": ""
-    },
-    {
-      "input": "Thủ tục đăng ký thi cải thiện điểm?",
-      "output": ""
-    },
-    {
-      "input": "Hình phạt khi bị đình chỉ thi do vi phạm quy chế?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên không thi lần 1 có được xếp lịch thi lần 2 ?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên phải làm gì khi thắc mắc, khiếu nại về điểm?",
-      "output": ""
-    },
-    {
-      "input": "Cách thức làm đơn phúc tra ?",
-      "output": ""
-    },
-    {
-      "input": "Nếu đã đăng ký phúc tra nhưng chưa có kết quả trước khi thi retake thì sao?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên bỏ thi lần 2 có được lấy điểm thi lần 1?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên không có thẻ sinh viên có được vào phòng thi?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên làm cách nào để xem điều kiện pass môn của các môn học?",
-      "output": ""
-    },
-    {
-      "input": "Cách sử dụng tài khoản Coursera?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên phải làm gì khi trượt môn Coursera?",
-      "output": ""
-    },
-    {
-      "input": "Cách thức đăng ký thi thẩm định các môn Coursera?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên có thể sử dụng tài khoản Coursera được cấp để học các môn chưa pass do chưa lấy được chứng chỉ?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao khi bị gắn cờ đạo văn?",
-      "output": ""
-    },
-    {
-      "input": "Tài khoản Coursera báo hết hạn mặc dù trong kỳ vẫn có môn Coursera được xếp lịch học?",
-      "output": ""
-    },
-    {
-      "input": "Làm gì khi gặp phải các vấn đề liên quan đến lỗi hệ thống Coursera?",
-      "output": ""
-    },
-    {
-      "input": "Cách reset mật khẩu wifi?",
-      "output": ""
-    },
-    {
-      "input": "Tiêu chí xét khen thưởng cuối học kỳ các hạng mục khen thưởng liên quan đến học tập (sinh viên giỏi, xuất sắc, Cóc vàng)?",
-      "output": ""
-    },
-    {
-      "input": "Các môn học trong Block 5 có được tính vào điểm xét khen thưởng?",
-      "output": ""
-    },
-    {
-      "input": "Các môn học cải thiện có được tính vào điểm xét khen thưởng ?",
-      "output": ""
-    },
-    {
-      "input": "Các môn học của kỳ hiện tại nhưng đã được xếp lịch học trong kỳ trước đó (do kỳ trước học vượt kỳ hoặc Nhà trường tự xếp lớp) thì có được tính vào điểm xét khen thưởng không?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên chuyển ngành có bị mất học bổng?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên chuyển cơ sở có bị mất học bổng?",
-      "output": ""
-    },
-    {
-      "input": "Chính sách ưu đãi khi sinh viên đăng ký học lại sớm là gì?",
-      "output": ""
-    },
-    {
-      "input": "Nếu sinh viên đã đăng ký học lại ngay trong kỳ tiếp theo, nhưng khi đó Nhà trường không mở lớp thì lần đăng ký lớp tiếp theo sinh viên có được hưởng ưu đãi 50% học phí học lại không?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên đã nộp tiền đủ cho các môn học đi trong kỳ chuyên ngành theo thông báo nhà trường nhưng khi vào kỳ học thì không được xếp đủ 5 môn chuyên ngành (vì lý do không đậu môn học tiên quyết để được xếp lớp) thì có được hoàn tiền theo số môn không được xếp lớp trong kỳ?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên không nộp hoặc nộp học phí và các loại phí khác trễ so với thời hạn nhà trường đã thông báo thì sẽ bị gì?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên thôi học tự nguyện làm sao để nhập học lại?",
-      "output": ""
-    },
-    {
-      "input": "Hình phạt khi bị đình chỉ thi do vi phạm quy chế?",
-      "output": ""
-    },
-    {
-      "input": "Thời gian đóng mở cửa Ký túc xá?",
-      "output": ""
-    },
-    {
-      "input": "Thời gian đóng mở cổng trường?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên có được hủy phòng Ký túc xá giữa kỳ?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên có được phép tự ý chuyển giao\\/đổi chỗ ở phòng Ký túc xá cho sinh viên khác?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên có được phép cho bạn bè, người thân ngủ lại qua đêm?",
-      "output": ""
-    },
-    {
-      "input": "Có được phép nấu ăn trong Ký túc xá?",
-      "output": ""
-    },
-    {
-      "input": "Có được phép nuôi các loại vật nuôi trong Ký túc xá?",
-      "output": ""
-    },
-    {
-      "input": "Các thiết bị được phép mang vào Ký túc xá?",
-      "output": ""
-    },
-    {
-      "input": "Cách thức xin cấp giấy xác nhận sinh viên?",
-      "output": ""
-    },
-    {
-      "input": "Cách thức xin cấp Bảng điểm quá trình?",
-      "output": ""
-    },
-    {
-      "input": "Cách đăng ký làm lại thẻ sinh viên?",
-      "output": ""
-    },
-    {
-      "input": "Thời gian đăng ký mua BHYT ?",
-      "output": ""
-    },
-    {
-      "input": "Sinh viên có bắt buộc phải mua BHYT tại Trường không?",
-      "output": ""
-    },
-    {
-      "input": "Các ngành học nào có tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi chọn môn học cho học kỳ đầu tiên tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để thay đổi ngành học nếu tôi quyết định chuyển ngành tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Sự khác biệt giữa bằng đại học và bằng sau đại học tại Đại học FPT là gì?",
-      "output": ""
-    },
-    {
-      "input": "Hệ thống đánh giá ở Đại học FPT như thế nào?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để biết sách giáo khoa nào tôi cần cho các lớp học tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Tôi có thể tìm dịch vụ gia sư ở đâu trên campus Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để truy cập các tạp chí học thuật và bài báo nghiên cứu tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Những kỹ thuật học nào là tốt nhất cho các khóa học tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Các kỳ thi cuối kỳ tại Đại học FPT như thế nào, và khi nào chúng được lên lịch?",
-      "output": ""
-    },
-    {
-      "input": "Chính sách trung thực học thuật tại Đại học FPT là gì?",
-      "output": ""
-    },
-    {
-      "input": "Tôi có thể thi lại kỳ thi hoặc môn học bị rớt không?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để chuẩn bị cho một kỳ thi tổng hợp tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Thư viện của Đại học FPT ở đâu, và giờ mở cửa là bao lâu?",
-      "output": ""
-    },
-    {
-      "input": "Tôi có thể tìm thấy đồ ăn ở đâu trong khuôn viên trường Đại học FPT, và có những lựa chọn ăn uống nào?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tham gia câu lạc bộ hay tổ chức sinh viên tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Các lựa chọn chỗ ở trong khuôn viên Đại học FPT là gì, và làm sao để đăng ký?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để báo cáo sự cố khẩn cấp trong khuôn viên trường Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Có nhân viên bảo vệ trong khuôn viên trường vào ban đêm không?",
-      "output": ""
-    },
-    {
-      "input": "Các biện pháp an toàn nào được áp dụng để ngăn ngừa quấy rối hay bắt nạt tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Trung tâm sức khỏe của Đại học FPT ở đâu, và những dịch vụ nào được cung cấp?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi có thể tìm được tư vấn nếu cảm thấy căng thẳng hay mệt mỏi?",
-      "output": ""
-    },
-    {
-      "input": "Có phòng gym hoặc cơ sở thể thao nào trong khuôn viên Đại học FPT không, và làm sao để sử dụng chúng?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi tiếp cận các dịch vụ chăm sóc sức khỏe tinh thần tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để gặp gỡ và kết bạn với những sinh viên khác khi tôi mới vào Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Có những hoạt động hoặc sự kiện sinh viên nào giúp tôi làm quen với những người khác không?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để xây dựng mối quan hệ với các bạn trong chương trình học của tôi?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tham gia các hoạt động ngoại khóa tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Đại học FPT có những tổ chức dành cho sinh viên quốc tế không?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để cân bằng giữa việc học và cuộc sống xã hội tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi đối phó với cảm giác nhớ nhà khi ở xa gia đình và điều chỉnh với cuộc sống đại học?",
-      "output": ""
-    },
-    {
-      "input": "Tôi phải làm gì nếu tôi cảm thấy cô đơn hay bị tách biệt tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi nộp đơn xin học bổng hoặc hỗ trợ tài chính tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Học phí tại Đại học FPT là bao nhiêu, và tôi phải thanh toán như thế nào?",
-      "output": ""
-    },
-    {
-      "input": "Có những ưu đãi nào dành cho sinh viên khi mua sách giáo khoa hoặc tài liệu học tập tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi lập kế hoạch tài chính và quản lý chi tiêu khi là sinh viên?",
-      "output": ""
-    },
-    {
-      "input": "Có cơ hội làm việc bán thời gian nào trong khuôn viên Đại học FPT không?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi quản lý tài chính và tránh rơi vào nợ nần trong suốt quá trình học đại học?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi xin vay học phí, và các khoản vay sinh viên hoạt động như thế nào?",
-      "output": ""
-    },
-    {
-      "input": "Chi phí sinh hoạt gần Đại học FPT như thế nào, bao gồm tiền thuê nhà, tiện ích và thực phẩm?",
-      "output": ""
-    },
-    {
-      "input": "Tôi nên lập ngân sách bao nhiêu cho các chi tiêu hàng tuần khi là sinh viên tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi tìm được một công việc thực tập trong ngành học của mình tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Các dịch vụ hỗ trợ tìm việc của Đại học FPT như thế nào để giúp sinh viên tìm kiếm cơ hội nghề nghiệp?",
-      "output": ""
-    },
-    {
-      "input": "Khi nào tôi nên bắt đầu tìm kiếm thực tập hoặc công việc trong quá trình học tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi nộp đơn vào trường sau đại học nếu tôi muốn tiếp tục học lên?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao tôi có thể kết nối với cựu sinh viên hoặc giảng viên để tìm kiếm cơ hội nghề nghiệp?",
-      "output": ""
-    },
-    {
-      "input": "Thị trường việc làm cho ngành học của tôi sau khi tốt nghiệp từ Đại học FPT như thế nào, và tôi nên chuẩn bị như thế nào?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi xin visa du học, và những yêu cầu cần có là gì?",
-      "output": ""
-    },
-    {
-      "input": "Quy định làm việc trong khi học của sinh viên quốc tế tại Đại học FPT như thế nào?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để gia hạn visa sinh viên nếu cần thiết?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi thích nghi với việc sống ở một đất nước và văn hóa mới?",
-      "output": ""
-    },
-    {
-      "input": "Tôi cần biết gì về phong tục, luật lệ và cách cư xử tại Việt Nam?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi giữ liên lạc với gia đình ở nước ngoài?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi truy cập cổng thông tin sinh viên để đăng ký môn học?",
-      "output": ""
-    },
-    {
-      "input": "Hệ thống quản lý học tập (LMS) của Đại học FPT như Moodle hoặc Canvas là gì, và làm sao để sử dụng?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi kết nối Wi-Fi trong khuôn viên trường và có hỗ trợ công nghệ cho sinh viên không?",
-      "output": ""
-    },
-    {
-      "input": "Có những ứng dụng hoặc công cụ nào được khuyến nghị cho việc ghi chú, học tập, hoặc quản lý thời gian không?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi thiết lập và sử dụng tài khoản email của Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi truy cập các tài nguyên học tập trực tuyến như e-book, video hoặc bài giảng đã ghi lại?",
-      "output": ""
-    },
-    {
-      "input": "Khi nào là hạn cuối để tôi đăng ký môn học?",
-      "output": ""
-    },
-    {
-      "input": "Khi nào tôi phải bỏ học hoặc rút môn học mà không bị phạt?",
-      "output": ""
-    },
-    {
-      "input": "Khi nào là ngày cuối để tôi thanh toán học phí?",
-      "output": ""
-    },
-    {
-      "input": "Chính sách về việc tham gia lớp học tại Đại học FPT như thế nào?",
-      "output": ""
-    },
-    {
-      "input": "Chính sách về việc xin gia hạn bài tập hoặc kỳ thi tại Đại học FPT ra sao?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi nộp đơn khiếu nại nếu có vấn đề với giảng viên hoặc sinh viên khác tại Đại học FPT?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi ưu tiên các bài tập và quản lý nhiều hạn chót cùng lúc?",
-      "output": ""
-    },
-    {
-      "input": "Những chiến lược học nào là tốt nhất để tôi tổ chức và theo dõi việc học?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi cân bằng giữa việc học, cuộc sống xã hội và công việc bán thời gian?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi duy trì động lực học tập?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để chuẩn bị cho kỳ thi và viết bài luận hiệu quả?",
-      "output": ""
-    },
-    {
-      "input": "Làm sao để tôi hợp tác hiệu quả trong các dự án nhóm?",
-      "output": ""
-    }
-  ]
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Hướng dẫn nạp tiền vào ví FAP (Nộp HP, phụ trội KTX)"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Thủ tục xin tạm ngừng học đi/ bảo lưu để học lại?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Cách thức đăng ký học lại ?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Thủ tục xin bảo lưu/tạm ngừng 1 học kỳ ?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Cách thức đăng ký học môn chậm kỳ?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Thủ tục đổi chéo lớp?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên có thể học đi và học lại, học chậm kỳ song song ?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên được học tối đa bao nhiêu môn một học kỳ?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Điều kiện để được đi OJT là gì?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên không đủ điều kiện đi OJT có cần làm bảo lưu để học lại?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sau khi đăng ký học lại, sinh viên có được phép hủy đăng ký không ?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Có được phép đổi môn tự chọn đã fail?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên được miễn điểm danh khi nào?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Quyền lợi và trách nhiệm của sinh viên khi được miễn điểm danh?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Cách thức xử lý khi bị điểm danh sai?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên đã nghỉ hết 20% số buổi, sau đó gặp trường hợp bất khả kháng bị nghỉ quá 1 buổi có đủ điều kiện dự thi cuối kỳ không ?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên muốn làm đơn đề nghị một vấn đề không có trong danh mục đơn từ thì phải làm thế nào?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Điểm đánh giá OJT có tính vào điểm GPA ?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên đã học các môn học tương tự tại một trường khác, vậy các môn này có được công nhận tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Những môn học nào không được tính vào điểm GPA?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên chuyển ngành, chuyển cơ sở có phải thay đổi mã số sinh viên?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Thủ tục chuyển ngành ?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Thủ tục chuyển combo chuyên sâu?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Thủ tục chuyển cơ sở?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên có được hưởng nhiều học bổng, ưu đãi cùng một lúc?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Thời gian nhận bằng Tốt nghiệp ?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Nhà trường có cấp giấy xác nhận tốt nghiệp tạm thời?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Wishlist là gì?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để hủy wishlist (Danh sách chờ)?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên có phải làm đơn đăng ký thi lại nếu thi trượt lần 1 không?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Thủ tục đăng ký thi cải thiện điểm?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Hình phạt khi bị đình chỉ thi do vi phạm quy chế?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên không thi lần 1 có được xếp lịch thi lần 2 ?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên phải làm gì khi thắc mắc, khiếu nại về điểm?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Cách thức làm đơn phúc tra ?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Nếu đã đăng ký phúc tra nhưng chưa có kết quả trước khi thi retake thì sao?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên bỏ thi lần 2 có được lấy điểm thi lần 1?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên không có thẻ sinh viên có được vào phòng thi?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên làm cách nào để xem điều kiện pass môn của các môn học?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Cách sử dụng tài khoản Coursera?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên phải làm gì khi trượt môn Coursera?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Cách thức đăng ký thi thẩm định các môn Coursera?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên có thể sử dụng tài khoản Coursera được cấp để học các môn chưa pass do chưa lấy được chứng chỉ?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao khi bị gắn cờ đạo văn?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Tài khoản Coursera báo hết hạn mặc dù trong kỳ vẫn có môn Coursera được xếp lịch học?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm gì khi gặp phải các vấn đề liên quan đến lỗi hệ thống Coursera?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Cách reset mật khẩu wifi?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Tiêu chí xét khen thưởng cuối học kỳ các hạng mục khen thưởng liên quan đến học tập (sinh viên giỏi, xuất sắc, Cóc vàng)?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Các môn học trong Block 5 có được tính vào điểm xét khen thưởng?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Các môn học cải thiện có được tính vào điểm xét khen thưởng ?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Các môn học của kỳ hiện tại nhưng đã được xếp lịch học trong kỳ trước đó (do kỳ trước học vượt kỳ hoặc Nhà trường tự xếp lớp) thì có được tính vào điểm xét khen thưởng không?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên chuyển ngành có bị mất học bổng?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên chuyển cơ sở có bị mất học bổng?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Chính sách ưu đãi khi sinh viên đăng ký học lại sớm là gì?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Nếu sinh viên đã đăng ký học lại ngay trong kỳ tiếp theo, nhưng khi đó Nhà trường không mở lớp thì lần đăng ký lớp tiếp theo sinh viên có được hưởng ưu đãi 50% học phí học lại không?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên đã nộp tiền đủ cho các môn học đi trong kỳ chuyên ngành theo thông báo nhà trường nhưng khi vào kỳ học thì không được xếp đủ 5 môn chuyên ngành (vì lý do không đậu môn học tiên quyết để được xếp lớp) thì có được hoàn tiền theo số môn không được xếp lớp trong kỳ?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên không nộp hoặc nộp học phí và các loại phí khác trễ so với thời hạn nhà trường đã thông báo thì sẽ bị gì?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên thôi học tự nguyện làm sao để nhập học lại?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Hình phạt khi bị đình chỉ thi do vi phạm quy chế?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Thời gian đóng mở cửa Ký túc xá?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Thời gian đóng mở cổng trường?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên có được hủy phòng Ký túc xá giữa kỳ?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên có được phép tự ý chuyển giao/đổi chỗ ở phòng Ký túc xá cho sinh viên khác?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên có được phép cho bạn bè, người thân ngủ lại qua đêm?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Có được phép nấu ăn trong Ký túc xá?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Có được phép nuôi các loại vật nuôi trong Ký túc xá?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Các thiết bị được phép mang vào Ký túc xá?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Cách thức xin cấp giấy xác nhận sinh viên?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Cách thức xin cấp Bảng điểm quá trình?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Cách đăng ký làm lại thẻ sinh viên?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Thời gian đăng ký mua BHYT ?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sinh viên có bắt buộc phải mua BHYT tại Trường không?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Các ngành học nào có tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi chọn môn học cho học kỳ đầu tiên tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để thay đổi ngành học nếu tôi quyết định chuyển ngành tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Sự khác biệt giữa bằng đại học và bằng sau đại học tại Đại học FPT là gì?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Hệ thống đánh giá ở Đại học FPT như thế nào?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để biết sách giáo khoa nào tôi cần cho các lớp học tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Tôi có thể tìm dịch vụ gia sư ở đâu trên campus Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để truy cập các tạp chí học thuật và bài báo nghiên cứu tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Những kỹ thuật học nào là tốt nhất cho các khóa học tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Các kỳ thi cuối kỳ tại Đại học FPT như thế nào, và khi nào chúng được lên lịch?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Chính sách trung thực học thuật tại Đại học FPT là gì?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Tôi có thể thi lại kỳ thi hoặc môn học bị rớt không?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để chuẩn bị cho một kỳ thi tổng hợp tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Thư viện của Đại học FPT ở đâu, và giờ mở cửa là bao lâu?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Tôi có thể tìm thấy đồ ăn ở đâu trong khuôn viên trường Đại học FPT, và có những lựa chọn ăn uống nào?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tham gia câu lạc bộ hay tổ chức sinh viên tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Các lựa chọn chỗ ở trong khuôn viên Đại học FPT là gì, và làm sao để đăng ký?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để báo cáo sự cố khẩn cấp trong khuôn viên trường Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Có nhân viên bảo vệ trong khuôn viên trường vào ban đêm không?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Các biện pháp an toàn nào được áp dụng để ngăn ngừa quấy rối hay bắt nạt tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Trung tâm sức khỏe của Đại học FPT ở đâu, và những dịch vụ nào được cung cấp?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi có thể tìm được tư vấn nếu cảm thấy căng thẳng hay mệt mỏi?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Có phòng gym hoặc cơ sở thể thao nào trong khuôn viên Đại học FPT không, và làm sao để sử dụng chúng?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi tiếp cận các dịch vụ chăm sóc sức khỏe tinh thần tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để gặp gỡ và kết bạn với những sinh viên khác khi tôi mới vào Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Có những hoạt động hoặc sự kiện sinh viên nào giúp tôi làm quen với những người khác không?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để xây dựng mối quan hệ với các bạn trong chương trình học của tôi?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tham gia các hoạt động ngoại khóa tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Đại học FPT có những tổ chức dành cho sinh viên quốc tế không?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để cân bằng giữa việc học và cuộc sống xã hội tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi đối phó với cảm giác nhớ nhà khi ở xa gia đình và điều chỉnh với cuộc sống đại học?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Tôi phải làm gì nếu tôi cảm thấy cô đơn hay bị tách biệt tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi nộp đơn xin học bổng hoặc hỗ trợ tài chính tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Học phí tại Đại học FPT là bao nhiêu, và tôi phải thanh toán như thế nào?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Có những ưu đãi nào dành cho sinh viên khi mua sách giáo khoa hoặc tài liệu học tập tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi lập kế hoạch tài chính và quản lý chi tiêu khi là sinh viên?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Có cơ hội làm việc bán thời gian nào trong khuôn viên Đại học FPT không?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi quản lý tài chính và tránh rơi vào nợ nần trong suốt quá trình học đại học?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi xin vay học phí, và các khoản vay sinh viên hoạt động như thế nào?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Chi phí sinh hoạt gần Đại học FPT như thế nào, bao gồm tiền thuê nhà, tiện ích và thực phẩm?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Tôi nên lập ngân sách bao nhiêu cho các chi tiêu hàng tuần khi là sinh viên tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi tìm được một công việc thực tập trong ngành học của mình tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Các dịch vụ hỗ trợ tìm việc của Đại học FPT như thế nào để giúp sinh viên tìm kiếm cơ hội nghề nghiệp?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Khi nào tôi nên bắt đầu tìm kiếm thực tập hoặc công việc trong quá trình học tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi nộp đơn vào trường sau đại học nếu tôi muốn tiếp tục học lên?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao tôi có thể kết nối với cựu sinh viên hoặc giảng viên để tìm kiếm cơ hội nghề nghiệp?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Thị trường việc làm cho ngành học của tôi sau khi tốt nghiệp từ Đại học FPT như thế nào, và tôi nên chuẩn bị như thế nào?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi xin visa du học, và những yêu cầu cần có là gì?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Quy định làm việc trong khi học của sinh viên quốc tế tại Đại học FPT như thế nào?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để gia hạn visa sinh viên nếu cần thiết?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi thích nghi với việc sống ở một đất nước và văn hóa mới?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Tôi cần biết gì về phong tục, luật lệ và cách cư xử tại Việt Nam?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi giữ liên lạc với gia đình ở nước ngoài?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi truy cập cổng thông tin sinh viên để đăng ký môn học?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Hệ thống quản lý học tập (LMS) của Đại học FPT như Moodle hoặc Canvas là gì, và làm sao để sử dụng?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi kết nối Wi-Fi trong khuôn viên trường và có hỗ trợ công nghệ cho sinh viên không?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Có những ứng dụng hoặc công cụ nào được khuyến nghị cho việc ghi chú, học tập, hoặc quản lý thời gian không?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi thiết lập và sử dụng tài khoản email của Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi truy cập các tài nguyên học tập trực tuyến như e-book, video hoặc bài giảng đã ghi lại?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Khi nào là hạn cuối để tôi đăng ký môn học?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Khi nào tôi phải bỏ học hoặc rút môn học mà không bị phạt?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Khi nào là ngày cuối để tôi thanh toán học phí?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Chính sách về việc tham gia lớp học tại Đại học FPT như thế nào?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Chính sách về việc xin gia hạn bài tập hoặc kỳ thi tại Đại học FPT ra sao?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi nộp đơn khiếu nại nếu có vấn đề với giảng viên hoặc sinh viên khác tại Đại học FPT?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi ưu tiên các bài tập và quản lý nhiều hạn chót cùng lúc?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Những chiến lược học nào là tốt nhất để tôi tổ chức và theo dõi việc học?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi cân bằng giữa việc học, cuộc sống xã hội và công việc bán thời gian?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi duy trì động lực học tập?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để chuẩn bị cho kỳ thi và viết bài luận hiệu quả?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatFPTU, a helpful assistant designed to help future and new FPT university students."
+      },
+      {
+        "role": "user",
+        "content": "Làm sao để tôi hợp tác hiệu quả trong các dự án nhóm?"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  }
+]

@@ -11,7 +11,20 @@
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Để nạp tiền vào ví FAP, sinh viên cần thực hiện các bước sau:
+
+Truy cập vào trang web fap.fpt.edu.vn.
+Vào mục Thủ tục/đơn từ.
+Lựa chọn khoản nạp tiền.
+Kiểm tra khoản nạp tiền đã tạo.
+Nhấn thanh toán để xuất hiện mã QR.
+Sau khi đã tạo xong khoản nạp, sinh viên có thể thanh toán bằng các hình thức sau:
+
+Thanh toán qua định danh tài khoản: Sử dụng app internet banking của bất kỳ ngân hàng nào đang sử dụng và tiến hành quét mã QR.
+Trả góp qua FPT Pay: Truy cập link: https://dng.fpt.edu.vn/Invoice, nhập MSSV, chọn thanh toán học phí bằng hình thức trả góp FPT, chọn ngân hàng muốn thanh toán theo hình thức trả góp và nhập thông tin thẻ tín dụng do ngân hàng được chọn phát hành để thanh toán.
+Qua App TPBank Mobile hoặc App BIDV Smartbanking.
+Nộp tiền mặt tại quầy giao dịch Vietinbank.
+Lưu ý rằng sinh viên cần thực hiện các bước này để đảm bảo việc nạp tiền vào ví FAP được thực hiện thành công."
       }
     ]
   },
@@ -27,7 +40,31 @@
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Thủ tục xin tạm ngừng học hoặc bảo lưu để học lại
+1. Thủ tục tạm ngừng học
+Thủ tục tạm ngừng học hay còn gọi là bảo lưu học kỳ là tình trạng sinh viên không tham gia học bất kỳ học phần nào trong học kỳ. Sinh viên chỉ được phép bảo lưu sau khi đã tham gia học tối thiểu 1 học kỳ tại Trường. Thủ tục bảo lưu chỉ có hiệu lực trong 1 học kỳ, đồng thời sinh viên không được bảo lưu quá 2 học kỳ liên tiếp.
+
+Cách thức đăng ký:
+
+Đăng nhập vào trang fap.fpt.edu.vn.
+Chọn mục Thủ tục/Đơn từ.
+Chọn Suspend one semester/Xin tạm nghỉ 1 học kỳ.
+Điền thông tin vào lý do và nhấn Submit form.
+Sau khi thực hiện đăng ký, sinh viên có thể kiểm tra lại thủ tục đã thành công chưa bằng cách truy cập vào mục Profile => Status. Nếu thấy trạng thái đã chuyển thành “BL” thì tức là bạn đã đăng ký thành công. Sinh viên trong tình trạng bảo lưu sẽ chưa cần nộp học phí.
+
+2. Thủ tục bảo lưu để học lại
+Thủ tục "Bảo lưu để học lại" hay còn được gọi là "Tạm hoãn tiến độ một học kỳ để học lại". Thủ tục này chỉ dành cho sinh viên đang học chuyên ngành nhưng trong tình trạng nợ nhiều môn, có nguyện vọng muốn tạm dừng học để học lại.
+
+Cách thức đăng ký:
+
+Đăng nhập vào trang fap.fpt.edu.vn.
+Chọn mục Thủ tục/Đơn từ.
+Chọn Suspend one semester to take repeated course/Xin tạm hoãn tiến độ 1 học kỳ để học lại.
+Điền thông tin vào lý do và nhấn Submit form.
+Sau khi thực hiện thao tác, sinh viên có thể kiểm tra đã thực hiện thành công chưa bằng cách vào mục Profile => Status. Nếu thấy đã chuyển thành “HL” tức là đã thực hiện đăng ký thành công. Sau khi hoàn tất thủ tục tạm hoãn tiến độ 1 học kỳ để học lại, sinh viên không cần phải nộp học phí học lại, tuy nhiên bắt buộc phải đăng ký học lại ít nhất 1 môn học lại/học chậm kỳ.
+
+Lưu ý
+Sinh viên nợ môn không đủ điều kiện chuyển giai đoạn thì sẽ thuộc diện tạm ngừng bắt buộc để học lại và không cần phải làm thủ tục tạm hoãn tiến độ một học kỳ để học lại."
       }
     ]
   },
@@ -43,7 +80,25 @@
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Cách thức đăng ký học lại
+Để đăng ký học lại các môn học chưa đạt, sinh viên cần thực hiện các bước sau:
+
+Thời gian đăng ký: Thời gian đăng ký học lại sẽ được thông báo trong Kế hoạch học tập, đăng trên cổng thông tin fap.fpt.edu.vn mục News - Tin tức vào trước khi học kỳ mới bắt đầu hoặc trước Block 5 của học kỳ.
+
+Cách thức đăng ký:
+
+Truy cập vào cổng thông tin fap.fpt.edu.vn.
+Vào mục Thủ tục/đơn từ.
+Chọn Register to repeat a course (Đăng ký học lại).
+Nhập mã môn học cần học lại.
+Nhấn tick vào ô vuông bên cạnh để xác nhận thông tin.
+Chọn lớp học phù hợp.
+Tiến hành thanh toán và quét mã QR trong vòng 10 phút.
+Lưu ý:
+
+Nếu sinh viên đăng ký học lại ngay trong Block 5 của học kỳ hoặc trong kỳ tiếp theo, sẽ được áp dụng mức học phí học lại sớm bằng 50% biểu phí môn. Nếu đăng ký học lại sau thời điểm này, sinh viên sẽ phải nộp 100% biểu phí môn.
+Sinh viên vi phạm quy chế thi khi đăng ký học lại sẽ phải nộp học phí bằng 2 lần học phí học lại so với sinh viên không vi phạm quy chế.
+Nếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo"
       }
     ]
   },
@@ -59,7 +114,15 @@
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Thủ tục xin bảo lưu hoặc tạm ngừng một học kỳ
+Thủ tục xin bảo lưu hay còn gọi là tạm nghỉ một học kỳ là tình trạng sinh viên không tham gia học bất kỳ học phần nào trong học kỳ. Sinh viên chỉ được phép bảo lưu sau khi đã tham gia học tối thiểu 1 học kỳ tại Trường. Thủ tục bảo lưu chỉ có hiệu lực trong 1 học kỳ, đồng thời sinh viên không được bảo lưu quá 2 học kỳ liên tiếp.
+
+Cách thức đăng ký
+Đăng nhập vào trang fap.fpt.edu.vn.
+Chọn mục Thủ tục/Đơn từ.
+Chọn Suspend one semester/Xin tạm nghỉ 1 học kỳ.
+Điền thông tin vào lý do và nhấn Submit form.
+Sau khi thực hiện đăng ký, sinh viên có thể kiểm tra lại thủ tục đã thành công chưa bằng cách truy cập vào mục Profile => Status. Nếu thấy trạng thái đã chuyển thành “BL” thì tức là bạn đã đăng ký thành công. Trong thời gian bảo lưu, sinh viên sẽ chưa cần nộp học phí."
       }
     ]
   },
@@ -75,7 +138,17 @@
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Cách đăng ký môn học chậm kỳ
+Môn học chậm kỳ hay còn gọi là môn học đi chậm kỳ là những môn học mà sinh viên không hoàn thành đúng tiến độ theo kế hoạch học tập. Điều này xảy ra khi:
+
+Sinh viên không đạt yêu cầu của môn điều kiện nên chưa được xếp lớp trong đúng học kỳ.
+Sinh viên xin bảo lưu học phần vì lý do cá nhân.
+Thời gian đăng ký học chậm kỳ: Với các môn chậm kỳ, Nhà trường không xếp lớp mà sinh viên sẽ chủ động đăng ký (nếu đủ điều kiện), thời hạn cụ thể theo thông báo của phòng Đào tạo có trong kế hoạch học tập đầu kỳ hoặc kế hoạch học tập Block 5 mỗi kỳ.
+
+Cách thức đăng ký như sau:
+
+Truy cập fap.fpt.edu.vn mục Thủ tục/đơn từ => Register extra courses (Đăng ký môn học đi chậm kỳ) => Nhập mã môn => Tích vào ô vuông bên cạnh => Chọn lớp có lịch học phù hợp => Save. (Các môn học đi chậm kỳ sinh viên không phải nộp học phí khi đăng ký).
+Sau khi thao tác đăng ký, sinh viên có thể kiểm tra được luôn lịch học bằng cách tại giao diện FAP vào mục "Tra cứu thông tin" => "Lịch học từng tuần" hoặc vào mục "Báo cáo" => "Báo cáo điểm danh"."
       }
     ]
   },

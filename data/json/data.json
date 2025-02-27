@@ -164,7 +164,14 @@ Sau khi thao tác đăng ký, sinh viên có thể kiểm tra được luôn l�
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Thủ tục đổi chéo lớp?
+Thủ tục đổi chéo lớp là quy trình cho phép hai sinh viên từ hai lớp khác nhau có thể hoán đổi lớp học của mình, 
+miễn là lịch học của họ không bị trùng lặp với các môn học khác. Điều này thường được áp dụng khi lớp học đã đầy và sinh viên cần thay đổi lớp để phù hợp với 
+lịch trình học tập của mình.
+Để thực hiện thủ tục này, sinh viên cần truy cập vào hệ thống FAP tại mục Thủ tục/đơn từ và chọn Yêu cầu đổi chéo lớp với sinh viên. 
+Sau đó, sinh viên sẽ cần xác nhận đồng ý với việc đổi chéo lớp.
+
+Lưu ý rằng không phải tất cả các môn học đều cho phép thực hiện thủ tục đổi chéo lớp, và sinh viên cần kiểm tra các quy định cụ thể liên quan đến môn học của mình."
       }
     ]
   },
@@ -180,7 +187,11 @@ Sau khi thao tác đăng ký, sinh viên có thể kiểm tra được luôn l�
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Sinh viên có thể học đi và học lại, học chậm kỳ song song không?
+
+Sinh viên có thể đăng ký học đi và học lại, cũng như học chậm kỳ cùng lúc. Lịch học đi do Phòng Đào tạo sắp xếp, trong khi lịch học lại hoặc học chậm kỳ là do sinh viên tự chủ động đăng ký sao cho các lớp học không bị trùng lịch, đồng thời đảm bảo không vượt quá 7 môn.
+
+Nếu bạn cần thêm thông tin chi tiết, hãy tham khảo tài liệu từ trường hoặc liên hệ với Phòng Đào tạo để được hỗ trợ."
       }
     ]
   },
@@ -196,7 +207,11 @@ Sau khi thao tác đăng ký, sinh viên có thể kiểm tra được luôn l�
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Sinh viên được học tối đa bao nhiêu môn trong một học kỳ?
+
+Theo thông tư 08 của Bộ giáo dục, số lượng môn học tối đa trong một kỳ không vượt quá 3/2 số lượng môn học trung bình một học kỳ theo kế hoạch học tập chuẩn, tương đương với không vượt quá 7 môn (không bao gồm các môn học trong Block 5).
+
+Thông tư 08 của BGD (https://docs.google.com/document/d/1TvuaLeVZOr1Vax7vCIFKwf4Wf7BZPjhs/edit?usp=drive_link) , trang 5."
       }
     ]
   },
@@ -228,7 +243,7 @@ Sau khi thao tác đăng ký, sinh viên có thể kiểm tra được luôn l�
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Sinh viên không đủ điều kiện đi OJT sẽ được đưa vào diện tạm ngưng bắt buộc để học lại và không cần làm thủ tục tạm hoãn tiến độ một học kỳ để học lại. Sinh viên sẽ không phải nộp học phí của kỳ tiếp theo mà sẽ chỉ cần đăng ký học lại hoặc học chậm kỳ (nếu có). Trường hợp sinh viên thuộc diện tạm ngưng bắt buộc nhưng không đăng ký học lại sẽ bị đưa vào danh sách thôi học tự nguyện."
       }
     ]
   },
@@ -244,7 +259,15 @@ Sau khi thao tác đăng ký, sinh viên có thể kiểm tra được luôn l�
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Sau khi sinh viên đã đăng ký học lại nhưng vì lý do cá nhân muốn hủy đăng ký, sinh viên có thể thực hiện như sau:
+
+    Truy cập fap.fpt.edu.vn mục Thủ tục/đơn từ => Cancel Registration (Hủy đăng ký học).
+
+Lưu ý:
+
+    Với môn học lại, khi hủy đăng ký học, sinh viên sẽ chỉ được hoàn về 50% số tiền đã nộp, vì vậy sinh viên cần cân nhắc kỹ khi đăng ký học lại cũng như khi hủy đăng ký.
+    Việc hủy đăng ký chỉ được thực hiện khi lớp học chưa bắt đầu, nếu lớp học đã bắt đầu sinh viên sẽ không thể thực hiện "Hủy đăng ký".
+"
       }
     ]
   },

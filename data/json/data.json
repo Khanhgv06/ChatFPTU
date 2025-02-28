@@ -227,7 +227,14 @@ Thông tư 08 của BGD (https://docs.google.com/document/d/1TvuaLeVZOr1Vax7vCIF
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Điều kiện để được đi OJT
+
+Để tham gia chương trình OJT (On-the-Job Training), sinh viên cần đáp ứng các điều kiện sau:
+
+    Hoàn thành tối thiểu 90% tổng số tín chỉ của các học phần chuyên môn (không bao gồm Giáo dục quốc phòng, Giáo dục thể chất) được nhà trường quy định trong giai đoạn trước OJT của chương trình giáo dục đại học theo ngành được đào tạo, tương đương với không nợ quá 2 môn (mỗi môn 3 tín chỉ).
+    Riêng với sinh viên chuyên ngành hẹp JS cần phải pass môn JPD133.
+
+Đây là những yêu cầu cơ bản mà sinh viên cần thực hiện để đủ điều kiện tham gia OJT."
       }
     ]
   },
@@ -283,7 +290,9 @@ Lưu ý:
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Theo quy chế đào tạo, sinh viên có thể đăng ký học lại môn tự chọn đã bị trượt. Trong trường hợp này, sinh viên có thể lựa chọn đăng ký học lại đúng môn học đó hoặc đăng ký một môn học khác thay thế.
+
+Nếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo tài liệu liên quan hoặc liên hệ với phòng Dịch vụ sinh viên để được hỗ trợ."
       }
     ]
   },
@@ -299,7 +308,15 @@ Lưu ý:
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Sinh viên được miễn điểm danh trong các trường hợp sau:
+
+    Sinh viên từ kỳ 7 trở đi: Đối tượng áp dụng đơn miễn điểm danh là sinh viên từ kỳ 7 trở đi và có hợp đồng lao động chính thức có trả lương tại một Công ty/Cơ quan/Tổ chức.
+
+    Tham gia vào những buổi có bài test hoặc theo yêu cầu của giảng viên: Khi được áp dụng miễn điểm danh, sinh viên sẽ không bị áp điều kiện phải tham gia lớp học tối thiểu 80%, mà chỉ bắt buộc có mặt vào những buổi có bài test hoặc theo yêu cầu của giảng viên.
+
+Thời hạn làm đơn miễn điểm danh: Theo thông báo của phòng Đào tạo, thông thường thông báo hướng dẫn thủ tục miễn điểm danh được đăng trên FAP mục News – Tin tức trước khi học kỳ mới bắt đầu 2 - 3 tuần.
+
+Lưu ý: Đơn miễn điểm danh cần được thẩm định với Doanh nghiệp/Cơ quan, vì vậy thời gian xử lý sẽ lâu hơn so với các loại đơn thông thường. Trong thời gian chờ duyệt đơn, sinh viên nên tham gia học tập đầy đủ."
       }
     ]
   },
@@ -315,7 +332,26 @@ Lưu ý:
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Quyền lợi và trách nhiệm của sinh viên khi được miễn điểm danh
+Quyền lợi:
+
+    Không bị áp điều kiện tham gia lớp học tối thiểu 80%: Sinh viên được miễn điểm danh sẽ không cần phải tham gia đủ 80% số buổi học để đủ điều kiện thi cuối học phần.
+    Chỉ cần có mặt vào những buổi có bài test hoặc theo yêu cầu của giảng viên: Sinh viên chỉ cần tham gia vào các buổi học mà giảng viên yêu cầu hoặc có bài kiểm tra.
+
+Trách nhiệm:
+
+    Cần trao đổi với giảng viên: Sau khi được duyệt đơn miễn điểm danh, sinh viên cần thông báo cho giảng viên và vẫn phải tham gia một số buổi học bắt buộc theo yêu cầu của giảng viên và môn học.
+    Tham gia đầy đủ trong thời gian chờ duyệt đơn: Trong thời gian chờ duyệt đơn miễn điểm danh, sinh viên nên tham gia học tập đầy đủ để không bị ảnh hưởng đến kết quả học tập.
+
+Đối tượng áp dụng:
+
+    Sinh viên từ kỳ 7 trở đi và có hợp đồng lao động chính thức có trả lương tại một Công ty/Cơ quan/Tổ chức.
+
+Thời hạn làm đơn:
+
+    Theo thông báo của phòng Đào tạo, thường được đăng trên FAP mục News – Tin tức trước khi học kỳ mới bắt đầu 2 - 3 tuần.
+
+Để biết thêm chi tiết, sinh viên có thể tham khảo thông tin trên trang FAP hoặc liên hệ với phòng Đào tạo."
       }
     ]
   },
@@ -331,7 +367,17 @@ Lưu ý:
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Cách thức xử lý khi bị điểm danh sai
+
+Trong trường hợp nhận thấy có sai sót về điểm danh, sinh viên vui lòng làm theo hướng dẫn sau:
+
+    Với các môn học LUK: làm đơn khiếu nại điểm danh trên FAP trong vòng 2 ngày kể từ ngày diễn ra buổi học, cách thức: Đăng nhập fap.fpt.edu.vn => Thủ tục/Đơn từ => Send application (Gửi đơn) => Chọn: Đơn đề nghị kiểm tra trạng thái điểm danh LUK: Trình bày chi tiết thông tin buổi học bị điểm danh nhầm và các minh chứng (nếu có) => Send.
+
+    Với các môn học không bao gồm LUK: Báo ngay với giảng viên trước 24h trong ngày diễn ra buổi học. Trường hợp đã báo cáo đúng thời hạn nhưng không nhận được phản hồi, sinh viên có thể làm đơn khiếu nại điểm danh, cách thức như sau: Đăng nhập fap.fpt.edu.vn => Thủ tục/Đơn từ => Send application (Gửi đơn) => Chọn: Đơn khiếu nại điểm danh: Trình bày nội dung kèm minh chứng (nếu có) => Send.
+
+Sau khi gửi đơn, sinh viên sẽ theo dõi tại mục "View application (Xem đơn)" để nhận phản hồi của bộ phận xử lý trong vòng 2 ngày làm việc.
+
+Lưu ý: Riêng đối với cơ sở Đà Nẵng, nếu sinh viên đã báo với giảng viên/văn phòng LUK đúng hạn nhưng không được phản hồi, vui lòng liên hệ với Phòng Dịch vụ sinh viên để được hỗ trợ (dvsv.fudn@fe.edu.vn)."
       }
     ]
   },

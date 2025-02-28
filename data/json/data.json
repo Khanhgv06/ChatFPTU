@@ -493,7 +493,9 @@ Tài liệu tham khảo: Quy chế Đào tạo QĐ 842, trang 4. https://drive.g
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Dựa trên tài liệu hiện có, sinh viên chuyển ngành hoặc chuyển cơ sở sẽ không cần thay đổi mã số sinh viên. Mã số sinh viên thường được giữ nguyên trong suốt quá trình học tập tại trường, bất kể sinh viên có chuyển ngành hay chuyển cơ sở.
+
+Để được giải đáp thông tin chi tiết hơn, vui lòng liên hệ với phòng Dịch vụ sinh viên để được hỗ trợ."
       }
     ]
   },
@@ -509,7 +511,26 @@ Tài liệu tham khảo: Quy chế Đào tạo QĐ 842, trang 4. https://drive.g
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Thủ tục chuyển ngành
+Thủ tục chuyển ngành là quy trình mà sinh viên có thể thực hiện để thay đổi chuyên ngành học của mình tại Đại học FPT. Dưới đây là một số thông tin chi tiết về thủ tục này:
+
+Thời gian đăng ký
+Sinh viên cần thực hiện thủ tục chuyển ngành theo thông báo của phòng Quản lý Đào tạo, được đăng trên FAP mục News – Tin tức, trước khi học kỳ mới bắt đầu 2 tháng.
+
+Phí chuyển ngành
+Phí chuyển ngành là 2,300,000 đồng cho mỗi lần chuyển.
+
+Cách thức đăng ký
+Đăng nhập vào trang fap.fpt.edu.vn.
+Vào mục Thủ tục/Đơn từ.
+Chọn Send application (Gửi đơn).
+Chọn Đề nghị chuyển ngành.
+Nhập thông tin về ngành/chuyên ngành cũ và ngành/chuyên ngành mới.
+Nhấn Send và thực hiện thanh toán bằng cách quét mã QR hoặc trừ trực tiếp từ số dư trên FAP (nếu có).
+Lưu ý
+Sau khi gửi đơn, sinh viên cần theo dõi tại mục View application (Xem đơn) để nhận phản hồi từ bộ phận xử lý.
+Nếu có phản hồi về phí thừa môn cần nộp, sinh viên cần hoàn thành khoản phí này trong vòng 12 ngày kể từ thời điểm làm đơn. Nếu không hoàn thành đúng hạn, đơn sẽ bị từ chối và phí chuyển ngành cũng sẽ được hoàn về ví FAP.
+Thủ tục chuyển ngành là một bước quan trọng giúp sinh viên điều chỉnh hướng đi học tập của mình, đảm bảo phù hợp với sở thích và năng lực cá nhân."
       }
     ]
   },
@@ -525,7 +546,27 @@ Tài liệu tham khảo: Quy chế Đào tạo QĐ 842, trang 4. https://drive.g
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Thủ tục chuyển combo chuyên sâu là quy trình mà sinh viên có thể thực hiện để thay đổi chuyên ngành hẹp (combo) mà mình đang theo học. Cụ thể, sinh viên cần thực hiện các bước sau:
+
+Thời gian đăng ký: Sinh viên cần theo dõi thông báo từ Phòng Quản lý Đào tạo được đăng trên FAP mục News – Tin tức trước khi học kỳ mới bắt đầu 2 tháng.
+
+Phí chuyển combo chuyên sâu: Mức phí cho việc chuyển combo chuyên sâu là 2,300,000 đồng.
+
+Cách thức đăng ký:
+
+Đăng nhập vào trang fap.fpt.edu.vn.
+Vào mục Thủ tục/Đơn từ.
+Chọn Send application (Gửi đơn) và chọn Đề nghị đổi Combo chuyên sâu.
+Nhập thông tin cần thiết và nhấn Send.
+Thanh toán phí bằng cách quét mã QR hoặc hệ thống sẽ trừ trực tiếp từ số dư trên FAP (nếu có).
+Lưu ý rằng thời gian giữ chỗ cho sinh viên thanh toán bằng QR code là 10 phút. Nếu thanh toán sau 10 phút, đơn sẽ bị hủy và tiền đã nộp sẽ được cộng vào ví FAP.
+
+Theo dõi đơn: Sau khi gửi đơn, sinh viên cần theo dõi tại mục View application (Xem đơn) để nhận phản hồi từ bộ phận xử lý.
+Nếu có phản hồi về phí thừa môn cần nộp, sinh viên cần hoàn thành khoản phí này trong vòng 12 ngày kể từ thời điểm làm đơn. Nếu không hoàn thành đúng hạn, đơn sẽ bị từ chối và phí chuyển ngành cũng sẽ được hoàn về ví FAP.
+
+Lưu ý
+Đối với sinh viên đổi combo sau kỳ 6 chuyên ngành, tùy từng combo cụ thể mà sau khi chuyển, sinh viên có thể phải đi OJT lại hoặc không. Các môn học được thay thế trong khung chương trình mới mà sinh viên chưa được học sẽ trở thành môn học chậm kỳ và sinh viên có thể chủ động đăng ký để hoàn thành các môn học này.
+Sinh viên combo chuyên sâu sẽ được duy trì các loại học bổng, ưu đãi tài năng."
       }
     ]
   },
@@ -541,7 +582,18 @@ Tài liệu tham khảo: Quy chế Đào tạo QĐ 842, trang 4. https://drive.g
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Thủ tục chuyển cơ sở là quy trình hành chính mà sinh viên có thể thực hiện để chuyển từ cơ sở hoặc phân hiệu này của Đại học FPT sang cơ sở hoặc phân hiệu khác mà không phải chịu phí, với điều kiện cơ sở tiếp nhận đồng ý.
+
+Sinh viên cần thực hiện các bước sau để xin chuyển cơ sở:
+
+Đăng nhập vào hệ thống FAP tại địa chỉ fap.fpt.edu.vn.
+Vào mục Thủ tục/Đơn từ và chọn Gửi đơn.
+Chọn Đề nghị chuyển cơ sở và gửi đơn.
+Thời hạn đăng ký chuyển cơ sở là theo thông báo của phòng Quản lý Đào tạo, muộn nhất là 1 tháng trước khi học kỳ mới bắt đầu.
+
+Khi được duyệt đề nghị chuyển cơ sở, sinh viên sẽ nộp học phí theo mức phí áp dụng tại cơ sở chuyển đến. Sinh viên chuyển cơ sở sẽ được bảo lưu chính sách học bổng và các ưu đãi khác nếu chính sách này áp dụng chung cho toàn quốc.
+
+Nếu bạn cần thêm thông tin chi tiết, hãy tham khảo tài liệu từ phòng Quản lý Đào tạo."
       }
     ]
   },
@@ -557,7 +609,12 @@ Tài liệu tham khảo: Quy chế Đào tạo QĐ 842, trang 4. https://drive.g
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Sinh viên có thể nhận nhiều học bổng và ưu đãi cùng một lúc không?
+Theo quy định của Trường Đại học FPT, sinh viên chỉ được nhận một loại học bổng cao nhất trong các chương trình học bổng được phê duyệt khi nhập học. Điều này có nghĩa là nếu sinh viên đủ điều kiện cho nhiều loại học bổng và ưu đãi, họ sẽ chỉ được nhận một loại tốt nhất, trừ trường hợp có quy định khác.
+
+Ngoài ra, học bổng của Trường Đại học FPT là độc lập và không áp dụng cùng với bất kỳ hình thức ưu đãi nào khác của Trường.
+
+Nếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo Quy định tài chính năm học 2024-2025 trang 4. https://drive.google.com/file/d/1DcqY4fX3jBQEM5gj08fbLDrDjh7hCEvY/view?usp=drive_link"
       }
     ]
   },

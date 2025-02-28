@@ -393,7 +393,11 @@ Lưu ý: Riêng đối với cơ sở Đà Nẵng, nếu sinh viên đã báo v�
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Theo quy định, sinh viên cần tham gia tối thiểu 80% tổng số slot của môn học để đủ điều kiện thi cuối học phần. Nếu sinh viên đã nghỉ hết 20% số buổi, tức là đã không đủ điều kiện tham gia kỳ thi cuối học phần.
+
+Trong trường hợp sinh viên gặp phải tình huống bất khả kháng và phải nghỉ thêm 1 buổi, họ sẽ không đủ điều kiện để dự thi cuối kỳ. Do đó, sinh viên sẽ phải học lại học phần đó.
+
+Để biết thêm thông tin chi tiết về thời lượng tối thiểu của từng môn học, sinh viên có thể truy cập trang học liệu của Nhà trường."
       }
     ]
   },
@@ -409,7 +413,17 @@ Lưu ý: Riêng đối với cơ sở Đà Nẵng, nếu sinh viên đã báo v�
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Cách Làm Đơn Đề Nghị Về Vấn Đề Không Có Trong Danh Mục Đơn Từ
+Nếu sinh viên muốn làm đơn đề nghị về một vấn đề không có trong danh mục đơn từ, sinh viên có thể thực hiện theo các bước sau:
+
+Truy cập vào Cổng Thông Tin Đào Tạo: Đăng nhập vào trang web fap.fpt.edu.vn.
+Chọn Mục Gửi Đơn: Vào phần "Thủ tục/Đơn từ".
+Chọn Các Loại Đơn Khác: Trong danh sách, chọn "Các loại đơn khác".
+Trình Bày Nguyện Vọng: Viết rõ lý do và nguyện vọng của mình trong đơn đề nghị.
+Gửi Đơn: Sau khi hoàn tất, nhấn nút gửi để nộp đơn.
+Sinh viên cần lưu ý rằng đơn sẽ được xem xét dựa trên lý do trình bày và quy định của Nhà trường.
+
+Nếu cần thêm thông tin, sinh viên có thể liên hệ với phòng Dịch vụ sinh viên để được hỗ trợ."
       }
     ]
   },
@@ -425,7 +439,7 @@ Lưu ý: Riêng đối với cơ sở Đà Nẵng, nếu sinh viên đã báo v�
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Điểm đánh giá OJT không được tính vào điểm GPA. Điều này có nghĩa là điểm của học phần OJT sẽ không ảnh hưởng đến điểm trung bình chung tích lũy (GPA) của sinh viên."
       }
     ]
   },
@@ -441,7 +455,11 @@ Lưu ý: Riêng đối với cơ sở Đà Nẵng, nếu sinh viên đã báo v�
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Sinh viên có thể đề nghị Trường xem xét công nhận học phần mà sinh viên đã đạt được tại cơ sở đào tạo khác, với điều kiện các học phần đó đáp ứng được các yêu cầu về nội dung/đầu ra, thời lượng, và điều kiện hoàn thành môn học tương đương với các học phần tương ứng thuộc chương trình đào tạo của Trường.
+
+Nếu được chấp nhận, học phần tương ứng trong chương trình đào tạo của Trường sẽ chỉ tính là "đạt" và không được tính vào điểm trung bình chung của sinh viên (điểm GPA). Số tín chỉ được công nhận tối đa với sinh viên chuyển từ trường khác sang Trường Đại học FPT là 50% so với tổng số tín chỉ cần đạt để được xét tốt nghiệp.
+
+Tài liệu tham khảo: Quy chế Đào tạo QĐ 842, trang 4. https://drive.google.com/file/d/15eqz7PEcShvSdcQhqlcEhOzl3HpDJ07E/view?usp=drive_link"
       }
     ]
   },
@@ -457,7 +475,9 @@ Lưu ý: Riêng đối với cơ sở Đà Nẵng, nếu sinh viên đã báo v�
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Trong chương trình học tại Trường Đại học FPT, có một số học phần mà kết quả học phần không được dùng để tính điểm GPA. Những môn học này bao gồm các học phần điều kiện mà sinh viên phải hoàn tất để đủ điều kiện bắt đầu học tập hoặc để cấp bằng tốt nghiệp, ví dụ như chứng chỉ tiếng Anh chuẩn bị, Rèn luyện tập trung, Giáo dục thể chất, và OJT (On-the-Job Training).
+
+Để biết thêm chi tiết, bạn có thể tham khảo tài liệu Quy chế Đào tạo QĐ 842. https://drive.google.com/file/d/15eqz7PEcShvSdcQhqlcEhOzl3HpDJ07E/view?usp=drive_link"
       }
     ]
   },

@@ -731,7 +731,20 @@ Lưu ý: Khi hủy wishlist, sinh viên sẽ chỉ được hoàn 50% số tiề
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Để đăng ký thi cải thiện điểm, sinh viên cần thực hiện các bước sau:
+
+Truy cập trang web: Vào trang fap.fpt.edu.vn.
+Chọn mục: Vào mục View application (Gửi đơn).
+Chọn loại đơn: Chọn Đơn đăng ký thi cải thiện điểm.
+Nhập thông tin: Điền thông tin vào các mục theo yêu cầu.
+Gửi đơn: Bấm Send để gửi đơn đăng ký.
+Thời hạn đăng ký
+Sinh viên cần gửi đơn trước khi diễn ra lịch thi lần 2 ít nhất 12 tiếng (nửa ngày).
+
+Lưu ý
+Theo quy định của Quy chế đào tạo, khi sinh viên đăng ký thi cải thiện, điểm thi lần 1 sẽ bị hủy, và điểm thi lần 2 sẽ là điểm thi cuối cùng. Nếu sinh viên không đến dự thi cải thiện, Nhà trường sẽ xem như sinh viên bỏ thi và ghi nhận bài thi 0 điểm.
+
+Để biết thêm chi tiết, bạn có thể tham khảo hướng dẫn trên trang FAP."
       }
     ]
   },
@@ -747,7 +760,12 @@ Lưu ý: Khi hủy wishlist, sinh viên sẽ chỉ được hoàn 50% số tiề
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Khi sinh viên bị đình chỉ thi do vi phạm quy chế, hình phạt sẽ được áp dụng như sau:
+
+Môn thi bị đình chỉ sẽ bị điểm 0 cho toàn bộ môn thi đó.
+Sinh viên phải ra khỏi phòng thi ngay khi có biên bản đình chỉ thi được lập và phải nộp lại bài thi cùng đề thi cho cán bộ coi thi.
+Khi sinh viên đăng ký học lại, sẽ phải nộp học phí học lại gấp 2 lần so với những sinh viên không vi phạm quy chế thi.
+Để biết thêm chi tiết, bạn có thể tham khảo tài liệu tại đây: Nội quy kỳ thi."
       }
     ]
   },
@@ -763,7 +781,9 @@ Lưu ý: Khi hủy wishlist, sinh viên sẽ chỉ được hoàn 50% số tiề
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Có, sinh viên không tham gia thi lần 1 sẽ bị ghi nhận kết quả 0 điểm và Not pass. Khi đó, sinh viên sẽ được tự động xếp lịch thi lần 2 mà không cần phải đăng ký. Thông tin chi tiết về lịch thi lần 2 sẽ được thông báo trên Cổng thông tin Đào tạo FAP trước lịch thi ½ ngày.
+
+Cách thức tra cứu lịch thi lần 2 như sau: Truy cập Cổng thông tin Đào tạo fap.fpt.edu.vn mục Information Access (Tra cứu thông tin) => View Exam Schedule (Xem lịch thi); hoặc mục Schedule Exam trên app MyFAP."
       }
     ]
   },
@@ -779,7 +799,18 @@ Lưu ý: Khi hủy wishlist, sinh viên sẽ chỉ được hoàn 50% số tiề
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Khi sinh viên có thắc mắc hoặc khiếu nại về điểm số, có thể thực hiện các bước sau:
+
+Làm đơn phúc khảo: Sinh viên cần vào mục Thủ tục/đơn từ trên hệ thống FAP.
+Chọn loại đơn: Chọn Đề nghị phúc khảo.
+Điền thông tin: Nhập đầy đủ thông tin theo yêu cầu trong đơn.
+Thanh toán: Bấm Thanh toán và quét mã QR code để nộp tiền trong vòng 10 phút.
+Theo dõi kết quả: Sau khi gửi đơn, sinh viên sẽ theo dõi tại mục View application (Xem đơn) để nhận kết quả.
+Thông tin thêm:
+Phí dịch vụ: 200,000 đồng/lần/môn.
+Thời hạn làm đơn: Trong vòng 3 ngày kể từ ngày công bố điểm.
+Thời hạn trả kết quả: 5 ngày sau ngày hết hạn đăng ký làm đơn.
+Lưu ý rằng trong thời gian chờ kết quả phúc khảo, sinh viên vẫn nên tham gia thi lần 2 bình thường. Nếu có sự thay đổi điểm sau phúc khảo, sinh viên sẽ được hoàn phí phúc khảo."
       }
     ]
   },
@@ -795,7 +826,20 @@ Lưu ý: Khi hủy wishlist, sinh viên sẽ chỉ được hoàn 50% số tiề
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Khi có thắc mắc hoặc khiếu nại về điểm số, sinh viên có thể làm đơn phúc tra để được Nhà trường xem xét xử lý theo quy định. Cụ thể như sau:
+
+Truy cập vào mục Thủ tục/đơn từ trên cổng thông tin đào tạo FAP.
+Chọn Gửi đơn (Send Application).
+Chọn Đề nghị phúc tra.
+Điền thông tin theo yêu cầu.
+Bấm Thanh toán và quét mã QR code để nộp tiền trong vòng 10 phút.
+Phí làm đơn phúc tra: 200,000 đồng/lần/môn. Khoản phí này sẽ được hoàn lại nếu có điều chỉnh điểm khi phúc tra.
+
+Thời hạn làm đơn phúc tra: Trong vòng 3 ngày kể từ ngày công bố điểm.
+
+Thời hạn trả kết quả phúc tra: 5 ngày sau ngày hết hạn đăng ký làm đơn.
+
+Lưu ý: Trong thời gian đợi kết quả phúc tra thi lần 1, sinh viên vẫn nên tham gia thi lần 2 bình thường. Sau khi có kết quả phúc tra và kết quả thi lần 2, sinh viên sẽ được ghi nhận đầu điểm nào cao hơn."
       }
     ]
   },

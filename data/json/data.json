@@ -630,7 +630,7 @@ Nếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo Quy định
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Thời gian nhận bằng Tốt nghiệp thường là khoảng 30 ngày kể từ ngày có quyết định công nhận tốt nghiệp đại học. Sinh viên sẽ nhận được thông báo chi tiết về thời gian nhận bằng qua email. Nếu sinh viên có nhu cầu nhận bằng sớm, có thể cân nhắc làm thủ tục "Xét tốt nghiệp sớm"."
       }
     ]
   },
@@ -646,7 +646,15 @@ Nếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo Quy định
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Nhà trường không cấp giấy chứng nhận tốt nghiệp tạm thời mà chỉ có giấy xác nhận tình trạng "đã hoàn thành chương trình học" hoặc xác nhận "Đã tốt nghiệp" nếu sinh viên đã có quyết định tốt nghiệp nhưng đang chờ nhận bằng. Sinh viên sau khi có quyết định công nhận tốt nghiệp có thể làm thủ tục xác nhận tình trạng "Đã tốt nghiệp".
+
+Cách thức đăng ký như sau:
+
+    Phí dịch vụ: 20.000 đồng/bản
+    Cách thức đăng ký: Đăng nhập fap.fpt.edu.vn mục Thủ tục/Đơn từ => Xin xác nhận sinh viên => Lựa chọn: Xác nhận sinh viên Tiếng Việt => Trình bày mục đích muốn xin xác nhận đã tốt nghiệp => Nhập chính xác thông tin địa chỉ vào ô cập nhật địa chỉ => Send / Thanh toán lệ phí trong vòng 10 phút.
+    Sau khi gửi đơn thành công, sinh viên sẽ theo dõi tại mục View application (Xem đơn) để nhận phản hồi của bộ phận xử lý trong vòng 1-2 ngày làm việc.
+
+Lưu ý: Sinh viên đã hoàn thành chương trình học, thông thường sẽ có quyết định công nhận tốt nghiệp vào tháng thứ 3 của học kỳ tiếp theo. Trước thời điểm ban hành quyết định tốt nghiệp, nhà trường sẽ xác nhận tình trạng của sinh viên là "Đã hoàn thành chương trình học, đang chờ tốt nghiệp"."
       }
     ]
   },
@@ -662,7 +670,13 @@ Nếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo Quy định
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Wishlist, hay còn gọi là danh sách chờ, là một hệ thống cho phép sinh viên đăng ký các khóa học mà họ muốn tham gia nhưng hiện tại không có sẵn hoặc đã đầy lớp. Hệ thống này giúp sinh viên có thể thể hiện sự quan tâm đến các khóa học trong tương lai và đảm bảo rằng họ có cơ hội tham gia khi lớp học mở lại.
+
+Khi sinh viên đăng ký vào Wishlist, học phí sẽ được áp dụng giống như học phí học lại. Cụ thể, nếu sinh viên đăng ký học lại ngay trong Block 5 của học kỳ hoặc trong kỳ tiếp theo, họ sẽ được áp dụng mức học phí học lại sớm bằng 50% biểu phí môn. Nếu đăng ký học lại sau thời điểm này, sinh viên sẽ phải nộp 100% biểu phí môn.
+
+Sinh viên có thể đăng ký Wishlist vào bất kỳ thời điểm nào trong học kỳ và có thể tự xếp lớp cho mình trong lần mở lớp gần nhất hoặc tuân theo sự sắp xếp của phòng Đào tạo.
+
+Nếu bạn cần thêm thông tin chi tiết, hãy tham khảo tài liệu hướng dẫn trên hệ thống FAP."
       }
     ]
   },
@@ -678,7 +692,14 @@ Nếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo Quy định
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Để hủy wishlist (Danh sách chờ), sinh viên cần thực hiện các bước sau:
+
+    Đăng nhập vào trang fap.fpt.edu.vn.
+    Vào mục Thủ tục/Đơn từ.
+    Chọn Wishlist Course.
+    Chọn Hủy Wishlist.
+
+Lưu ý: Khi hủy wishlist, sinh viên sẽ chỉ được hoàn 50% số tiền đã nộp, khoản tiền này sẽ được hoàn về tài khoản FAP."
       }
     ]
   },
@@ -694,7 +715,7 @@ Nếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo Quy định
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Theo quy định, đối với các môn thi có Final Exam, sinh viên sẽ có 2 lần thi. Nếu không đạt trong lần thi thứ nhất, sinh viên sẽ được tự động xếp lịch thi lần 2 mà không cần phải làm đơn đăng ký thi lại (trừ trường hợp bị đình chỉ thi). Thông tin về lịch thi lần 2 sẽ được thông báo trên Cổng thông tin đào tạo FAP mục Information Access (Tra cứu thông tin) => View exam schedule (Xem lịch thi)."
       }
     ]
   },

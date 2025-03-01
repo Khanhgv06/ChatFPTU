@@ -811,7 +811,9 @@ Lưu ý: Khi hủy wishlist, sinh viên sẽ chỉ được hoàn 50% số tiề
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Nếu sinh viên đã đăng ký phúc tra nhưng chưa có kết quả trước khi thi lại, sinh viên vẫn nên tham gia thi lần 2 bình thường. Sau khi có kết quả phúc tra và kết quả thi lần 2, sinh viên sẽ được ghi nhận đầu điểm nào cao hơn.
+
+Điều này có nghĩa là sinh viên không bị ảnh hưởng bởi việc chờ đợi kết quả phúc tra và vẫn có cơ hội cải thiện điểm số của mình trong kỳ thi lại."
       }
     ]
   },
@@ -827,7 +829,9 @@ Lưu ý: Khi hủy wishlist, sinh viên sẽ chỉ được hoàn 50% số tiề
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Theo quy định, nếu sinh viên không tham gia thi lần 2, điểm thi lần 1 sẽ bị hủy và điểm thi lần 2 sẽ là điểm cuối cùng. Do đó, sinh viên sẽ không được lấy điểm thi lần 1 nếu bỏ thi lần 2. Nếu không tham gia thi cải thiện, Nhà trường sẽ xem như sinh viên bỏ thi và ghi nhận bài thi 0 điểm.
+
+Bạn có thể tham khảo thêm thông tin chi tiết trong tài liệu Nội quy kỳ thi."
       }
     ]
   },
@@ -843,7 +847,14 @@ Lưu ý: Khi hủy wishlist, sinh viên sẽ chỉ được hoàn 50% số tiề
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Theo nội quy kỳ thi, sinh viên không được phép vào phòng thi nếu không xuất trình được giấy tờ tùy thân theo quy định. Các loại giấy tờ được chấp nhận bao gồm:
+
+Căn cước công dân
+Giấy phép lái xe
+Tài khoản định danh điện tử mức 2 (app VNeID mức 2)
+Do đó, nếu sinh viên không có thẻ sinh viên nhưng có một trong các loại giấy tờ trên, thì vẫn có thể vào phòng thi. Tuy nhiên, nếu không có bất kỳ giấy tờ nào trong số đó, sinh viên sẽ không được phép vào phòng thi.
+
+Vì vậy, lời khuyên là sinh viên nên chuẩn bị đầy đủ giấy tờ tùy thân trước khi đi thi để tránh những rắc rối không cần thiết."
       }
     ]
   },
@@ -859,7 +870,9 @@ Lưu ý: Khi hủy wishlist, sinh viên sẽ chỉ được hoàn 50% số tiề
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Để xem điều kiện vượt môn của các môn học, sinh viên có thể truy cập vào trang học liệu tại địa chỉ flm.fpt.edu.vn. Sau đó, sinh viên chọn mục View syllabus và nhập mã môn học muốn tra cứu để xem chi tiết điều kiện vượt môn.
+
+Nếu cần thêm thông tin, sinh viên có thể tham khảo các tài liệu liên quan hoặc liên hệ với giảng viên để được hỗ trợ."
       }
     ]
   },
@@ -875,7 +888,21 @@ Lưu ý: Khi hủy wishlist, sinh viên sẽ chỉ được hoàn 50% số tiề
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Tài khoản Coursera được cấp cho sinh viên tại Trường Đại học FPT nhằm hỗ trợ việc học tập các môn học online. Dưới đây là hướng dẫn cách sử dụng tài khoản Coursera:
+
+Đăng nhập vào tài khoản: Sinh viên cần truy cập vào nền tảng Coursera và sử dụng thông tin tài khoản được cung cấp để đăng nhập.
+
+Chọn khóa học: Sau khi đăng nhập, sinh viên có thể tìm kiếm và chọn các khóa học mà mình muốn tham gia. Tài khoản Coursera không giới hạn số lượng khóa học mà sinh viên có thể học.
+
+Tham gia học tập: Sinh viên nên chủ động tham gia vào các khóa học, hoàn thành các bài tập, quiz và các yêu cầu khác theo tiến độ của khóa học.
+
+Sử dụng tính năng hỗ trợ: Trong quá trình học, sinh viên có thể sử dụng tính năng “Coach” để nhận sự trợ giúp từ các mentor, tham gia vào các buổi offline tại trường hoặc tham gia vào Discussions Forum trên Coursera để trao đổi với các bạn học khác.
+
+Hoàn thành chứng chỉ: Sau khi hoàn thành tất cả các yêu cầu của khóa học, sinh viên sẽ nhận được chứng chỉ từ Coursera. Chứng chỉ này sẽ được ghi nhận và có thể được sử dụng để tham gia thi thẩm định chất lượng tại trường.
+
+Tuân thủ quy định: Sinh viên cần tuân thủ quy định đạo đức của Coursera. Nếu không trung thực trong quá trình học, sinh viên có thể bị xem xét kỷ luật theo quy định của trường.
+
+Tài khoản Coursera là một công cụ hữu ích giúp sinh viên nâng cao kiến thức và kỹ năng của mình thông qua việc học online."
       }
     ]
   },

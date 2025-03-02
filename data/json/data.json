@@ -962,7 +962,15 @@ Tài khoản Coursera là một công cụ hữu ích giúp sinh viên nâng cao
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Khi sinh viên trượt môn học trên Coursera, họ cần thực hiện các bước sau:
+
+Đăng ký thi lại thẩm định: Sinh viên sẽ phải đăng ký thi thẩm định cho các lần thi tiếp theo cho đến khi đạt. Mỗi lần đăng ký, sinh viên có tối đa 2 lần thi.
+
+Theo dõi lịch thi: Sinh viên sẽ được Nhà trường tự động xếp lịch thi lần 2 mà không cần phải làm đơn (trừ trường hợp bị đình chỉ thi). Thông tin về lịch thi lần 2 sẽ được thông báo trên Cổng thông tin đào tạo FAP.
+
+Hoàn thành các chứng chỉ: Để đủ điều kiện tham gia thi thẩm định cuối kỳ môn Coursera, sinh viên cần hoàn thành đầy đủ các chứng chỉ bắt buộc của môn học.
+
+Nếu sinh viên không đạt trong lần thi thứ hai, họ sẽ cần phải đăng ký học lại môn học đó, ngoại trừ môn Coursera, sinh viên chỉ cần đăng ký thi lại thẩm định trong các học kỳ sau cho đến khi pass môn."
       }
     ]
   },
@@ -978,7 +986,19 @@ Tài khoản Coursera là một công cụ hữu ích giúp sinh viên nâng cao
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Để đăng ký thi thẩm định môn Coursera, sinh viên cần thực hiện theo các bước sau:
+
+Truy cập vào trang web fap.fpt.edu.vn.
+Vào mục Thủ tục/đơn từ.
+Chọn Gửi đơn.
+Chọn Đăng ký thi thẩm định các môn học online.
+Điền thông tin theo yêu cầu.
+Bấm Thanh toán, sau đó quét mã QR code để thanh toán trong vòng 10 phút.
+Phí đăng ký thi thẩm định: 2,300,000 đồng/môn. Đối với sinh viên vi phạm quy chế thi, mức phí đăng ký sẽ gấp 2 lần so với bình thường, tương đương 4,600,000 đồng/môn.
+
+Thời hạn đăng ký: Sinh viên có thể lựa chọn đăng ký thi thẩm định vào bất kỳ học kỳ nào cảm thấy phù hợp. Tuy nhiên, hàng kỳ đơn chỉ được mở trong khoảng thời gian từ đầu học kỳ đến trước 12h Thứ 6 của tuần thứ 9 của học kỳ.
+
+Nếu bạn cần thêm thông tin, hãy theo dõi tại mục View application (Xem đơn) để nhận kết quả."
       }
     ]
   },
@@ -994,7 +1014,7 @@ Tài khoản Coursera là một công cụ hữu ích giúp sinh viên nâng cao
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Sinh viên không thể sử dụng tài khoản Coursera được cấp để học các môn chưa vượt qua do chưa lấy được chứng chỉ. Theo quy định, sinh viên cần hoàn thành đầy đủ các chứng chỉ bắt buộc của môn học (gồm chứng chỉ từng mooc và chứng chỉ tổng) để đủ điều kiện tham gia thi thẩm định cuối kỳ. Nếu sinh viên không kịp hoàn thành chứng chỉ trong lần thi thứ nhất nhưng kịp hoàn thành trước thời điểm diễn ra thi lần 2 thì vẫn đủ điều kiện dự thi."
       }
     ]
   },
@@ -1010,7 +1030,21 @@ Tài khoản Coursera là một công cụ hữu ích giúp sinh viên nâng cao
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Khi sinh viên bị gắn cờ đạo văn, họ sẽ phải thực hiện các bước sau:
+
+Nhận thông báo: Sinh viên sẽ nhận được thông báo về việc bị gắn cờ đạo văn từ giảng viên hoặc bộ phận quản lý.
+
+Xem xét nội dung: Sinh viên cần xem xét kỹ lưỡng nội dung bị gắn cờ để hiểu rõ lý do và mức độ vi phạm.
+
+Chuẩn bị giải trình: Sinh viên nên chuẩn bị một bản giải trình để trình bày quan điểm của mình về vấn đề đạo văn, có thể bao gồm việc giải thích cách thức sử dụng tài liệu và lý do không trích dẫn đúng.
+
+Gặp gỡ giảng viên: Sinh viên nên chủ động gặp gỡ giảng viên hoặc cán bộ phụ trách để thảo luận về vấn đề này, cung cấp bản giải trình và lắng nghe ý kiến từ phía giảng viên.
+
+Chấp nhận hình thức xử lý: Tùy thuộc vào mức độ vi phạm, sinh viên có thể phải chấp nhận các hình thức xử lý kỷ luật, từ khiển trách đến buộc thôi học.
+
+Học hỏi từ kinh nghiệm: Cuối cùng, sinh viên nên rút ra bài học từ sự việc này để tránh tái phạm trong tương lai, đồng thời tìm hiểu kỹ hơn về quy định trích dẫn và đạo văn trong học tập.
+
+Sinh viên cần lưu ý rằng hành vi đạo văn sẽ bị xử lý nghiêm khắc theo quy định của nhà trường."
       }
     ]
   },
@@ -1026,7 +1060,7 @@ Tài khoản Coursera là một công cụ hữu ích giúp sinh viên nâng cao
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Dựa trên tài liệu hiện có, tôi chưa thể hỗ trợ thông tin bạn yêu cầu. Để được giải đáp thông tin này, vui lòng liên hệ với phòng Dịch vụ sinh viên để được hỗ trợ."
       }
     ]
   },

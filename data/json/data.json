@@ -11,20 +11,7 @@
       },
       {
         "role": "assistant",
-        "content": "Để nạp tiền vào ví FAP, sinh viên cần thực hiện các bước sau:
-
-Truy cập vào trang web fap.fpt.edu.vn.
-Vào mục Thủ tục/đơn từ.
-Lựa chọn khoản nạp tiền.
-Kiểm tra khoản nạp tiền đã tạo.
-Nhấn thanh toán để xuất hiện mã QR.
-Sau khi đã tạo xong khoản nạp, sinh viên có thể thanh toán bằng các hình thức sau:
-
-Thanh toán qua định danh tài khoản: Sử dụng app internet banking của bất kỳ ngân hàng nào đang sử dụng và tiến hành quét mã QR.
-Trả góp qua FPT Pay: Truy cập link: https://dng.fpt.edu.vn/Invoice, nhập MSSV, chọn thanh toán học phí bằng hình thức trả góp FPT, chọn ngân hàng muốn thanh toán theo hình thức trả góp và nhập thông tin thẻ tín dụng do ngân hàng được chọn phát hành để thanh toán.
-Qua App TPBank Mobile hoặc App BIDV Smartbanking.
-Nộp tiền mặt tại quầy giao dịch Vietinbank.
-Lưu ý rằng sinh viên cần thực hiện các bước này để đảm bảo việc nạp tiền vào ví FAP được thực hiện thành công."
+        "content": "Để nạp tiền vào ví FAP, sinh viên cần thực hiện các bước sau:\n\nTruy cập vào trang web fap.fpt.edu.vn.\nVào mục Thủ tục/đơn từ.\nLựa chọn khoản nạp tiền.\nKiểm tra khoản nạp tiền đã tạo.\nNhấn thanh toán để xuất hiện mã QR.\nSau khi đã tạo xong khoản nạp, sinh viên có thể thanh toán bằng các hình thức sau:\n- Thanh toán qua định danh tài khoản: Sử dụng app internet banking của bất kỳ ngân hàng nào đang sử dụng và tiến hành quét mã QR.\n- Trả góp qua FPT Pay: Truy cập link: https://dng.fpt.edu.vn/Invoice, nhập MSSV, chọn thanh toán học phí bằng hình thức trả góp FPT, chọn ngân hàng muốn thanh toán theo hình thức trả góp và nhập thông tin thẻ tín dụng do ngân hàng được chọn phát hành để thanh toán.\n- Qua App TPBank Mobile hoặc App BIDV Smartbanking.\n- Nộp tiền mặt tại quầy giao dịch Vietinbank.\n\nLưu ý rằng sinh viên cần thực hiện các bước này để đảm bảo việc nạp tiền vào ví FAP được thực hiện thành công."
       }
     ]
   },
@@ -40,31 +27,7 @@ Lưu ý rằng sinh viên cần thực hiện các bước này để đảm b�
       },
       {
         "role": "assistant",
-        "content": "Thủ tục xin tạm ngừng học hoặc bảo lưu để học lại
-1. Thủ tục tạm ngừng học
-Thủ tục tạm ngừng học hay còn gọi là bảo lưu học kỳ là tình trạng sinh viên không tham gia học bất kỳ học phần nào trong học kỳ. Sinh viên chỉ được phép bảo lưu sau khi đã tham gia học tối thiểu 1 học kỳ tại Trường. Thủ tục bảo lưu chỉ có hiệu lực trong 1 học kỳ, đồng thời sinh viên không được bảo lưu quá 2 học kỳ liên tiếp.
-
-Cách thức đăng ký:
-
-Đăng nhập vào trang fap.fpt.edu.vn.
-Chọn mục Thủ tục/Đơn từ.
-Chọn Suspend one semester/Xin tạm nghỉ 1 học kỳ.
-Điền thông tin vào lý do và nhấn Submit form.
-Sau khi thực hiện đăng ký, sinh viên có thể kiểm tra lại thủ tục đã thành công chưa bằng cách truy cập vào mục Profile => Status. Nếu thấy trạng thái đã chuyển thành “BL” thì tức là bạn đã đăng ký thành công. Sinh viên trong tình trạng bảo lưu sẽ chưa cần nộp học phí.
-
-2. Thủ tục bảo lưu để học lại
-Thủ tục "Bảo lưu để học lại" hay còn được gọi là "Tạm hoãn tiến độ một học kỳ để học lại". Thủ tục này chỉ dành cho sinh viên đang học chuyên ngành nhưng trong tình trạng nợ nhiều môn, có nguyện vọng muốn tạm dừng học để học lại.
-
-Cách thức đăng ký:
-
-Đăng nhập vào trang fap.fpt.edu.vn.
-Chọn mục Thủ tục/Đơn từ.
-Chọn Suspend one semester to take repeated course/Xin tạm hoãn tiến độ 1 học kỳ để học lại.
-Điền thông tin vào lý do và nhấn Submit form.
-Sau khi thực hiện thao tác, sinh viên có thể kiểm tra đã thực hiện thành công chưa bằng cách vào mục Profile => Status. Nếu thấy đã chuyển thành “HL” tức là đã thực hiện đăng ký thành công. Sau khi hoàn tất thủ tục tạm hoãn tiến độ 1 học kỳ để học lại, sinh viên không cần phải nộp học phí học lại, tuy nhiên bắt buộc phải đăng ký học lại ít nhất 1 môn học lại/học chậm kỳ.
-
-Lưu ý
-Sinh viên nợ môn không đủ điều kiện chuyển giai đoạn thì sẽ thuộc diện tạm ngừng bắt buộc để học lại và không cần phải làm thủ tục tạm hoãn tiến độ một học kỳ để học lại."
+        "content": "Thủ tục xin tạm ngừng học hoặc bảo lưu để học lại\n\n1. Thủ tục tạm ngừng học\nThủ tục tạm ngừng học hay còn gọi là bảo lưu học kỳ là tình trạng sinh viên không tham gia học bất kỳ học phần nào trong học kỳ. Sinh viên chỉ được phép bảo lưu sau khi đã tham gia học tối thiểu 1 học kỳ tại Trường. Thủ tục bảo lưu chỉ có hiệu lực trong 1 học kỳ, đồng thời sinh viên không được bảo lưu quá 2 học kỳ liên tiếp.\nCách thức đăng ký:\nĐăng nhập vào trang fap.fpt.edu.vn.\nChọn mục Thủ tục/Đơn từ.\nChọn Suspend one semester/Xin tạm nghỉ 1 học kỳ.\nĐiền thông tin vào lý do và nhấn Submit form.\nSau khi thực hiện đăng ký, sinh viên có thể kiểm tra lại thủ tục đã thành công chưa bằng cách truy cập vào mục Profile => Status. Nếu thấy trạng thái đã chuyển thành “BL” thì tức là bạn đã đăng ký thành công. Sinh viên trong tình trạng bảo lưu sẽ chưa cần nộp học phí.\n\n2. Thủ tục bảo lưu để học lại\nThủ tục \"Bảo lưu để học lại\" hay còn được gọi là \"Tạm hoãn tiến độ một học kỳ để học lại\". Thủ tục này chỉ dành cho sinh viên đang học chuyên ngành nhưng trong tình trạng nợ nhiều môn, có nguyện vọng muốn tạm dừng học để học lại.\nCách thức đăng ký:\nĐăng nhập vào trang fap.fpt.edu.vn.\nChọn mục Thủ tục/Đơn từ.\nChọn Suspend one semester to take repeated course/Xin tạm hoãn tiến độ 1 học kỳ để học lại.\nĐiền thông tin vào lý do và nhấn Submit form.\nSau khi thực hiện thao tác, sinh viên có thể kiểm tra đã thực hiện thành công chưa bằng cách vào mục Profile => Status. Nếu thấy đã chuyển thành “HL” tức là đã thực hiện đăng ký thành công. Sau khi hoàn tất thủ tục tạm hoãn tiến độ 1 học kỳ để học lại, sinh viên không cần phải nộp học phí học lại, tuy nhiên bắt buộc phải đăng ký học lại ít nhất 1 môn học lại/học chậm kỳ.\nLưu ý: Sinh viên nợ môn không đủ điều kiện chuyển giai đoạn thì sẽ thuộc diện tạm ngừng bắt buộc để học lại và không cần phải làm thủ tục tạm hoãn tiến độ một học kỳ để học lại."
       }
     ]
   },
@@ -80,25 +43,7 @@ Sinh viên nợ môn không đủ điều kiện chuyển giai đoạn thì sẽ
       },
       {
         "role": "assistant",
-        "content": "Cách thức đăng ký học lại
-Để đăng ký học lại các môn học chưa đạt, sinh viên cần thực hiện các bước sau:
-
-Thời gian đăng ký: Thời gian đăng ký học lại sẽ được thông báo trong Kế hoạch học tập, đăng trên cổng thông tin fap.fpt.edu.vn mục News - Tin tức vào trước khi học kỳ mới bắt đầu hoặc trước Block 5 của học kỳ.
-
-Cách thức đăng ký:
-
-Truy cập vào cổng thông tin fap.fpt.edu.vn.
-Vào mục Thủ tục/đơn từ.
-Chọn Register to repeat a course (Đăng ký học lại).
-Nhập mã môn học cần học lại.
-Nhấn tick vào ô vuông bên cạnh để xác nhận thông tin.
-Chọn lớp học phù hợp.
-Tiến hành thanh toán và quét mã QR trong vòng 10 phút.
-Lưu ý:
-
-Nếu sinh viên đăng ký học lại ngay trong Block 5 của học kỳ hoặc trong kỳ tiếp theo, sẽ được áp dụng mức học phí học lại sớm bằng 50% biểu phí môn. Nếu đăng ký học lại sau thời điểm này, sinh viên sẽ phải nộp 100% biểu phí môn.
-Sinh viên vi phạm quy chế thi khi đăng ký học lại sẽ phải nộp học phí bằng 2 lần học phí học lại so với sinh viên không vi phạm quy chế.
-Nếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo"
+        "content": "Cách thức đăng ký học lại\n\n Để đăng ký học lại các môn học chưa đạt, sinh viên cần thực hiện các bước sau: \nThời gian đăng ký: Thời gian đăng ký học lại sẽ được thông báo trong Kế hoạch học tập, đăng trên cổng thông tin fap.fpt.edu.vn mục News - Tin tức vào trước khi học kỳ mới bắt đầu hoặc trước Block 5 của học kỳ. \nCách thức đăng ký: \nTruy cập vào cổng thông tin fap.fpt.edu.vn. \nVào mục Thủ tục/đơn từ. \nChọn Register to repeat a course (Đăng ký học lại). \nNhập mã môn học cần học lại. \nNhấn tick vào ô vuông bên cạnh để xác nhận thông tin. \nChọn lớp học phù hợp. \nTiến hành thanh toán và quét mã QR trong vòng 10 phút. \nLưu ý: \nNếu sinh viên đăng ký học lại ngay trong Block 5 của học kỳ hoặc trong kỳ tiếp theo, sẽ được áp dụng mức học phí học lại sớm bằng 50% biểu phí môn. Nếu đăng ký học lại sau thời điểm này, sinh viên sẽ phải nộp 100% biểu phí môn. Sinh viên vi phạm quy chế thi khi đăng ký học lại sẽ phải nộp học phí bằng 2 lần học phí học lại so với sinh viên không vi phạm quy chế. Nếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo"
       }
     ]
   },
@@ -114,15 +59,7 @@ Nếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo"
       },
       {
         "role": "assistant",
-        "content": "Thủ tục xin bảo lưu hoặc tạm ngừng một học kỳ
-Thủ tục xin bảo lưu hay còn gọi là tạm nghỉ một học kỳ là tình trạng sinh viên không tham gia học bất kỳ học phần nào trong học kỳ. Sinh viên chỉ được phép bảo lưu sau khi đã tham gia học tối thiểu 1 học kỳ tại Trường. Thủ tục bảo lưu chỉ có hiệu lực trong 1 học kỳ, đồng thời sinh viên không được bảo lưu quá 2 học kỳ liên tiếp.
-
-Cách thức đăng ký
-Đăng nhập vào trang fap.fpt.edu.vn.
-Chọn mục Thủ tục/Đơn từ.
-Chọn Suspend one semester/Xin tạm nghỉ 1 học kỳ.
-Điền thông tin vào lý do và nhấn Submit form.
-Sau khi thực hiện đăng ký, sinh viên có thể kiểm tra lại thủ tục đã thành công chưa bằng cách truy cập vào mục Profile => Status. Nếu thấy trạng thái đã chuyển thành “BL” thì tức là bạn đã đăng ký thành công. Trong thời gian bảo lưu, sinh viên sẽ chưa cần nộp học phí."
+        "content": "Thủ tục xin bảo lưu hoặc tạm ngừng một học kỳ\n\n Thủ tục xin bảo lưu hay còn gọi là tạm nghỉ một học kỳ là tình trạng sinh viên không tham gia học bất kỳ học phần nào trong học kỳ. Sinh viên chỉ được phép bảo lưu sau khi đã tham gia học tối thiểu 1 học kỳ tại Trường. Thủ tục bảo lưu chỉ có hiệu lực trong 1 học kỳ, đồng thời sinh viên không được bảo lưu quá 2 học kỳ liên tiếp. \nCách thức đăng ký: \nĐăng nhập vào trang fap.fpt.edu.vn. \nChọn mục Thủ tục/Đơn từ. \nChọn Suspend one semester/Xin tạm nghỉ 1 học kỳ. \nĐiền thông tin vào lý do và nhấn Submit form. \nSau khi thực hiện đăng ký, sinh viên có thể kiểm tra lại thủ tục đã thành công chưa bằng cách truy cập vào mục Profile => Status. Nếu thấy trạng thái đã chuyển thành “BL” thì tức là bạn đã đăng ký thành công. Trong thời gian bảo lưu, sinh viên sẽ chưa cần nộp học phí."
       }
     ]
   },
@@ -138,17 +75,7 @@ Sau khi thực hiện đăng ký, sinh viên có thể kiểm tra lại thủ t�
       },
       {
         "role": "assistant",
-        "content": "Cách đăng ký môn học chậm kỳ
-Môn học chậm kỳ hay còn gọi là môn học đi chậm kỳ là những môn học mà sinh viên không hoàn thành đúng tiến độ theo kế hoạch học tập. Điều này xảy ra khi:
-
-Sinh viên không đạt yêu cầu của môn điều kiện nên chưa được xếp lớp trong đúng học kỳ.
-Sinh viên xin bảo lưu học phần vì lý do cá nhân.
-Thời gian đăng ký học chậm kỳ: Với các môn chậm kỳ, Nhà trường không xếp lớp mà sinh viên sẽ chủ động đăng ký (nếu đủ điều kiện), thời hạn cụ thể theo thông báo của phòng Đào tạo có trong kế hoạch học tập đầu kỳ hoặc kế hoạch học tập Block 5 mỗi kỳ.
-
-Cách thức đăng ký như sau:
-
-Truy cập fap.fpt.edu.vn mục Thủ tục/đơn từ => Register extra courses (Đăng ký môn học đi chậm kỳ) => Nhập mã môn => Tích vào ô vuông bên cạnh => Chọn lớp có lịch học phù hợp => Save. (Các môn học đi chậm kỳ sinh viên không phải nộp học phí khi đăng ký).
-Sau khi thao tác đăng ký, sinh viên có thể kiểm tra được luôn lịch học bằng cách tại giao diện FAP vào mục "Tra cứu thông tin" => "Lịch học từng tuần" hoặc vào mục "Báo cáo" => "Báo cáo điểm danh"."
+        "content": "Cách đăng ký môn học chậm kỳ\n\n Môn học chậm kỳ hay còn gọi là môn học đi chậm kỳ là những môn học mà sinh viên không hoàn thành đúng tiến độ theo kế hoạch học tập. Điều này xảy ra khi: \nSinh viên không đạt yêu cầu của môn điều kiện nên chưa được xếp lớp trong đúng học kỳ. \nSinh viên xin bảo lưu học phần vì lý do cá nhân. \nThời gian đăng ký học chậm kỳ: Với các môn chậm kỳ, Nhà trường không xếp lớp mà sinh viên sẽ chủ động đăng ký (nếu đủ điều kiện), thời hạn cụ thể theo thông báo của phòng Đào tạo có trong kế hoạch học tập đầu kỳ hoặc kế hoạch học tập Block 5 mỗi kỳ. \nCách thức đăng ký như sau: \nTruy cập fap.fpt.edu.vn mục Thủ tục/đơn từ => Register extra courses (Đăng ký môn học đi chậm kỳ) => Nhập mã môn => Tích vào ô vuông bên cạnh => Chọn lớp có lịch học phù hợp => Save. (Các môn học đi chậm kỳ sinh viên không phải nộp học phí khi đăng ký). \nSau khi thao tác đăng ký, sinh viên có thể kiểm tra được luôn lịch học bằng cách tại giao diện FAP vào mục \"Tra cứu thông tin\" => \"Lịch học từng tuần\" hoặc vào mục \"Báo cáo\" => \"Báo cáo điểm danh\"."
       }
     ]
   },
@@ -164,14 +91,7 @@ Sau khi thao tác đăng ký, sinh viên có thể kiểm tra được luôn l�
       },
       {
         "role": "assistant",
-        "content": "Thủ tục đổi chéo lớp?
-Thủ tục đổi chéo lớp là quy trình cho phép hai sinh viên từ hai lớp khác nhau có thể hoán đổi lớp học của mình, 
-miễn là lịch học của họ không bị trùng lặp với các môn học khác. Điều này thường được áp dụng khi lớp học đã đầy và sinh viên cần thay đổi lớp để phù hợp với 
-lịch trình học tập của mình.
-Để thực hiện thủ tục này, sinh viên cần truy cập vào hệ thống FAP tại mục Thủ tục/đơn từ và chọn Yêu cầu đổi chéo lớp với sinh viên. 
-Sau đó, sinh viên sẽ cần xác nhận đồng ý với việc đổi chéo lớp.
-
-Lưu ý rằng không phải tất cả các môn học đều cho phép thực hiện thủ tục đổi chéo lớp, và sinh viên cần kiểm tra các quy định cụ thể liên quan đến môn học của mình."
+        "content": "Thủ tục đổi chéo lớp?\n\n Thủ tục đổi chéo lớp là quy trình cho phép hai sinh viên từ hai lớp khác nhau có thể hoán đổi lớp học của mình,  miễn là lịch học của họ không bị trùng lặp với các môn học khác. Điều này thường được áp dụng khi lớp học đã đầy và sinh viên cần thay đổi lớp để phù hợp với  lịch trình học tập của mình. \nĐể thực hiện thủ tục này, sinh viên cần truy cập vào hệ thống FAP tại mục Thủ tục/đơn từ và chọn Yêu cầu đổi chéo lớp với sinh viên.  Sau đó, sinh viên sẽ cần xác nhận đồng ý với việc đổi chéo lớp. \nLưu ý rằng không phải tất cả các môn học đều cho phép thực hiện thủ tục đổi chéo lớp, và sinh viên cần kiểm tra các quy định cụ thể liên quan đến môn học của mình."
       }
     ]
   },
@@ -187,11 +107,7 @@ Lưu ý rằng không phải tất cả các môn học đều cho phép thực 
       },
       {
         "role": "assistant",
-        "content": "Sinh viên có thể học đi và học lại, học chậm kỳ song song không?
-
-Sinh viên có thể đăng ký học đi và học lại, cũng như học chậm kỳ cùng lúc. Lịch học đi do Phòng Đào tạo sắp xếp, trong khi lịch học lại hoặc học chậm kỳ là do sinh viên tự chủ động đăng ký sao cho các lớp học không bị trùng lịch, đồng thời đảm bảo không vượt quá 7 môn.
-
-Nếu bạn cần thêm thông tin chi tiết, hãy tham khảo tài liệu từ trường hoặc liên hệ với Phòng Đào tạo để được hỗ trợ."
+        "content": "Sinh viên có thể học đi và học lại, học chậm kỳ song song không?\n\nSinh viên có thể đăng ký học đi và học lại, cũng như học chậm kỳ cùng lúc. Lịch học đi do Phòng Đào tạo sắp xếp, trong khi lịch học lại hoặc học chậm kỳ là do sinh viên tự chủ động đăng ký sao cho các lớp học không bị trùng lịch, đồng thời đảm bảo không vượt quá 7 môn. \nNếu bạn cần thêm thông tin chi tiết, hãy tham khảo tài liệu từ trường hoặc liên hệ với Phòng Đào tạo để được hỗ trợ."
       }
     ]
   },
@@ -207,11 +123,7 @@ Nếu bạn cần thêm thông tin chi tiết, hãy tham khảo tài liệu từ
       },
       {
         "role": "assistant",
-        "content": "Sinh viên được học tối đa bao nhiêu môn trong một học kỳ?
-
-Theo thông tư 08 của Bộ giáo dục, số lượng môn học tối đa trong một kỳ không vượt quá 3/2 số lượng môn học trung bình một học kỳ theo kế hoạch học tập chuẩn, tương đương với không vượt quá 7 môn (không bao gồm các môn học trong Block 5).
-
-Thông tư 08 của BGD (https://docs.google.com/document/d/1TvuaLeVZOr1Vax7vCIFKwf4Wf7BZPjhs/edit?usp=drive_link) , trang 5."
+        "content": "Sinh viên được học tối đa bao nhiêu môn trong một học kỳ?\n\n Theo thông tư 08 của Bộ giáo dục, số lượng môn học tối đa trong một kỳ không vượt quá 3/2 số lượng môn học trung bình một học kỳ theo kế hoạch học tập chuẩn, tương đương với không vượt quá 7 môn (không bao gồm các môn học trong Block 5).\nThông tư 08 của BGD (https://docs.google.com/document/d/1TvuaLeVZOr1Vax7vCIFKwf4Wf7BZPjhs/edit?usp=drive_link) , trang 5."
       }
     ]
   },
@@ -227,14 +139,7 @@ Thông tư 08 của BGD (https://docs.google.com/document/d/1TvuaLeVZOr1Vax7vCIF
       },
       {
         "role": "assistant",
-        "content": "Điều kiện để được đi OJT
-
-Để tham gia chương trình OJT (On-the-Job Training), sinh viên cần đáp ứng các điều kiện sau:
-
-    Hoàn thành tối thiểu 90% tổng số tín chỉ của các học phần chuyên môn (không bao gồm Giáo dục quốc phòng, Giáo dục thể chất) được nhà trường quy định trong giai đoạn trước OJT của chương trình giáo dục đại học theo ngành được đào tạo, tương đương với không nợ quá 2 môn (mỗi môn 3 tín chỉ).
-    Riêng với sinh viên chuyên ngành hẹp JS cần phải pass môn JPD133.
-
-Đây là những yêu cầu cơ bản mà sinh viên cần thực hiện để đủ điều kiện tham gia OJT."
+        "content": "Điều kiện để được đi OJT\n\n Để tham gia chương trình OJT (On-the-Job Training), sinh viên cần đáp ứng các điều kiện sau: \n-Hoàn thành tối thiểu 90% tổng số tín chỉ của các học phần chuyên môn (không bao gồm Giáo dục quốc phòng, Giáo dục thể chất) được nhà trường quy định trong giai đoạn trước OJT của chương trình giáo dục đại học theo ngành được đào tạo, tương đương với không nợ quá 2 môn (mỗi môn 3 tín chỉ). \n-Riêng với sinh viên chuyên ngành hẹp JS cần phải pass môn JPD133. \nĐây là những yêu cầu cơ bản mà sinh viên cần thực hiện để đủ điều kiện tham gia OJT."
       }
     ]
   },
@@ -266,15 +171,7 @@ Thông tư 08 của BGD (https://docs.google.com/document/d/1TvuaLeVZOr1Vax7vCIF
       },
       {
         "role": "assistant",
-        "content": "Sau khi sinh viên đã đăng ký học lại nhưng vì lý do cá nhân muốn hủy đăng ký, sinh viên có thể thực hiện như sau:
-
-    Truy cập fap.fpt.edu.vn mục Thủ tục/đơn từ => Cancel Registration (Hủy đăng ký học).
-
-Lưu ý:
-
-    Với môn học lại, khi hủy đăng ký học, sinh viên sẽ chỉ được hoàn về 50% số tiền đã nộp, vì vậy sinh viên cần cân nhắc kỹ khi đăng ký học lại cũng như khi hủy đăng ký.
-    Việc hủy đăng ký chỉ được thực hiện khi lớp học chưa bắt đầu, nếu lớp học đã bắt đầu sinh viên sẽ không thể thực hiện "Hủy đăng ký".
-"
+        "content": "Sau khi sinh viên đã đăng ký học lại nhưng vì lý do cá nhân muốn hủy đăng ký, sinh viên có thể thực hiện như sau:\nTruy cập fap.fpt.edu.vn mục Thủ tục/đơn từ => Cancel Registration (Hủy đăng ký học). \nLưu ý: \nVới môn học lại, khi hủy đăng ký học, sinh viên sẽ chỉ được hoàn về 50% số tiền đã nộp, vì vậy sinh viên cần cân nhắc kỹ khi đăng ký học lại cũng như khi hủy đăng ký. \nViệc hủy đăng ký chỉ được thực hiện khi lớp học chưa bắt đầu, nếu lớp học đã bắt đầu sinh viên sẽ không thể thực hiện \"Hủy đăng ký\"."
       }
     ]
   },
@@ -290,9 +187,7 @@ Lưu ý:
       },
       {
         "role": "assistant",
-        "content": "Theo quy chế đào tạo, sinh viên có thể đăng ký học lại môn tự chọn đã bị trượt. Trong trường hợp này, sinh viên có thể lựa chọn đăng ký học lại đúng môn học đó hoặc đăng ký một môn học khác thay thế.
-
-Nếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo tài liệu liên quan hoặc liên hệ với phòng Dịch vụ sinh viên để được hỗ trợ."
+        "content": "Theo quy chế đào tạo, sinh viên có thể đăng ký học lại môn tự chọn đã bị trượt. Trong trường hợp này, sinh viên có thể lựa chọn đăng ký học lại đúng môn học đó hoặc đăng ký một môn học khác thay thế.\n Nếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo tài liệu liên quan hoặc liên hệ với phòng Dịch vụ sinh viên để được hỗ trợ."
       }
     ]
   },
@@ -308,15 +203,7 @@ Nếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo tài liệu
       },
       {
         "role": "assistant",
-        "content": "Sinh viên được miễn điểm danh trong các trường hợp sau:
-
-    Sinh viên từ kỳ 7 trở đi: Đối tượng áp dụng đơn miễn điểm danh là sinh viên từ kỳ 7 trở đi và có hợp đồng lao động chính thức có trả lương tại một Công ty/Cơ quan/Tổ chức.
-
-    Tham gia vào những buổi có bài test hoặc theo yêu cầu của giảng viên: Khi được áp dụng miễn điểm danh, sinh viên sẽ không bị áp điều kiện phải tham gia lớp học tối thiểu 80%, mà chỉ bắt buộc có mặt vào những buổi có bài test hoặc theo yêu cầu của giảng viên.
-
-Thời hạn làm đơn miễn điểm danh: Theo thông báo của phòng Đào tạo, thông thường thông báo hướng dẫn thủ tục miễn điểm danh được đăng trên FAP mục News – Tin tức trước khi học kỳ mới bắt đầu 2 - 3 tuần.
-
-Lưu ý: Đơn miễn điểm danh cần được thẩm định với Doanh nghiệp/Cơ quan, vì vậy thời gian xử lý sẽ lâu hơn so với các loại đơn thông thường. Trong thời gian chờ duyệt đơn, sinh viên nên tham gia học tập đầy đủ."
+        "content": "Sinh viên được miễn điểm danh trong các trường hợp sau:\n Sinh viên từ kỳ 7 trở đi: Đối tượng áp dụng đơn miễn điểm danh là sinh viên từ kỳ 7 trở đi và có hợp đồng lao động chính thức có trả lương tại một Công ty/Cơ quan/Tổ chức. \nTham gia vào những buổi có bài test hoặc theo yêu cầu của giảng viên: Khi được áp dụng miễn điểm danh, sinh viên sẽ không bị áp điều kiện phải tham gia lớp học tối thiểu 80%, mà chỉ bắt buộc có mặt vào những buổi có bài test hoặc theo yêu cầu của giảng viên. \nThời hạn làm đơn miễn điểm danh: Theo thông báo của phòng Đào tạo, thông thường thông báo hướng dẫn thủ tục miễn điểm danh được đăng trên FAP mục News – Tin tức trước khi học kỳ mới bắt đầu 2 - 3 tuần. \nLưu ý: Đơn miễn điểm danh cần được thẩm định với Doanh nghiệp/Cơ quan, vì vậy thời gian xử lý sẽ lâu hơn so với các loại đơn thông thường. Trong thời gian chờ duyệt đơn, sinh viên nên tham gia học tập đầy đủ."
       }
     ]
   },
@@ -332,26 +219,7 @@ Lưu ý: Đơn miễn điểm danh cần được thẩm định với Doanh ngh
       },
       {
         "role": "assistant",
-        "content": "Quyền lợi và trách nhiệm của sinh viên khi được miễn điểm danh
-Quyền lợi:
-
-    Không bị áp điều kiện tham gia lớp học tối thiểu 80%: Sinh viên được miễn điểm danh sẽ không cần phải tham gia đủ 80% số buổi học để đủ điều kiện thi cuối học phần.
-    Chỉ cần có mặt vào những buổi có bài test hoặc theo yêu cầu của giảng viên: Sinh viên chỉ cần tham gia vào các buổi học mà giảng viên yêu cầu hoặc có bài kiểm tra.
-
-Trách nhiệm:
-
-    Cần trao đổi với giảng viên: Sau khi được duyệt đơn miễn điểm danh, sinh viên cần thông báo cho giảng viên và vẫn phải tham gia một số buổi học bắt buộc theo yêu cầu của giảng viên và môn học.
-    Tham gia đầy đủ trong thời gian chờ duyệt đơn: Trong thời gian chờ duyệt đơn miễn điểm danh, sinh viên nên tham gia học tập đầy đủ để không bị ảnh hưởng đến kết quả học tập.
-
-Đối tượng áp dụng:
-
-    Sinh viên từ kỳ 7 trở đi và có hợp đồng lao động chính thức có trả lương tại một Công ty/Cơ quan/Tổ chức.
-
-Thời hạn làm đơn:
-
-    Theo thông báo của phòng Đào tạo, thường được đăng trên FAP mục News – Tin tức trước khi học kỳ mới bắt đầu 2 - 3 tuần.
-
-Để biết thêm chi tiết, sinh viên có thể tham khảo thông tin trên trang FAP hoặc liên hệ với phòng Đào tạo."
+        "content": "Quyền lợi và trách nhiệm của sinh viên khi được miễn điểm danh \nQuyền lợi: \n-Không bị áp điều kiện tham gia lớp học tối thiểu 80%: Sinh viên được miễn điểm danh sẽ không cần phải tham gia đủ 80% số buổi học để đủ điều kiện thi cuối học phần. \n-Chỉ cần có mặt vào những buổi có bài test hoặc theo yêu cầu của giảng viên: Sinh viên chỉ cần tham gia vào các buổi học mà giảng viên yêu cầu hoặc có bài kiểm tra. \nTrách nhiệm: \n-Cần trao đổi với giảng viên: Sau khi được duyệt đơn miễn điểm danh, sinh viên cần thông báo cho giảng viên và vẫn phải tham gia một số buổi học bắt buộc theo yêu cầu của giảng viên và môn học. \n-Tham gia đầy đủ trong thời gian chờ duyệt đơn: Trong thời gian chờ duyệt đơn miễn điểm danh, sinh viên nên tham gia học tập đầy đủ để không bị ảnh hưởng đến kết quả học tập. \nĐối tượng áp dụng: \n-Sinh viên từ kỳ 7 trở đi và có hợp đồng lao động chính thức có trả lương tại một Công ty/Cơ quan/Tổ chức. \nThời hạn làm đơn: \n-Theo thông báo của phòng Đào tạo, thường được đăng trên FAP mục News – Tin tức trước khi học kỳ mới bắt đầu 2 - 3 tuần. \nĐể biết thêm chi tiết, sinh viên có thể tham khảo thông tin trên trang FAP hoặc liên hệ với phòng Đào tạo."
       }
     ]
   },
@@ -367,17 +235,7 @@ Thời hạn làm đơn:
       },
       {
         "role": "assistant",
-        "content": "Cách thức xử lý khi bị điểm danh sai
-
-Trong trường hợp nhận thấy có sai sót về điểm danh, sinh viên vui lòng làm theo hướng dẫn sau:
-
-    Với các môn học LUK: làm đơn khiếu nại điểm danh trên FAP trong vòng 2 ngày kể từ ngày diễn ra buổi học, cách thức: Đăng nhập fap.fpt.edu.vn => Thủ tục/Đơn từ => Send application (Gửi đơn) => Chọn: Đơn đề nghị kiểm tra trạng thái điểm danh LUK: Trình bày chi tiết thông tin buổi học bị điểm danh nhầm và các minh chứng (nếu có) => Send.
-
-    Với các môn học không bao gồm LUK: Báo ngay với giảng viên trước 24h trong ngày diễn ra buổi học. Trường hợp đã báo cáo đúng thời hạn nhưng không nhận được phản hồi, sinh viên có thể làm đơn khiếu nại điểm danh, cách thức như sau: Đăng nhập fap.fpt.edu.vn => Thủ tục/Đơn từ => Send application (Gửi đơn) => Chọn: Đơn khiếu nại điểm danh: Trình bày nội dung kèm minh chứng (nếu có) => Send.
-
-Sau khi gửi đơn, sinh viên sẽ theo dõi tại mục "View application (Xem đơn)" để nhận phản hồi của bộ phận xử lý trong vòng 2 ngày làm việc.
-
-Lưu ý: Riêng đối với cơ sở Đà Nẵng, nếu sinh viên đã báo với giảng viên/văn phòng LUK đúng hạn nhưng không được phản hồi, vui lòng liên hệ với Phòng Dịch vụ sinh viên để được hỗ trợ (dvsv.fudn@fe.edu.vn)."
+        "content": "Cách thức xử lý khi bị điểm danh sai \nTrong trường hợp nhận thấy có sai sót về điểm danh, sinh viên vui lòng làm theo hướng dẫn sau: \n    -Với các môn học LUK: làm đơn khiếu nại điểm danh trên FAP trong vòng 2 ngày kể từ ngày diễn ra buổi học, cách thức: Đăng nhập fap.fpt.edu.vn => Thủ tục/Đơn từ => Send application (Gửi đơn) => Chọn: Đơn đề nghị kiểm tra trạng thái điểm danh LUK: Trình bày chi tiết thông tin buổi học bị điểm danh nhầm và các minh chứng (nếu có) => Send. \n    -Với các môn học không bao gồm LUK: Báo ngay với giảng viên trước 24h trong ngày diễn ra buổi học. Trường hợp đã báo cáo đúng thời hạn nhưng không nhận được phản hồi, sinh viên có thể làm đơn khiếu nại điểm danh, cách thức như sau: Đăng nhập fap.fpt.edu.vn => Thủ tục/Đơn từ => Send application (Gửi đơn) => Chọn: Đơn khiếu nại điểm danh: Trình bày nội dung kèm minh chứng (nếu có) => Send. \nSau khi gửi đơn, sinh viên sẽ theo dõi tại mục \"View application (Xem đơn)\" để nhận phản hồi của bộ phận xử lý trong vòng 2 ngày làm việc. \nLưu ý: Riêng đối với cơ sở Đà Nẵng, nếu sinh viên đã báo với giảng viên/văn phòng LUK đúng hạn nhưng không được phản hồi, vui lòng liên hệ với Phòng Dịch vụ sinh viên để được hỗ trợ (dvsv.fudn@fe.edu.vn)."
       }
     ]
   },
@@ -393,11 +251,7 @@ Lưu ý: Riêng đối với cơ sở Đà Nẵng, nếu sinh viên đã báo v�
       },
       {
         "role": "assistant",
-        "content": "Theo quy định, sinh viên cần tham gia tối thiểu 80% tổng số slot của môn học để đủ điều kiện thi cuối học phần. Nếu sinh viên đã nghỉ hết 20% số buổi, tức là đã không đủ điều kiện tham gia kỳ thi cuối học phần.
-
-Trong trường hợp sinh viên gặp phải tình huống bất khả kháng và phải nghỉ thêm 1 buổi, họ sẽ không đủ điều kiện để dự thi cuối kỳ. Do đó, sinh viên sẽ phải học lại học phần đó.
-
-Để biết thêm thông tin chi tiết về thời lượng tối thiểu của từng môn học, sinh viên có thể truy cập trang học liệu của Nhà trường."
+        "content": "Theo quy định, sinh viên cần tham gia tối thiểu 80% tổng số slot của môn học để đủ điều kiện thi cuối học phần. Nếu sinh viên đã nghỉ hết 20% số buổi, tức là đã không đủ điều kiện tham gia kỳ thi cuối học phần. \nTrong trường hợp sinh viên gặp phải tình huống bất khả kháng và phải nghỉ thêm 1 buổi, họ sẽ không đủ điều kiện để dự thi cuối kỳ. Do đó, sinh viên sẽ phải học lại học phần đó. \nĐể biết thêm thông tin chi tiết về thời lượng tối thiểu của từng môn học, sinh viên có thể truy cập trang học liệu của Nhà trường."
       }
     ]
   },
@@ -413,17 +267,7 @@ Trong trường hợp sinh viên gặp phải tình huống bất khả kháng v
       },
       {
         "role": "assistant",
-        "content": "Cách Làm Đơn Đề Nghị Về Vấn Đề Không Có Trong Danh Mục Đơn Từ
-Nếu sinh viên muốn làm đơn đề nghị về một vấn đề không có trong danh mục đơn từ, sinh viên có thể thực hiện theo các bước sau:
-
-Truy cập vào Cổng Thông Tin Đào Tạo: Đăng nhập vào trang web fap.fpt.edu.vn.
-Chọn Mục Gửi Đơn: Vào phần "Thủ tục/Đơn từ".
-Chọn Các Loại Đơn Khác: Trong danh sách, chọn "Các loại đơn khác".
-Trình Bày Nguyện Vọng: Viết rõ lý do và nguyện vọng của mình trong đơn đề nghị.
-Gửi Đơn: Sau khi hoàn tất, nhấn nút gửi để nộp đơn.
-Sinh viên cần lưu ý rằng đơn sẽ được xem xét dựa trên lý do trình bày và quy định của Nhà trường.
-
-Nếu cần thêm thông tin, sinh viên có thể liên hệ với phòng Dịch vụ sinh viên để được hỗ trợ."
+        "content": "Cách Làm Đơn Đề Nghị Về Vấn Đề Không Có Trong Danh Mục Đơn Từ\n \nNếu sinh viên muốn làm đơn đề nghị về một vấn đề không có trong danh mục đơn từ, sinh viên có thể thực hiện theo các bước sau: \nTruy cập vào Cổng Thông Tin Đào Tạo: Đăng nhập vào trang web fap.fpt.edu.vn. \nChọn Mục Gửi Đơn: Vào phần \"Thủ tục/Đơn từ\". \nChọn Các Loại Đơn Khác: Trong danh sách, chọn \"Các loại đơn khác\". \nTrình Bày Nguyện Vọng: Viết rõ lý do và nguyện vọng của mình trong đơn đề nghị. \nGửi Đơn: Sau khi hoàn tất, nhấn nút gửi để nộp đơn. \nSinh viên cần lưu ý rằng đơn sẽ được xem xét dựa trên lý do trình bày và quy định của Nhà trường. \nNếu cần thêm thông tin, sinh viên có thể liên hệ với phòng Dịch vụ sinh viên để được hỗ trợ."
       }
     ]
   },
@@ -455,11 +299,7 @@ Nếu cần thêm thông tin, sinh viên có thể liên hệ với phòng Dịc
       },
       {
         "role": "assistant",
-        "content": "Sinh viên có thể đề nghị Trường xem xét công nhận học phần mà sinh viên đã đạt được tại cơ sở đào tạo khác, với điều kiện các học phần đó đáp ứng được các yêu cầu về nội dung/đầu ra, thời lượng, và điều kiện hoàn thành môn học tương đương với các học phần tương ứng thuộc chương trình đào tạo của Trường.
-
-Nếu được chấp nhận, học phần tương ứng trong chương trình đào tạo của Trường sẽ chỉ tính là "đạt" và không được tính vào điểm trung bình chung của sinh viên (điểm GPA). Số tín chỉ được công nhận tối đa với sinh viên chuyển từ trường khác sang Trường Đại học FPT là 50% so với tổng số tín chỉ cần đạt để được xét tốt nghiệp.
-
-Tài liệu tham khảo: Quy chế Đào tạo QĐ 842, trang 4. https://drive.google.com/file/d/15eqz7PEcShvSdcQhqlcEhOzl3HpDJ07E/view?usp=drive_link"
+        "content": "Sinh viên có thể đề nghị Trường xem xét công nhận học phần mà sinh viên đã đạt được tại cơ sở đào tạo khác, với điều kiện các học phần đó đáp ứng được các yêu cầu về nội dung/đầu ra, thời lượng, và điều kiện hoàn thành môn học tương đương với các học phần tương ứng thuộc chương trình đào tạo của Trường. \nNếu được chấp nhận, học phần tương ứng trong chương trình đào tạo của Trường sẽ chỉ tính là \"đạt\" và không được tính vào điểm trung bình chung của sinh viên (điểm GPA). Số tín chỉ được công nhận tối đa với sinh viên chuyển từ trường khác sang Trường Đại học FPT là 50% so với tổng số tín chỉ cần đạt để được xét tốt nghiệp. \nTài liệu tham khảo: Quy chế Đào tạo QĐ 842, trang 4. https://drive.google.com/file/d/15eqz7PEcShvSdcQhqlcEhOzl3HpDJ07E/view?usp=drive_link"
       }
     ]
   },
@@ -475,9 +315,7 @@ Tài liệu tham khảo: Quy chế Đào tạo QĐ 842, trang 4. https://drive.g
       },
       {
         "role": "assistant",
-        "content": "Trong chương trình học tại Trường Đại học FPT, có một số học phần mà kết quả học phần không được dùng để tính điểm GPA. Những môn học này bao gồm các học phần điều kiện mà sinh viên phải hoàn tất để đủ điều kiện bắt đầu học tập hoặc để cấp bằng tốt nghiệp, ví dụ như chứng chỉ tiếng Anh chuẩn bị, Rèn luyện tập trung, Giáo dục thể chất, và OJT (On-the-Job Training).
-
-Để biết thêm chi tiết, bạn có thể tham khảo tài liệu Quy chế Đào tạo QĐ 842. https://drive.google.com/file/d/15eqz7PEcShvSdcQhqlcEhOzl3HpDJ07E/view?usp=drive_link"
+        "content": "Trong chương trình học tại Trường Đại học FPT, có một số học phần mà kết quả học phần không được dùng để tính điểm GPA. Những môn học này bao gồm các học phần điều kiện mà sinh viên phải hoàn tất để đủ điều kiện bắt đầu học tập hoặc để cấp bằng tốt nghiệp, ví dụ như chứng chỉ tiếng Anh chuẩn bị, Rèn luyện tập trung, Giáo dục thể chất, và OJT (On-the-Job Training). \nĐể biết thêm chi tiết, bạn có thể tham khảo tài liệu Quy chế Đào tạo QĐ 842. https://drive.google.com/file/d/15eqz7PEcShvSdcQhqlcEhOzl3HpDJ07E/view?usp=drive_link"
       }
     ]
   },
@@ -493,9 +331,7 @@ Tài liệu tham khảo: Quy chế Đào tạo QĐ 842, trang 4. https://drive.g
       },
       {
         "role": "assistant",
-        "content": "Dựa trên tài liệu hiện có, sinh viên chuyển ngành hoặc chuyển cơ sở sẽ không cần thay đổi mã số sinh viên. Mã số sinh viên thường được giữ nguyên trong suốt quá trình học tập tại trường, bất kể sinh viên có chuyển ngành hay chuyển cơ sở.
-
-Để được giải đáp thông tin chi tiết hơn, vui lòng liên hệ với phòng Dịch vụ sinh viên để được hỗ trợ."
+        "content": "Dựa trên tài liệu hiện có, sinh viên chuyển ngành hoặc chuyển cơ sở sẽ không cần thay đổi mã số sinh viên. Mã số sinh viên thường được giữ nguyên trong suốt quá trình học tập tại trường, bất kể sinh viên có chuyển ngành hay chuyển cơ sở. \nĐể được giải đáp thông tin chi tiết hơn, vui lòng liên hệ với phòng Dịch vụ sinh viên để được hỗ trợ."
       }
     ]
   },
@@ -511,26 +347,7 @@ Tài liệu tham khảo: Quy chế Đào tạo QĐ 842, trang 4. https://drive.g
       },
       {
         "role": "assistant",
-        "content": "Thủ tục chuyển ngành
-Thủ tục chuyển ngành là quy trình mà sinh viên có thể thực hiện để thay đổi chuyên ngành học của mình tại Đại học FPT. Dưới đây là một số thông tin chi tiết về thủ tục này:
-
-Thời gian đăng ký
-Sinh viên cần thực hiện thủ tục chuyển ngành theo thông báo của phòng Quản lý Đào tạo, được đăng trên FAP mục News – Tin tức, trước khi học kỳ mới bắt đầu 2 tháng.
-
-Phí chuyển ngành
-Phí chuyển ngành là 2,300,000 đồng cho mỗi lần chuyển.
-
-Cách thức đăng ký
-Đăng nhập vào trang fap.fpt.edu.vn.
-Vào mục Thủ tục/Đơn từ.
-Chọn Send application (Gửi đơn).
-Chọn Đề nghị chuyển ngành.
-Nhập thông tin về ngành/chuyên ngành cũ và ngành/chuyên ngành mới.
-Nhấn Send và thực hiện thanh toán bằng cách quét mã QR hoặc trừ trực tiếp từ số dư trên FAP (nếu có).
-Lưu ý
-Sau khi gửi đơn, sinh viên cần theo dõi tại mục View application (Xem đơn) để nhận phản hồi từ bộ phận xử lý.
-Nếu có phản hồi về phí thừa môn cần nộp, sinh viên cần hoàn thành khoản phí này trong vòng 12 ngày kể từ thời điểm làm đơn. Nếu không hoàn thành đúng hạn, đơn sẽ bị từ chối và phí chuyển ngành cũng sẽ được hoàn về ví FAP.
-Thủ tục chuyển ngành là một bước quan trọng giúp sinh viên điều chỉnh hướng đi học tập của mình, đảm bảo phù hợp với sở thích và năng lực cá nhân."
+        "content": "Thủ tục chuyển ngành\n \nThủ tục chuyển ngành là quy trình mà sinh viên có thể thực hiện để thay đổi chuyên ngành học của mình tại Đại học FPT. Dưới đây là một số thông tin chi tiết về thủ tục này: \nThời gian đăng ký: \n-Sinh viên cần thực hiện thủ tục chuyển ngành theo thông báo của phòng Quản lý Đào tạo, được đăng trên FAP mục News – Tin tức, trước khi học kỳ mới bắt đầu 2 tháng. \nPhí chuyển ngành: \n-Phí chuyển ngành là 2,300,000 đồng cho mỗi lần chuyển. \nCách thức đăng ký: \n-Đăng nhập vào trang fap.fpt.edu.vn. \n-Vào mục Thủ tục/Đơn từ. \n-Chọn Send application (Gửi đơn). \n-Chọn Đề nghị chuyển ngành. \n-Nhập thông tin về ngành/chuyên ngành cũ và ngành/chuyên ngành mới. \n-Nhấn Send và thực hiện thanh toán bằng cách quét mã QR hoặc trừ trực tiếp từ số dư trên FAP (nếu có). \n\nLưu ý: \nSau khi gửi đơn, sinh viên cần theo dõi tại mục View application (Xem đơn) để nhận phản hồi từ bộ phận xử lý. \nNếu có phản hồi về phí thừa môn cần nộp, sinh viên cần hoàn thành khoản phí này trong vòng 12 ngày kể từ thời điểm làm đơn. Nếu không hoàn thành đúng hạn, đơn sẽ bị từ chối và phí chuyển ngành cũng sẽ được hoàn về ví FAP. \nThủ tục chuyển ngành là một bước quan trọng giúp sinh viên điều chỉnh hướng đi học tập của mình, đảm bảo phù hợp với sở thích và năng lực cá nhân."
       }
     ]
   },
@@ -546,27 +363,7 @@ Thủ tục chuyển ngành là một bước quan trọng giúp sinh viên đi�
       },
       {
         "role": "assistant",
-        "content": "Thủ tục chuyển combo chuyên sâu là quy trình mà sinh viên có thể thực hiện để thay đổi chuyên ngành hẹp (combo) mà mình đang theo học. Cụ thể, sinh viên cần thực hiện các bước sau:
-
-Thời gian đăng ký: Sinh viên cần theo dõi thông báo từ Phòng Quản lý Đào tạo được đăng trên FAP mục News – Tin tức trước khi học kỳ mới bắt đầu 2 tháng.
-
-Phí chuyển combo chuyên sâu: Mức phí cho việc chuyển combo chuyên sâu là 2,300,000 đồng.
-
-Cách thức đăng ký:
-
-Đăng nhập vào trang fap.fpt.edu.vn.
-Vào mục Thủ tục/Đơn từ.
-Chọn Send application (Gửi đơn) và chọn Đề nghị đổi Combo chuyên sâu.
-Nhập thông tin cần thiết và nhấn Send.
-Thanh toán phí bằng cách quét mã QR hoặc hệ thống sẽ trừ trực tiếp từ số dư trên FAP (nếu có).
-Lưu ý rằng thời gian giữ chỗ cho sinh viên thanh toán bằng QR code là 10 phút. Nếu thanh toán sau 10 phút, đơn sẽ bị hủy và tiền đã nộp sẽ được cộng vào ví FAP.
-
-Theo dõi đơn: Sau khi gửi đơn, sinh viên cần theo dõi tại mục View application (Xem đơn) để nhận phản hồi từ bộ phận xử lý.
-Nếu có phản hồi về phí thừa môn cần nộp, sinh viên cần hoàn thành khoản phí này trong vòng 12 ngày kể từ thời điểm làm đơn. Nếu không hoàn thành đúng hạn, đơn sẽ bị từ chối và phí chuyển ngành cũng sẽ được hoàn về ví FAP.
-
-Lưu ý
-Đối với sinh viên đổi combo sau kỳ 6 chuyên ngành, tùy từng combo cụ thể mà sau khi chuyển, sinh viên có thể phải đi OJT lại hoặc không. Các môn học được thay thế trong khung chương trình mới mà sinh viên chưa được học sẽ trở thành môn học chậm kỳ và sinh viên có thể chủ động đăng ký để hoàn thành các môn học này.
-Sinh viên combo chuyên sâu sẽ được duy trì các loại học bổng, ưu đãi tài năng."
+        "content": "Thủ tục chuyển combo chuyên sâu là quy trình mà sinh viên có thể thực hiện để thay đổi chuyên ngành hẹp (combo) mà mình đang theo học. Cụ thể, sinh viên cần thực hiện các bước sau: \nThời gian đăng ký: Sinh viên cần theo dõi thông báo từ Phòng Quản lý Đào tạo được đăng trên FAP mục News – Tin tức trước khi học kỳ mới bắt đầu 2 tháng. \nPhí chuyển combo chuyên sâu: Mức phí cho việc chuyển combo chuyên sâu là 2,300,000 đồng. \nCách thức đăng ký: \n-Đăng nhập vào trang fap.fpt.edu.vn. \n-Vào mục Thủ tục/Đơn từ. \n-Chọn Send application (Gửi đơn) và chọn Đề nghị đổi Combo chuyên sâu. \n-Nhập thông tin cần thiết và nhấn Send. \n-Thanh toán phí bằng cách quét mã QR hoặc hệ thống sẽ trừ trực tiếp từ số dư trên FAP (nếu có). \nLưu ý rằng thời gian giữ chỗ cho sinh viên thanh toán bằng QR code là 10 phút. Nếu thanh toán sau 10 phút, đơn sẽ bị hủy và tiền đã nộp sẽ được cộng vào ví FAP. \nTheo dõi đơn: Sau khi gửi đơn, sinh viên cần theo dõi tại mục View application (Xem đơn) để nhận phản hồi từ bộ phận xử lý. \nNếu có phản hồi về phí thừa môn cần nộp, sinh viên cần hoàn thành khoản phí này trong vòng 12 ngày kể từ thời điểm làm đơn. Nếu không hoàn thành đúng hạn, đơn sẽ bị từ chối và phí chuyển ngành cũng sẽ được hoàn về ví FAP. \nLưu ý: \nĐối với sinh viên đổi combo sau kỳ 6 chuyên ngành, tùy từng combo cụ thể mà sau khi chuyển, sinh viên có thể phải đi OJT lại hoặc không. Các môn học được thay thế trong khung chương trình mới mà sinh viên chưa được học sẽ trở thành môn học chậm kỳ và sinh viên có thể chủ động đăng ký để hoàn thành các môn học này. \nSinh viên combo chuyên sâu sẽ được duy trì các loại học bổng, ưu đãi tài năng."
       }
     ]
   },
@@ -1212,11 +1009,7 @@ Tài liệu tham khảo: Quy định tài chính năm học 2025-2026, trang 16.
       },
       {
         "role": "assistant",
-        "content": "Câu hỏi: Sinh viên khi chuyển cơ sở có bị mất học bổng hay không?
-
-Đáp án: Sinh viên chuyển cơ sở sẽ được bảo lưu chính sách học bổng, tín dụng và các ưu đãi khác (gọi chung là ưu đãi) phần còn được hưởng tại cơ sở mới nếu chính sách này áp dụng chung cho toàn quốc. Ngược lại, nếu chính sách này áp dụng riêng cho vùng miền thì sinh viên sẽ phải hoàn lại ưu đãi đã nhận khi chuyển cơ sở. Với các ưu đãi có giá trị tuyệt đối thì được bảo lưu hoặc phải hoàn lại theo giá trị tuyệt đối, còn với các ưu đãi có giá trị tương đối (phần trăm) thì bảo lưu giá trị tương đối hoặc hoàn lại theo giá trị tuyệt đối quy đổi từ giá trị tương đối.
-
-Tài liệu tham khảo: Quy định tài chính năm học 2024-2025 trang 5. https://drive.google.com/file/d/1DcqY4fX3jBQEM5gj08fbLDrDjh7hCEvY/view?usp=drive_link"
+        "content": "Câu hỏi: Sinh viên khi chuyển cơ sở có bị mất học bổng hay không?\n\n Đáp án: Sinh viên chuyển cơ sở sẽ được bảo lưu chính sách học bổng, tín dụng và các ưu đãi khác (gọi chung là ưu đãi) phần còn được hưởng tại cơ sở mới nếu chính sách này áp dụng chung cho toàn quốc. Ngược lại, nếu chính sách này áp dụng riêng cho vùng miền thì sinh viên sẽ phải hoàn lại ưu đãi đã nhận khi chuyển cơ sở. Với các ưu đãi có giá trị tuyệt đối thì được bảo lưu hoặc phải hoàn lại theo giá trị tuyệt đối, còn với các ưu đãi có giá trị tương đối (phần trăm) thì bảo lưu giá trị tương đối hoặc hoàn lại theo giá trị tuyệt đối quy đổi từ giá trị tương đối. \nTài liệu tham khảo: Quy định tài chính năm học 2024-2025 trang 5. https://drive.google.com/file/d/1DcqY4fX3jBQEM5gj08fbLDrDjh7hCEvY/view?usp=drive_link"
       }
     ]
   },
@@ -1232,15 +1025,7 @@ Tài liệu tham khảo: Quy định tài chính năm học 2024-2025 trang 5. h
       },
       {
         "role": "assistant",
-        "content": "Chính sách ưu đãi khi sinh viên đăng ký học lại sớm
-
-Khi sinh viên đăng ký học lại sớm, tức là tiến hành đăng ký học lại ngay trong kỳ hoặc kỳ tiếp theo, họ sẽ được áp dụng ưu đãi học phí bằng 50% biểu phí môn.
-
-Nếu sinh viên phải học lại nhưng vì lý do trùng lịch hoặc Nhà trường không tổ chức lớp, họ có thể đăng ký vào danh sách chờ (wishlist) để được áp dụng chế độ học lại sớm. Học phí học lại khi sinh viên đăng ký wishlist sẽ được áp dụng theo quy định tài chính tại thời điểm đăng ký. Tuy nhiên, khi đăng ký vào wishlist, sinh viên phải chấp nhận học theo sự sắp xếp của Nhà trường.
-
-Trong trường hợp sinh viên hủy wishlist, họ sẽ được hoàn lại 50% số tiền đã nộp.
-
-Tài liệu tham khảo: Quy định về việc đăng ký học lại sớm, trang 2. https://drive.google.com/file/d/1r1WzwSEBvZBMTOUi9p48x6M1elXJZLCp/view?usp=drive_link"
+        "content": "Chính sách ưu đãi khi sinh viên đăng ký học lại sớm\n\n Khi sinh viên đăng ký học lại sớm, tức là tiến hành đăng ký học lại ngay trong kỳ hoặc kỳ tiếp theo, họ sẽ được áp dụng ưu đãi học phí bằng 50% biểu phí môn. \nNếu sinh viên phải học lại nhưng vì lý do trùng lịch hoặc Nhà trường không tổ chức lớp, họ có thể đăng ký vào danh sách chờ (wishlist) để được áp dụng chế độ học lại sớm. Học phí học lại khi sinh viên đăng ký wishlist sẽ được áp dụng theo quy định tài chính tại thời điểm đăng ký. Tuy nhiên, khi đăng ký vào wishlist, sinh viên phải chấp nhận học theo sự sắp xếp của Nhà trường. \nTrong trường hợp sinh viên hủy wishlist, họ sẽ được hoàn lại 50% số tiền đã nộp. \nTài liệu tham khảo: Quy định về việc đăng ký học lại sớm, trang 2. https://drive.google.com/file/d/1r1WzwSEBvZBMTOUi9p48x6M1elXJZLCp/view?usp=drive_link"
       }
     ]
   },
@@ -1256,11 +1041,7 @@ Tài liệu tham khảo: Quy định về việc đăng ký học lại sớm, t
       },
       {
         "role": "assistant",
-        "content": "Nếu sinh viên đã đăng ký học lại ngay trong kỳ tiếp theo nhưng Nhà trường không mở lớp, sinh viên có thể đăng ký vào danh sách chờ (wishlist). Trong trường hợp này, sinh viên sẽ được áp dụng mức học phí học lại sớm bằng 50% biểu phí môn cho lần đăng ký lớp tiếp theo. Tuy nhiên, sinh viên phải chấp nhận học theo sự sắp xếp của Nhà trường.
-
-Nếu sinh viên hủy wishlist, sẽ chỉ được hoàn lại 50% số tiền đã nộp.
-
-Để biết thêm chi tiết, bạn có thể tham khảo quy định về việc đăng ký học lại sớm."
+        "content": "Nếu sinh viên đã đăng ký học lại ngay trong kỳ tiếp theo nhưng Nhà trường không mở lớp, sinh viên có thể đăng ký vào danh sách chờ (wishlist). Trong trường hợp này, sinh viên sẽ được áp dụng mức học phí học lại sớm bằng 50% biểu phí môn cho lần đăng ký lớp tiếp theo. Tuy nhiên, sinh viên phải chấp nhận học theo sự sắp xếp của Nhà trường. \nNếu sinh viên hủy wishlist, sẽ chỉ được hoàn lại 50% số tiền đã nộp. \nĐể biết thêm chi tiết, bạn có thể tham khảo quy định về việc đăng ký học lại sớm."
       }
     ]
   },
@@ -1276,9 +1057,7 @@ Nếu sinh viên hủy wishlist, sẽ chỉ được hoàn lại 50% số tiền
       },
       {
         "role": "assistant",
-        "content": "Nếu sinh viên đã nộp tiền đầy đủ cho các môn học trong kỳ chuyên ngành nhưng không được xếp đủ 5 môn chuyên ngành do không đậu môn học tiên quyết, thì sinh viên vẫn phải nộp đúng khoản học phí theo kỳ. Các môn chưa học hoặc chưa được học, sau này sinh viên sẽ chủ động đăng ký học tại mục Đăng ký học đi chậm kỳ và không phải nộp thêm học phí cho những môn này.
-
-Để biết thêm thông tin chi tiết, sinh viên có thể tham khảo quy định tài chính năm học 2024-2025."
+        "content": "Nếu sinh viên đã nộp tiền đầy đủ cho các môn học trong kỳ chuyên ngành nhưng không được xếp đủ 5 môn chuyên ngành do không đậu môn học tiên quyết, thì sinh viên vẫn phải nộp đúng khoản học phí theo kỳ. Các môn chưa học hoặc chưa được học, sau này sinh viên sẽ chủ động đăng ký học tại mục Đăng ký học đi chậm kỳ và không phải nộp thêm học phí cho những môn này.\nĐể biết thêm thông tin chi tiết, sinh viên có thể tham khảo quy định tài chính năm học 2024-2025."
       }
     ]
   },
@@ -1538,6 +1317,7 @@ Nếu sinh viên hủy wishlist, sẽ chỉ được hoàn lại 50% số tiền
       }
     ]
   },
+  //READ ME!!!! BELOW THIS ARE CHATGPT QUESTIONS!!!!!!!   PLEASE CHECK IF IT'S SUITABLE BEFORE ASKING!!! IF IT'S NOT PLEASE MODFIY IT
   {
     "_comment": "READ ME!!!! BELOW THIS ARE CHATGPT QUESTIONS!!!!!!!   PLEASE CHECK IF IT'S SUITABLE BEFORE ASKING!!! IF IT'S NOT PLEASE MODFIY IT",
     "messages": [

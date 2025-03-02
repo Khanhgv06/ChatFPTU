@@ -1058,7 +1058,7 @@ Tài khoản Coursera là một công cụ hữu ích giúp sinh viên nâng cao
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Dựa trên tài liệu hiện có, tôi chưa thể hỗ trợ thông tin bạn yêu cầu. Để được giải đáp thông tin này, vui lòng liên hệ với phòng Dịch vụ sinh viên hoặc phòng IT để được hỗ trợ."
       }
     ]
   },
@@ -1074,7 +1074,27 @@ Tài khoản Coursera là một công cụ hữu ích giúp sinh viên nâng cao
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Trường Đại học FPT xét khen thưởng sinh viên ở 2 tiêu chí chính là thành tích học tập và thành tích học các hoạt động phong trào. Cụ thể như sau:
+
+Khen thưởng thành tích học tập:
+Sinh viên giỏi:
+
+Sinh viên có kết quả đạt ở lần học đầu tiên tất cả các học phần của học kỳ tương ứng theo khung chương trình (không xét với các sinh viên có học phần chuyển đổi tín chỉ).
+Tổng điểm trung bình chung của học kỳ đạt từ 8,0 đến cận 9.
+Giá trị giải thưởng: Giấy khen và tiền mặt trị giá 1,000,000 VNĐ cho sinh viên đạt top 5 có điểm học tập cao nhất (không tính Cóc vàng) của mỗi khối ngành tại mỗi cơ sở.
+Sinh viên xuất sắc:
+
+Sinh viên có kết quả đạt ở lần học đầu tiên tất cả các học phần của học kỳ tương ứng theo khung chương trình (không xét với các sinh viên có học phần chuyển đổi tín chỉ).
+Tổng điểm trung bình chung của học kỳ đạt từ 9,0 trở lên.
+Giá trị giải thưởng: Giấy khen và tiền mặt trị giá 1,000,000 VNĐ cho sinh viên đạt top 5 có điểm học tập cao nhất (không tính Cóc vàng) của mỗi khối ngành tại mỗi cơ sở.
+Cóc vàng:
+
+Sinh viên có kết quả đạt ở lần học đầu tiên tất cả các học phần của học kỳ tương ứng theo khung chương trình (không xét với các sinh viên có học phần chuyển đổi tín chỉ) và tổng điểm trung bình chung của học kỳ cao nhất trong toàn bộ sinh viên của khối ngành tại mỗi cơ sở đào tạo.
+Điểm phong trào đạt từ 80 trở lên.
+Giá trị giải thưởng: Tiền mặt trị giá 10,000,000 VNĐ/sinh viên hoặc giải thưởng theo thỏa thuận với Nhà tài trợ, cùng với Giấy khen và biểu tượng Cóc vàng.
+Lưu ý rằng không xét với các sinh viên trong giai đoạn học Tiếng Anh dự bị và đi OJT.
+
+Để biết thêm chi tiết, bạn có thể tham khảo Quy chế khen thưởng."
       }
     ]
   },
@@ -1090,7 +1110,7 @@ Tài khoản Coursera là một công cụ hữu ích giúp sinh viên nâng cao
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Theo quy chế khen thưởng, điểm học tập xét khen thưởng chỉ tính với các học phần của học kỳ tương ứng theo khung chương trình. Do đó, các môn học trong Block 5 sẽ không được tính vào điểm xét khen thưởng của học kỳ hiện tại."
       }
     ]
   },
@@ -1106,7 +1126,7 @@ Tài khoản Coursera là một công cụ hữu ích giúp sinh viên nâng cao
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Theo quy chế khen thưởng, điểm học tập xét khen thưởng chỉ tính với các học phần của học kỳ tương ứng theo khung chương trình. Do đó, các môn học cải thiện sẽ không được tính vào điểm xét khen thưởng của học kỳ hiện tại."
       }
     ]
   },
@@ -1122,7 +1142,7 @@ Tài khoản Coursera là một công cụ hữu ích giúp sinh viên nâng cao
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Theo quy chế khen thưởng, điểm học tập xét khen thưởng chỉ tính với các học phần của học kỳ tương ứng theo khung chương trình. Do đó, các môn học của kỳ hiện tại nhưng đã được xếp lịch học trong kỳ trước đó sẽ không được tính vào điểm xét khen thưởng của học kỳ hiện tại."
       }
     ]
   },

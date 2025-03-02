@@ -379,18 +379,7 @@
       },
       {
         "role": "assistant",
-        "content": "Thủ tục chuyển cơ sở là quy trình hành chính mà sinh viên có thể thực hiện để chuyển từ cơ sở hoặc phân hiệu này của Đại học FPT sang cơ sở hoặc phân hiệu khác mà không phải chịu phí, với điều kiện cơ sở tiếp nhận đồng ý.
-
-Sinh viên cần thực hiện các bước sau để xin chuyển cơ sở:
-
-Đăng nhập vào hệ thống FAP tại địa chỉ fap.fpt.edu.vn.
-Vào mục Thủ tục/Đơn từ và chọn Gửi đơn.
-Chọn Đề nghị chuyển cơ sở và gửi đơn.
-Thời hạn đăng ký chuyển cơ sở là theo thông báo của phòng Quản lý Đào tạo, muộn nhất là 1 tháng trước khi học kỳ mới bắt đầu.
-
-Khi được duyệt đề nghị chuyển cơ sở, sinh viên sẽ nộp học phí theo mức phí áp dụng tại cơ sở chuyển đến. Sinh viên chuyển cơ sở sẽ được bảo lưu chính sách học bổng và các ưu đãi khác nếu chính sách này áp dụng chung cho toàn quốc.
-
-Nếu bạn cần thêm thông tin chi tiết, hãy tham khảo tài liệu từ phòng Quản lý Đào tạo."
+        "content": "Thủ tục chuyển cơ sở là quy trình hành chính mà sinh viên có thể thực hiện để chuyển từ cơ sở hoặc phân hiệu này của Đại học FPT sang cơ sở hoặc phân hiệu khác mà không phải chịu phí, với điều kiện cơ sở tiếp nhận đồng ý. \nSinh viên cần thực hiện các bước sau để xin chuyển cơ sở: \nĐăng nhập vào hệ thống FAP tại địa chỉ fap.fpt.edu.vn. \nVào mục Thủ tục/Đơn từ và chọn Gửi đơn. \nChọn Đề nghị chuyển cơ sở và gửi đơn. \nThời hạn đăng ký chuyển cơ sở là theo thông báo của phòng Quản lý Đào tạo, muộn nhất là 1 tháng trước khi học kỳ mới bắt đầu. \nKhi được duyệt đề nghị chuyển cơ sở, sinh viên sẽ nộp học phí theo mức phí áp dụng tại cơ sở chuyển đến. Sinh viên chuyển cơ sở sẽ được bảo lưu chính sách học bổng và các ưu đãi khác nếu chính sách này áp dụng chung cho toàn quốc. \nNếu bạn cần thêm thông tin chi tiết, hãy tham khảo tài liệu từ phòng Quản lý Đào tạo."
       }
     ]
   },
@@ -406,12 +395,7 @@ Nếu bạn cần thêm thông tin chi tiết, hãy tham khảo tài liệu từ
       },
       {
         "role": "assistant",
-        "content": "Sinh viên có thể nhận nhiều học bổng và ưu đãi cùng một lúc không?
-Theo quy định của Trường Đại học FPT, sinh viên chỉ được nhận một loại học bổng cao nhất trong các chương trình học bổng được phê duyệt khi nhập học. Điều này có nghĩa là nếu sinh viên đủ điều kiện cho nhiều loại học bổng và ưu đãi, họ sẽ chỉ được nhận một loại tốt nhất, trừ trường hợp có quy định khác.
-
-Ngoài ra, học bổng của Trường Đại học FPT là độc lập và không áp dụng cùng với bất kỳ hình thức ưu đãi nào khác của Trường.
-
-Nếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo Quy định tài chính năm học 2024-2025 trang 4. https://drive.google.com/file/d/1DcqY4fX3jBQEM5gj08fbLDrDjh7hCEvY/view?usp=drive_link"
+        "content": "Sinh viên có thể nhận nhiều học bổng và ưu đãi cùng một lúc không? \nTheo quy định của Trường Đại học FPT, sinh viên chỉ được nhận một loại học bổng cao nhất trong các chương trình học bổng được phê duyệt khi nhập học. Điều này có nghĩa là nếu sinh viên đủ điều kiện cho nhiều loại học bổng và ưu đãi, họ sẽ chỉ được nhận một loại tốt nhất, trừ trường hợp có quy định khác. \nNgoài ra, học bổng của Trường Đại học FPT là độc lập và không áp dụng cùng với bất kỳ hình thức ưu đãi nào khác của Trường. \nNếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo Quy định tài chính năm học 2024-2025 trang 4. https://drive.google.com/file/d/1DcqY4fX3jBQEM5gj08fbLDrDjh7hCEvY/view?usp=drive_link"
       }
     ]
   },
@@ -427,7 +411,7 @@ Nếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo Quy định
       },
       {
         "role": "assistant",
-        "content": "Thời gian nhận bằng Tốt nghiệp thường là khoảng 30 ngày kể từ ngày có quyết định công nhận tốt nghiệp đại học. Sinh viên sẽ nhận được thông báo chi tiết về thời gian nhận bằng qua email. Nếu sinh viên có nhu cầu nhận bằng sớm, có thể cân nhắc làm thủ tục "Xét tốt nghiệp sớm"."
+        "content": "Thời gian nhận bằng Tốt nghiệp thường là khoảng 30 ngày kể từ ngày có quyết định công nhận tốt nghiệp đại học. Sinh viên sẽ nhận được thông báo chi tiết về thời gian nhận bằng qua email. Nếu sinh viên có nhu cầu nhận bằng sớm, có thể cân nhắc làm thủ tục \"Xét tốt nghiệp sớm\"."
       }
     ]
   },
@@ -443,15 +427,7 @@ Nếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo Quy định
       },
       {
         "role": "assistant",
-        "content": "Nhà trường không cấp giấy chứng nhận tốt nghiệp tạm thời mà chỉ có giấy xác nhận tình trạng "đã hoàn thành chương trình học" hoặc xác nhận "Đã tốt nghiệp" nếu sinh viên đã có quyết định tốt nghiệp nhưng đang chờ nhận bằng. Sinh viên sau khi có quyết định công nhận tốt nghiệp có thể làm thủ tục xác nhận tình trạng "Đã tốt nghiệp".
-
-Cách thức đăng ký như sau:
-
-    Phí dịch vụ: 20.000 đồng/bản
-    Cách thức đăng ký: Đăng nhập fap.fpt.edu.vn mục Thủ tục/Đơn từ => Xin xác nhận sinh viên => Lựa chọn: Xác nhận sinh viên Tiếng Việt => Trình bày mục đích muốn xin xác nhận đã tốt nghiệp => Nhập chính xác thông tin địa chỉ vào ô cập nhật địa chỉ => Send / Thanh toán lệ phí trong vòng 10 phút.
-    Sau khi gửi đơn thành công, sinh viên sẽ theo dõi tại mục View application (Xem đơn) để nhận phản hồi của bộ phận xử lý trong vòng 1-2 ngày làm việc.
-
-Lưu ý: Sinh viên đã hoàn thành chương trình học, thông thường sẽ có quyết định công nhận tốt nghiệp vào tháng thứ 3 của học kỳ tiếp theo. Trước thời điểm ban hành quyết định tốt nghiệp, nhà trường sẽ xác nhận tình trạng của sinh viên là "Đã hoàn thành chương trình học, đang chờ tốt nghiệp"."
+        "content": "Nhà trường không cấp giấy chứng nhận tốt nghiệp tạm thời mà chỉ có giấy xác nhận tình trạng \"đã hoàn thành chương trình học\" hoặc xác nhận \"Đã tốt nghiệp\" nếu sinh viên đã có quyết định tốt nghiệp nhưng đang chờ nhận bằng. Sinh viên sau khi có quyết định công nhận tốt nghiệp có thể làm thủ tục xác nhận tình trạng \"Đã tốt nghiệp\". \nCách thức đăng ký như sau: \n    -nPhí dịch vụ: 20.000 đồng/bản \n    -nCách thức đăng ký: Đăng nhập fap.fpt.edu.vn mục Thủ tục/Đơn từ => Xin xác nhận sinh viên => Lựa chọn: Xác nhận sinh viên Tiếng Việt => Trình bày mục đích muốn xin xác nhận đã tốt nghiệp => Nhập chính xác thông tin địa chỉ vào ô cập nhật địa chỉ => Send / Thanh toán lệ phí trong vòng 10 phút. \n    -nSau khi gửi đơn thành công, sinh viên sẽ theo dõi tại mục View application (Xem đơn) để nhận phản hồi của bộ phận xử lý trong vòng 1-2 ngày làm việc. \nLưu ý: Sinh viên đã hoàn thành chương trình học, thông thường sẽ có quyết định công nhận tốt nghiệp vào tháng thứ 3 của học kỳ tiếp theo. Trước thời điểm ban hành quyết định tốt nghiệp, nhà trường sẽ xác nhận tình trạng của sinh viên là \"Đã hoàn thành chương trình học, đang chờ tốt nghiệp\"."
       }
     ]
   },
@@ -467,13 +443,7 @@ Lưu ý: Sinh viên đã hoàn thành chương trình học, thông thường s�
       },
       {
         "role": "assistant",
-        "content": "Wishlist, hay còn gọi là danh sách chờ, là một hệ thống cho phép sinh viên đăng ký các khóa học mà họ muốn tham gia nhưng hiện tại không có sẵn hoặc đã đầy lớp. Hệ thống này giúp sinh viên có thể thể hiện sự quan tâm đến các khóa học trong tương lai và đảm bảo rằng họ có cơ hội tham gia khi lớp học mở lại.
-
-Khi sinh viên đăng ký vào Wishlist, học phí sẽ được áp dụng giống như học phí học lại. Cụ thể, nếu sinh viên đăng ký học lại ngay trong Block 5 của học kỳ hoặc trong kỳ tiếp theo, họ sẽ được áp dụng mức học phí học lại sớm bằng 50% biểu phí môn. Nếu đăng ký học lại sau thời điểm này, sinh viên sẽ phải nộp 100% biểu phí môn.
-
-Sinh viên có thể đăng ký Wishlist vào bất kỳ thời điểm nào trong học kỳ và có thể tự xếp lớp cho mình trong lần mở lớp gần nhất hoặc tuân theo sự sắp xếp của phòng Đào tạo.
-
-Nếu bạn cần thêm thông tin chi tiết, hãy tham khảo tài liệu hướng dẫn trên hệ thống FAP."
+        "content": "Wishlist, hay còn gọi là danh sách chờ, là một hệ thống cho phép sinh viên đăng ký các khóa học mà họ muốn tham gia nhưng hiện tại không có sẵn hoặc đã đầy lớp. Hệ thống này giúp sinh viên có thể thể hiện sự quan tâm đến các khóa học trong tương lai và đảm bảo rằng họ có cơ hội tham gia khi lớp học mở lại. \nKhi sinh viên đăng ký vào Wishlist, học phí sẽ được áp dụng giống như học phí học lại. Cụ thể, nếu sinh viên đăng ký học lại ngay trong Block 5 của học kỳ hoặc trong kỳ tiếp theo, họ sẽ được áp dụng mức học phí học lại sớm bằng 50% biểu phí môn. Nếu đăng ký học lại sau thời điểm này, sinh viên sẽ phải nộp 100% biểu phí môn. \nSinh viên có thể đăng ký Wishlist vào bất kỳ thời điểm nào trong học kỳ và có thể tự xếp lớp cho mình trong lần mở lớp gần nhất hoặc tuân theo sự sắp xếp của phòng Đào tạo. \nNếu bạn cần thêm thông tin chi tiết, hãy tham khảo tài liệu hướng dẫn trên hệ thống FAP."
       }
     ]
   },
@@ -489,14 +459,7 @@ Nếu bạn cần thêm thông tin chi tiết, hãy tham khảo tài liệu hư�
       },
       {
         "role": "assistant",
-        "content": "Để hủy wishlist (Danh sách chờ), sinh viên cần thực hiện các bước sau:
-
-    Đăng nhập vào trang fap.fpt.edu.vn.
-    Vào mục Thủ tục/Đơn từ.
-    Chọn Wishlist Course.
-    Chọn Hủy Wishlist.
-
-Lưu ý: Khi hủy wishlist, sinh viên sẽ chỉ được hoàn 50% số tiền đã nộp, khoản tiền này sẽ được hoàn về tài khoản FAP."
+        "content": "Để hủy wishlist (Danh sách chờ), sinh viên cần thực hiện các bước sau: \nĐăng nhập vào trang fap.fpt.edu.vn. \nVào mục Thủ tục/Đơn từ. \nChọn Wishlist Course. \nChọn Hủy Wishlist. \nLưu ý: Khi hủy wishlist, sinh viên sẽ chỉ được hoàn 50% số tiền đã nộp, khoản tiền này sẽ được hoàn về tài khoản FAP."
       }
     ]
   },
@@ -528,20 +491,7 @@ Lưu ý: Khi hủy wishlist, sinh viên sẽ chỉ được hoàn 50% số tiề
       },
       {
         "role": "assistant",
-        "content": "Để đăng ký thi cải thiện điểm, sinh viên cần thực hiện các bước sau:
-
-Truy cập trang web: Vào trang fap.fpt.edu.vn.
-Chọn mục: Vào mục View application (Gửi đơn).
-Chọn loại đơn: Chọn Đơn đăng ký thi cải thiện điểm.
-Nhập thông tin: Điền thông tin vào các mục theo yêu cầu.
-Gửi đơn: Bấm Send để gửi đơn đăng ký.
-Thời hạn đăng ký
-Sinh viên cần gửi đơn trước khi diễn ra lịch thi lần 2 ít nhất 12 tiếng (nửa ngày).
-
-Lưu ý
-Theo quy định của Quy chế đào tạo, khi sinh viên đăng ký thi cải thiện, điểm thi lần 1 sẽ bị hủy, và điểm thi lần 2 sẽ là điểm thi cuối cùng. Nếu sinh viên không đến dự thi cải thiện, Nhà trường sẽ xem như sinh viên bỏ thi và ghi nhận bài thi 0 điểm.
-
-Để biết thêm chi tiết, bạn có thể tham khảo hướng dẫn trên trang FAP."
+        "content": "Để đăng ký thi cải thiện điểm, sinh viên cần thực hiện các bước sau: \nTruy cập trang web: Vào trang fap.fpt.edu.vn. \nChọn mục: Vào mục View application (Gửi đơn). \nChọn loại đơn: Chọn Đơn đăng ký thi cải thiện điểm. \nNhập thông tin: Điền thông tin vào các mục theo yêu cầu. \nGửi đơn: Bấm Send để gửi đơn đăng ký. \nThời hạn đăng ký \nSinh viên cần gửi đơn trước khi diễn ra lịch thi lần 2 ít nhất 12 tiếng (nửa ngày). \nLưu ý: \nTheo quy định của Quy chế đào tạo, khi sinh viên đăng ký thi cải thiện, điểm thi lần 1 sẽ bị hủy, và điểm thi lần 2 sẽ là điểm thi cuối cùng. Nếu sinh viên không đến dự thi cải thiện, Nhà trường sẽ xem như sinh viên bỏ thi và ghi nhận bài thi 0 điểm. \nĐể biết thêm chi tiết, bạn có thể tham khảo hướng dẫn trên trang FAP."
       }
     ]
   },
@@ -557,12 +507,7 @@ Theo quy định của Quy chế đào tạo, khi sinh viên đăng ký thi cả
       },
       {
         "role": "assistant",
-        "content": "Khi sinh viên bị đình chỉ thi do vi phạm quy chế, hình phạt sẽ được áp dụng như sau:
-
-Môn thi bị đình chỉ sẽ bị điểm 0 cho toàn bộ môn thi đó.
-Sinh viên phải ra khỏi phòng thi ngay khi có biên bản đình chỉ thi được lập và phải nộp lại bài thi cùng đề thi cho cán bộ coi thi.
-Khi sinh viên đăng ký học lại, sẽ phải nộp học phí học lại gấp 2 lần so với những sinh viên không vi phạm quy chế thi.
-Để biết thêm chi tiết, bạn có thể tham khảo tài liệu tại đây: Nội quy kỳ thi."
+        "content": "Khi sinh viên bị đình chỉ thi do vi phạm quy chế, hình phạt sẽ được áp dụng như sau: \nMôn thi bị đình chỉ sẽ bị điểm 0 cho toàn bộ môn thi đó. \nSinh viên phải ra khỏi phòng thi ngay khi có biên bản đình chỉ thi được lập và phải nộp lại bài thi cùng đề thi cho cán bộ coi thi. \nKhi sinh viên đăng ký học lại, sẽ phải nộp học phí học lại gấp 2 lần so với những sinh viên không vi phạm quy chế thi. \nĐể biết thêm chi tiết, bạn có thể tham khảo tài liệu tại đây: Nội quy kỳ thi."
       }
     ]
   },
@@ -578,9 +523,7 @@ Khi sinh viên đăng ký học lại, sẽ phải nộp học phí học lại 
       },
       {
         "role": "assistant",
-        "content": "Có, sinh viên không tham gia thi lần 1 sẽ bị ghi nhận kết quả 0 điểm và Not pass. Khi đó, sinh viên sẽ được tự động xếp lịch thi lần 2 mà không cần phải đăng ký. Thông tin chi tiết về lịch thi lần 2 sẽ được thông báo trên Cổng thông tin Đào tạo FAP trước lịch thi ½ ngày.
-
-Cách thức tra cứu lịch thi lần 2 như sau: Truy cập Cổng thông tin Đào tạo fap.fpt.edu.vn mục Information Access (Tra cứu thông tin) => View Exam Schedule (Xem lịch thi); hoặc mục Schedule Exam trên app MyFAP."
+        "content": "Có, sinh viên không tham gia thi lần 1 sẽ bị ghi nhận kết quả 0 điểm và Not pass. Khi đó, sinh viên sẽ được tự động xếp lịch thi lần 2 mà không cần phải đăng ký. Thông tin chi tiết về lịch thi lần 2 sẽ được thông báo trên Cổng thông tin Đào tạo FAP trước lịch thi ½ ngày.\n Cách thức tra cứu lịch thi lần 2 như sau: Truy cập Cổng thông tin Đào tạo fap.fpt.edu.vn mục Information Access (Tra cứu thông tin) => View Exam Schedule (Xem lịch thi); hoặc mục Schedule Exam trên app MyFAP."
       }
     ]
   },
@@ -596,18 +539,7 @@ Cách thức tra cứu lịch thi lần 2 như sau: Truy cập Cổng thông tin
       },
       {
         "role": "assistant",
-        "content": "Khi sinh viên có thắc mắc hoặc khiếu nại về điểm số, có thể thực hiện các bước sau:
-
-Làm đơn phúc khảo: Sinh viên cần vào mục Thủ tục/đơn từ trên hệ thống FAP.
-Chọn loại đơn: Chọn Đề nghị phúc khảo.
-Điền thông tin: Nhập đầy đủ thông tin theo yêu cầu trong đơn.
-Thanh toán: Bấm Thanh toán và quét mã QR code để nộp tiền trong vòng 10 phút.
-Theo dõi kết quả: Sau khi gửi đơn, sinh viên sẽ theo dõi tại mục View application (Xem đơn) để nhận kết quả.
-Thông tin thêm:
-Phí dịch vụ: 200,000 đồng/lần/môn.
-Thời hạn làm đơn: Trong vòng 3 ngày kể từ ngày công bố điểm.
-Thời hạn trả kết quả: 5 ngày sau ngày hết hạn đăng ký làm đơn.
-Lưu ý rằng trong thời gian chờ kết quả phúc khảo, sinh viên vẫn nên tham gia thi lần 2 bình thường. Nếu có sự thay đổi điểm sau phúc khảo, sinh viên sẽ được hoàn phí phúc khảo."
+        "content": "Khi sinh viên có thắc mắc hoặc khiếu nại về điểm số, có thể thực hiện các bước sau: \nLàm đơn phúc khảo: Sinh viên cần vào mục Thủ tục/đơn từ trên hệ thống FAP. \nChọn loại đơn: Chọn Đề nghị phúc khảo. \nĐiền thông tin: Nhập đầy đủ thông tin theo yêu cầu trong đơn. \nThanh toán: Bấm Thanh toán và quét mã QR code để nộp tiền trong vòng 10 phút. \nTheo dõi kết quả: Sau khi gửi đơn, sinh viên sẽ theo dõi tại mục View application (Xem đơn) để nhận kết quả. \nThông tin thêm: \nPhí dịch vụ: 200,000 đồng/lần/môn. \nThời hạn làm đơn: Trong vòng 3 ngày kể từ ngày công bố điểm. \nThời hạn trả kết quả: 5 ngày sau ngày hết hạn đăng ký làm đơn. \nLưu ý rằng trong thời gian chờ kết quả phúc khảo, sinh viên vẫn nên tham gia thi lần 2 bình thường. Nếu có sự thay đổi điểm sau phúc khảo, sinh viên sẽ được hoàn phí phúc khảo."
       }
     ]
   },
@@ -623,20 +555,7 @@ Lưu ý rằng trong thời gian chờ kết quả phúc khảo, sinh viên vẫ
       },
       {
         "role": "assistant",
-        "content": "Khi có thắc mắc hoặc khiếu nại về điểm số, sinh viên có thể làm đơn phúc tra để được Nhà trường xem xét xử lý theo quy định. Cụ thể như sau:
-
-Truy cập vào mục Thủ tục/đơn từ trên cổng thông tin đào tạo FAP.
-Chọn Gửi đơn (Send Application).
-Chọn Đề nghị phúc tra.
-Điền thông tin theo yêu cầu.
-Bấm Thanh toán và quét mã QR code để nộp tiền trong vòng 10 phút.
-Phí làm đơn phúc tra: 200,000 đồng/lần/môn. Khoản phí này sẽ được hoàn lại nếu có điều chỉnh điểm khi phúc tra.
-
-Thời hạn làm đơn phúc tra: Trong vòng 3 ngày kể từ ngày công bố điểm.
-
-Thời hạn trả kết quả phúc tra: 5 ngày sau ngày hết hạn đăng ký làm đơn.
-
-Lưu ý: Trong thời gian đợi kết quả phúc tra thi lần 1, sinh viên vẫn nên tham gia thi lần 2 bình thường. Sau khi có kết quả phúc tra và kết quả thi lần 2, sinh viên sẽ được ghi nhận đầu điểm nào cao hơn."
+        "content": "Khi có thắc mắc hoặc khiếu nại về điểm số, sinh viên có thể làm đơn phúc tra để được Nhà trường xem xét xử lý theo quy định. Cụ thể như sau: \nTruy cập vào mục Thủ tục/đơn từ trên cổng thông tin đào tạo FAP. \nChọn Gửi đơn (Send Application). \nChọn Đề nghị phúc tra. \nĐiền thông tin theo yêu cầu. \nBấm Thanh toán và quét mã QR code để nộp tiền trong vòng 10 phút. \nPhí làm đơn phúc tra: 200,000 đồng/lần/môn. Khoản phí này sẽ được hoàn lại nếu có điều chỉnh điểm khi phúc tra. \nThời hạn làm đơn phúc tra: Trong vòng 3 ngày kể từ ngày công bố điểm. \nThời hạn trả kết quả phúc tra: 5 ngày sau ngày hết hạn đăng ký làm đơn. \nLưu ý: Trong thời gian đợi kết quả phúc tra thi lần 1, sinh viên vẫn nên tham gia thi lần 2 bình thường. Sau khi có kết quả phúc tra và kết quả thi lần 2, sinh viên sẽ được ghi nhận đầu điểm nào cao hơn."
       }
     ]
   },
@@ -652,9 +571,7 @@ Lưu ý: Trong thời gian đợi kết quả phúc tra thi lần 1, sinh viên 
       },
       {
         "role": "assistant",
-        "content": "Nếu sinh viên đã đăng ký phúc tra nhưng chưa có kết quả trước khi thi lại, sinh viên vẫn nên tham gia thi lần 2 bình thường. Sau khi có kết quả phúc tra và kết quả thi lần 2, sinh viên sẽ được ghi nhận đầu điểm nào cao hơn.
-
-Điều này có nghĩa là sinh viên không bị ảnh hưởng bởi việc chờ đợi kết quả phúc tra và vẫn có cơ hội cải thiện điểm số của mình trong kỳ thi lại."
+        "content": "Nếu sinh viên đã đăng ký phúc tra nhưng chưa có kết quả trước khi thi lại, sinh viên vẫn nên tham gia thi lần 2 bình thường. Sau khi có kết quả phúc tra và kết quả thi lần 2, sinh viên sẽ được ghi nhận đầu điểm nào cao hơn.\n Điều này có nghĩa là sinh viên không bị ảnh hưởng bởi việc chờ đợi kết quả phúc tra và vẫn có cơ hội cải thiện điểm số của mình trong kỳ thi lại."
       }
     ]
   },
@@ -670,9 +587,7 @@ Lưu ý: Trong thời gian đợi kết quả phúc tra thi lần 1, sinh viên 
       },
       {
         "role": "assistant",
-        "content": "Theo quy định, nếu sinh viên không tham gia thi lần 2, điểm thi lần 1 sẽ bị hủy và điểm thi lần 2 sẽ là điểm cuối cùng. Do đó, sinh viên sẽ không được lấy điểm thi lần 1 nếu bỏ thi lần 2. Nếu không tham gia thi cải thiện, Nhà trường sẽ xem như sinh viên bỏ thi và ghi nhận bài thi 0 điểm.
-
-Bạn có thể tham khảo thêm thông tin chi tiết trong tài liệu Nội quy kỳ thi."
+        "content": "Theo quy định, nếu sinh viên không tham gia thi lần 2, điểm thi lần 1 sẽ bị hủy và điểm thi lần 2 sẽ là điểm cuối cùng. Do đó, sinh viên sẽ không được lấy điểm thi lần 1 nếu bỏ thi lần 2. Nếu không tham gia thi cải thiện, Nhà trường sẽ xem như sinh viên bỏ thi và ghi nhận bài thi 0 điểm.\n Bạn có thể tham khảo thêm thông tin chi tiết trong tài liệu Nội quy kỳ thi."
       }
     ]
   },
@@ -688,14 +603,7 @@ Bạn có thể tham khảo thêm thông tin chi tiết trong tài liệu Nội 
       },
       {
         "role": "assistant",
-        "content": "Theo nội quy kỳ thi, sinh viên không được phép vào phòng thi nếu không xuất trình được giấy tờ tùy thân theo quy định. Các loại giấy tờ được chấp nhận bao gồm:
-
-Căn cước công dân
-Giấy phép lái xe
-Tài khoản định danh điện tử mức 2 (app VNeID mức 2)
-Do đó, nếu sinh viên không có thẻ sinh viên nhưng có một trong các loại giấy tờ trên, thì vẫn có thể vào phòng thi. Tuy nhiên, nếu không có bất kỳ giấy tờ nào trong số đó, sinh viên sẽ không được phép vào phòng thi.
-
-Vì vậy, lời khuyên là sinh viên nên chuẩn bị đầy đủ giấy tờ tùy thân trước khi đi thi để tránh những rắc rối không cần thiết."
+        "content": "Theo nội quy kỳ thi, sinh viên không được phép vào phòng thi nếu không xuất trình được giấy tờ tùy thân theo quy định. Các loại giấy tờ được chấp nhận bao gồm: \nCăn cước công dân \nGiấy phép lái xe \nTài khoản định danh điện tử mức 2 (app VNeID mức 2) \nDo đó, nếu sinh viên không có thẻ sinh viên nhưng có một trong các loại giấy tờ trên, thì vẫn có thể vào phòng thi. Tuy nhiên, nếu không có bất kỳ giấy tờ nào trong số đó, sinh viên sẽ không được phép vào phòng thi. \nVì vậy, lời khuyên là sinh viên nên chuẩn bị đầy đủ giấy tờ tùy thân trước khi đi thi để tránh những rắc rối không cần thiết."
       }
     ]
   },
@@ -711,9 +619,7 @@ Vì vậy, lời khuyên là sinh viên nên chuẩn bị đầy đủ giấy t�
       },
       {
         "role": "assistant",
-        "content": "Để xem điều kiện vượt môn của các môn học, sinh viên có thể truy cập vào trang học liệu tại địa chỉ flm.fpt.edu.vn. Sau đó, sinh viên chọn mục View syllabus và nhập mã môn học muốn tra cứu để xem chi tiết điều kiện vượt môn.
-
-Nếu cần thêm thông tin, sinh viên có thể tham khảo các tài liệu liên quan hoặc liên hệ với giảng viên để được hỗ trợ."
+        "content": "Để xem điều kiện vượt môn của các môn học, sinh viên có thể truy cập vào trang học liệu tại địa chỉ flm.fpt.edu.vn. Sau đó, sinh viên chọn mục View syllabus và nhập mã môn học muốn tra cứu để xem chi tiết điều kiện vượt môn.\n Nếu cần thêm thông tin, sinh viên có thể tham khảo các tài liệu liên quan hoặc liên hệ với giảng viên để được hỗ trợ."
       }
     ]
   },
@@ -729,21 +635,7 @@ Nếu cần thêm thông tin, sinh viên có thể tham khảo các tài liệu 
       },
       {
         "role": "assistant",
-        "content": "Tài khoản Coursera được cấp cho sinh viên tại Trường Đại học FPT nhằm hỗ trợ việc học tập các môn học online. Dưới đây là hướng dẫn cách sử dụng tài khoản Coursera:
-
-Đăng nhập vào tài khoản: Sinh viên cần truy cập vào nền tảng Coursera và sử dụng thông tin tài khoản được cung cấp để đăng nhập.
-
-Chọn khóa học: Sau khi đăng nhập, sinh viên có thể tìm kiếm và chọn các khóa học mà mình muốn tham gia. Tài khoản Coursera không giới hạn số lượng khóa học mà sinh viên có thể học.
-
-Tham gia học tập: Sinh viên nên chủ động tham gia vào các khóa học, hoàn thành các bài tập, quiz và các yêu cầu khác theo tiến độ của khóa học.
-
-Sử dụng tính năng hỗ trợ: Trong quá trình học, sinh viên có thể sử dụng tính năng “Coach” để nhận sự trợ giúp từ các mentor, tham gia vào các buổi offline tại trường hoặc tham gia vào Discussions Forum trên Coursera để trao đổi với các bạn học khác.
-
-Hoàn thành chứng chỉ: Sau khi hoàn thành tất cả các yêu cầu của khóa học, sinh viên sẽ nhận được chứng chỉ từ Coursera. Chứng chỉ này sẽ được ghi nhận và có thể được sử dụng để tham gia thi thẩm định chất lượng tại trường.
-
-Tuân thủ quy định: Sinh viên cần tuân thủ quy định đạo đức của Coursera. Nếu không trung thực trong quá trình học, sinh viên có thể bị xem xét kỷ luật theo quy định của trường.
-
-Tài khoản Coursera là một công cụ hữu ích giúp sinh viên nâng cao kiến thức và kỹ năng của mình thông qua việc học online."
+        "content": "Tài khoản Coursera được cấp cho sinh viên tại Trường Đại học FPT nhằm hỗ trợ việc học tập các môn học online. Dưới đây là hướng dẫn cách sử dụng tài khoản Coursera: \nĐăng nhập vào tài khoản: Sinh viên cần truy cập vào nền tảng Coursera và sử dụng thông tin tài khoản được cung cấp để đăng nhập. \nChọn khóa học: Sau khi đăng nhập, sinh viên có thể tìm kiếm và chọn các khóa học mà mình muốn tham gia. Tài khoản Coursera không giới hạn số lượng khóa học mà sinh viên có thể học. \nTham gia học tập: Sinh viên nên chủ động tham gia vào các khóa học, hoàn thành các bài tập, quiz và các yêu cầu khác theo tiến độ của khóa học. \nSử dụng tính năng hỗ trợ: Trong quá trình học, sinh viên có thể sử dụng tính năng “Coach” để nhận sự trợ giúp từ các mentor, tham gia vào các buổi offline tại trường hoặc tham gia vào Discussions Forum trên Coursera để trao đổi với các bạn học khác. \nHoàn thành chứng chỉ: Sau khi hoàn thành tất cả các yêu cầu của khóa học, sinh viên sẽ nhận được chứng chỉ từ Coursera. Chứng chỉ này sẽ được ghi nhận và có thể được sử dụng để tham gia thi thẩm định chất lượng tại trường. \nTuân thủ quy định: Sinh viên cần tuân thủ quy định đạo đức của Coursera. Nếu không trung thực trong quá trình học, sinh viên có thể bị xem xét kỷ luật theo quy định của trường. \nTài khoản Coursera là một công cụ hữu ích giúp sinh viên nâng cao kiến thức và kỹ năng của mình thông qua việc học online."
       }
     ]
   },
@@ -759,15 +651,7 @@ Tài khoản Coursera là một công cụ hữu ích giúp sinh viên nâng cao
       },
       {
         "role": "assistant",
-        "content": "Khi sinh viên trượt môn học trên Coursera, họ cần thực hiện các bước sau:
-
-Đăng ký thi lại thẩm định: Sinh viên sẽ phải đăng ký thi thẩm định cho các lần thi tiếp theo cho đến khi đạt. Mỗi lần đăng ký, sinh viên có tối đa 2 lần thi.
-
-Theo dõi lịch thi: Sinh viên sẽ được Nhà trường tự động xếp lịch thi lần 2 mà không cần phải làm đơn (trừ trường hợp bị đình chỉ thi). Thông tin về lịch thi lần 2 sẽ được thông báo trên Cổng thông tin đào tạo FAP.
-
-Hoàn thành các chứng chỉ: Để đủ điều kiện tham gia thi thẩm định cuối kỳ môn Coursera, sinh viên cần hoàn thành đầy đủ các chứng chỉ bắt buộc của môn học.
-
-Nếu sinh viên không đạt trong lần thi thứ hai, họ sẽ cần phải đăng ký học lại môn học đó, ngoại trừ môn Coursera, sinh viên chỉ cần đăng ký thi lại thẩm định trong các học kỳ sau cho đến khi pass môn."
+        "content": "Khi sinh viên trượt môn học trên Coursera, họ cần thực hiện các bước sau: \nĐăng ký thi lại thẩm định: Sinh viên sẽ phải đăng ký thi thẩm định cho các lần thi tiếp theo cho đến khi đạt. Mỗi lần đăng ký, sinh viên có tối đa 2 lần thi. \nTheo dõi lịch thi: Sinh viên sẽ được Nhà trường tự động xếp lịch thi lần 2 mà không cần phải làm đơn (trừ trường hợp bị đình chỉ thi). Thông tin về lịch thi lần 2 sẽ được thông báo trên Cổng thông tin đào tạo FAP. \nHoàn thành các chứng chỉ: Để đủ điều kiện tham gia thi thẩm định cuối kỳ môn Coursera, sinh viên cần hoàn thành đầy đủ các chứng chỉ bắt buộc của môn học. \nNếu sinh viên không đạt trong lần thi thứ hai, họ sẽ cần phải đăng ký học lại môn học đó, ngoại trừ môn Coursera, sinh viên chỉ cần đăng ký thi lại thẩm định trong các học kỳ sau cho đến khi pass môn."
       }
     ]
   },
@@ -783,19 +667,7 @@ Nếu sinh viên không đạt trong lần thi thứ hai, họ sẽ cần phải
       },
       {
         "role": "assistant",
-        "content": "Để đăng ký thi thẩm định môn Coursera, sinh viên cần thực hiện theo các bước sau:
-
-Truy cập vào trang web fap.fpt.edu.vn.
-Vào mục Thủ tục/đơn từ.
-Chọn Gửi đơn.
-Chọn Đăng ký thi thẩm định các môn học online.
-Điền thông tin theo yêu cầu.
-Bấm Thanh toán, sau đó quét mã QR code để thanh toán trong vòng 10 phút.
-Phí đăng ký thi thẩm định: 2,300,000 đồng/môn. Đối với sinh viên vi phạm quy chế thi, mức phí đăng ký sẽ gấp 2 lần so với bình thường, tương đương 4,600,000 đồng/môn.
-
-Thời hạn đăng ký: Sinh viên có thể lựa chọn đăng ký thi thẩm định vào bất kỳ học kỳ nào cảm thấy phù hợp. Tuy nhiên, hàng kỳ đơn chỉ được mở trong khoảng thời gian từ đầu học kỳ đến trước 12h Thứ 6 của tuần thứ 9 của học kỳ.
-
-Nếu bạn cần thêm thông tin, hãy theo dõi tại mục View application (Xem đơn) để nhận kết quả."
+        "content": "Để đăng ký thi thẩm định môn Coursera, sinh viên cần thực hiện theo các bước sau: \nTruy cập vào trang web fap.fpt.edu.vn. \nVào mục Thủ tục/đơn từ. \nChọn Gửi đơn. \nChọn Đăng ký thi thẩm định các môn học online. \nĐiền thông tin theo yêu cầu. \nBấm Thanh toán, sau đó quét mã QR code để thanh toán trong vòng 10 phút. \nPhí đăng ký thi thẩm định: 2,300,000 đồng/môn. Đối với sinh viên vi phạm quy chế thi, mức phí đăng ký sẽ gấp 2 lần so với bình thường, tương đương 4,600,000 đồng/môn. \nThời hạn đăng ký: Sinh viên có thể lựa chọn đăng ký thi thẩm định vào bất kỳ học kỳ nào cảm thấy phù hợp. Tuy nhiên, hàng kỳ đơn chỉ được mở trong khoảng thời gian từ đầu học kỳ đến trước 12h Thứ 6 của tuần thứ 9 của học kỳ. \nNếu bạn cần thêm thông tin, hãy theo dõi tại mục View application (Xem đơn) để nhận kết quả."
       }
     ]
   },
@@ -827,21 +699,7 @@ Nếu bạn cần thêm thông tin, hãy theo dõi tại mục View application 
       },
       {
         "role": "assistant",
-        "content": "Khi sinh viên bị gắn cờ đạo văn, họ sẽ phải thực hiện các bước sau:
-
-Nhận thông báo: Sinh viên sẽ nhận được thông báo về việc bị gắn cờ đạo văn từ giảng viên hoặc bộ phận quản lý.
-
-Xem xét nội dung: Sinh viên cần xem xét kỹ lưỡng nội dung bị gắn cờ để hiểu rõ lý do và mức độ vi phạm.
-
-Chuẩn bị giải trình: Sinh viên nên chuẩn bị một bản giải trình để trình bày quan điểm của mình về vấn đề đạo văn, có thể bao gồm việc giải thích cách thức sử dụng tài liệu và lý do không trích dẫn đúng.
-
-Gặp gỡ giảng viên: Sinh viên nên chủ động gặp gỡ giảng viên hoặc cán bộ phụ trách để thảo luận về vấn đề này, cung cấp bản giải trình và lắng nghe ý kiến từ phía giảng viên.
-
-Chấp nhận hình thức xử lý: Tùy thuộc vào mức độ vi phạm, sinh viên có thể phải chấp nhận các hình thức xử lý kỷ luật, từ khiển trách đến buộc thôi học.
-
-Học hỏi từ kinh nghiệm: Cuối cùng, sinh viên nên rút ra bài học từ sự việc này để tránh tái phạm trong tương lai, đồng thời tìm hiểu kỹ hơn về quy định trích dẫn và đạo văn trong học tập.
-
-Sinh viên cần lưu ý rằng hành vi đạo văn sẽ bị xử lý nghiêm khắc theo quy định của nhà trường."
+        "content": "Khi sinh viên bị gắn cờ đạo văn, họ sẽ phải thực hiện các bước sau: \nNhận thông báo: Sinh viên sẽ nhận được thông báo về việc bị gắn cờ đạo văn từ giảng viên hoặc bộ phận quản lý. \nXem xét nội dung: Sinh viên cần xem xét kỹ lưỡng nội dung bị gắn cờ để hiểu rõ lý do và mức độ vi phạm. \nChuẩn bị giải trình: Sinh viên nên chuẩn bị một bản giải trình để trình bày quan điểm của mình về vấn đề đạo văn, có thể bao gồm việc giải thích cách thức sử dụng tài liệu và lý do không trích dẫn đúng. \nGặp gỡ giảng viên: Sinh viên nên chủ động gặp gỡ giảng viên hoặc cán bộ phụ trách để thảo luận về vấn đề này, cung cấp bản giải trình và lắng nghe ý kiến từ phía giảng viên. \nChấp nhận hình thức xử lý: Tùy thuộc vào mức độ vi phạm, sinh viên có thể phải chấp nhận các hình thức xử lý kỷ luật, từ khiển trách đến buộc thôi học. \nHọc hỏi từ kinh nghiệm: Cuối cùng, sinh viên nên rút ra bài học từ sự việc này để tránh tái phạm trong tương lai, đồng thời tìm hiểu kỹ hơn về quy định trích dẫn và đạo văn trong học tập. \nSinh viên cần lưu ý rằng hành vi đạo văn sẽ bị xử lý nghiêm khắc theo quy định của nhà trường."
       }
     ]
   },
@@ -905,27 +763,7 @@ Sinh viên cần lưu ý rằng hành vi đạo văn sẽ bị xử lý nghiêm 
       },
       {
         "role": "assistant",
-        "content": "Trường Đại học FPT xét khen thưởng sinh viên ở 2 tiêu chí chính là thành tích học tập và thành tích học các hoạt động phong trào. Cụ thể như sau:
-
-Khen thưởng thành tích học tập:
-Sinh viên giỏi:
-
-Sinh viên có kết quả đạt ở lần học đầu tiên tất cả các học phần của học kỳ tương ứng theo khung chương trình (không xét với các sinh viên có học phần chuyển đổi tín chỉ).
-Tổng điểm trung bình chung của học kỳ đạt từ 8,0 đến cận 9.
-Giá trị giải thưởng: Giấy khen và tiền mặt trị giá 1,000,000 VNĐ cho sinh viên đạt top 5 có điểm học tập cao nhất (không tính Cóc vàng) của mỗi khối ngành tại mỗi cơ sở.
-Sinh viên xuất sắc:
-
-Sinh viên có kết quả đạt ở lần học đầu tiên tất cả các học phần của học kỳ tương ứng theo khung chương trình (không xét với các sinh viên có học phần chuyển đổi tín chỉ).
-Tổng điểm trung bình chung của học kỳ đạt từ 9,0 trở lên.
-Giá trị giải thưởng: Giấy khen và tiền mặt trị giá 1,000,000 VNĐ cho sinh viên đạt top 5 có điểm học tập cao nhất (không tính Cóc vàng) của mỗi khối ngành tại mỗi cơ sở.
-Cóc vàng:
-
-Sinh viên có kết quả đạt ở lần học đầu tiên tất cả các học phần của học kỳ tương ứng theo khung chương trình (không xét với các sinh viên có học phần chuyển đổi tín chỉ) và tổng điểm trung bình chung của học kỳ cao nhất trong toàn bộ sinh viên của khối ngành tại mỗi cơ sở đào tạo.
-Điểm phong trào đạt từ 80 trở lên.
-Giá trị giải thưởng: Tiền mặt trị giá 10,000,000 VNĐ/sinh viên hoặc giải thưởng theo thỏa thuận với Nhà tài trợ, cùng với Giấy khen và biểu tượng Cóc vàng.
-Lưu ý rằng không xét với các sinh viên trong giai đoạn học Tiếng Anh dự bị và đi OJT.
-
-Để biết thêm chi tiết, bạn có thể tham khảo Quy chế khen thưởng."
+        "content": "Trường Đại học FPT xét khen thưởng sinh viên ở 2 tiêu chí chính là thành tích học tập và thành tích học các hoạt động phong trào. Cụ thể như sau: \nKhen thưởng thành tích học tập: \nSinh viên giỏi: \n-Sinh viên có kết quả đạt ở lần học đầu tiên tất cả các học phần của học kỳ tương ứng theo khung chương trình (không xét với các sinh viên có học phần chuyển đổi tín chỉ). \n-Tổng điểm trung bình chung của học kỳ đạt từ 8,0 đến cận 9. \n-Giá trị giải thưởng: Giấy khen và tiền mặt trị giá 1,000,000 VNĐ cho sinh viên đạt top 5 có điểm học tập cao nhất (không tính Cóc vàng) của mỗi khối ngành tại mỗi cơ sở. \nSinh viên xuất sắc: \n-Sinh viên có kết quả đạt ở lần học đầu tiên tất cả các học phần của học kỳ tương ứng theo khung chương trình (không xét với các sinh viên có học phần chuyển đổi tín chỉ). \n-Tổng điểm trung bình chung của học kỳ đạt từ 9,0 trở lên. \n-Giá trị giải thưởng: Giấy khen và tiền mặt trị giá 1,000,000 VNĐ cho sinh viên đạt top 5 có điểm học tập cao nhất (không tính Cóc vàng) của mỗi khối ngành tại mỗi cơ sở. \nCóc vàng: \n-Sinh viên có kết quả đạt ở lần học đầu tiên tất cả các học phần của học kỳ tương ứng theo khung chương trình (không xét với các sinh viên có học phần chuyển đổi tín chỉ) và tổng điểm trung bình chung của học kỳ cao nhất trong toàn bộ sinh viên của khối ngành tại mỗi cơ sở đào tạo. \n-Điểm phong trào đạt từ 80 trở lên. \n-Giá trị giải thưởng: Tiền mặt trị giá 10,000,000 VNĐ/sinh viên hoặc giải thưởng theo thỏa thuận với Nhà tài trợ, cùng với Giấy khen và biểu tượng Cóc vàng. \nLưu ý rằng không xét với các sinh viên trong giai đoạn học Tiếng Anh dự bị và đi OJT. \nĐể biết thêm chi tiết, bạn có thể tham khảo Quy chế khen thưởng."
       }
     ]
   },
@@ -989,11 +827,7 @@ Lưu ý rằng không xét với các sinh viên trong giai đoạn học Tiến
       },
       {
         "role": "assistant",
-        "content": "Câu hỏi: Sinh viên khi chuyển ngành có bị mất học bổng hay không?
-
-Đáp án: Sinh viên chuyển chuyên ngành, chuyên ngành hẹp, chuyên sâu (combo) vẫn được duy trì các loại học bổng, ưu đãi tài năng trừ trường hợp loại học bổng đó phân biệt cụ thể theo ngành.
-
-Tài liệu tham khảo: Quy định tài chính năm học 2025-2026, trang 16. https://drive.google.com/file/d/1c9ri1qzrJMrAu8vFZLIPN4mUaLW6bG6k/view?usp=drive_link"
+        "content": "Câu hỏi: Sinh viên khi chuyển ngành có bị mất học bổng hay không? \nĐáp án: Sinh viên chuyển chuyên ngành, chuyên ngành hẹp, chuyên sâu (combo) vẫn được duy trì các loại học bổng, ưu đãi tài năng trừ trường hợp loại học bổng đó phân biệt cụ thể theo ngành. \nTài liệu tham khảo: Quy định tài chính năm học 2025-2026, trang 16. https://drive.google.com/file/d/1c9ri1qzrJMrAu8vFZLIPN4mUaLW6bG6k/view?usp=drive_link"
       }
     ]
   },

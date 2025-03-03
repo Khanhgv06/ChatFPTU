@@ -907,9 +907,7 @@
       },
       {
         "role": "assistant",
-        "content": "Nếu sinh viên không nộp hoặc nộp học phí và các loại phí khác trễ hạn theo thông báo của nhà trường, sinh viên sẽ bị xem như không có nguyện vọng tiếp tục học tập tại trường và sẽ bị đưa vào danh sách thôi học. Khi đó, sinh viên sẽ bị xóa các lớp học đã được xếp dự kiến trước đó.
-
-Để biết thêm thông tin chi tiết, bạn có thể tham khảo quy định tài chính của nhà trường."
+        "content": "Nếu sinh viên không nộp hoặc nộp học phí và các loại phí khác trễ hạn theo thông báo của nhà trường, sinh viên sẽ bị xem như không có nguyện vọng tiếp tục học tập tại trường và sẽ bị đưa vào danh sách thôi học. Khi đó, sinh viên sẽ bị xóa các lớp học đã được xếp dự kiến trước đó. \nĐể biết thêm thông tin chi tiết, bạn có thể tham khảo quy định tài chính của nhà trường."
       }
     ]
   },
@@ -925,22 +923,7 @@
       },
       {
         "role": "assistant",
-        "content": "Để nhập học lại sau khi thôi học tự nguyện, sinh viên cần thực hiện các bước sau:
-
-    Điều kiện nhập học lại: Sinh viên phải đảm bảo rằng thời gian hoàn thành chương trình học không vượt quá thời hạn học tập theo quy định và đã nộp Bằng Tốt nghiệp THPT (đối với sinh viên đã có thời gian học tập tại Trường từ 1 năm trở đi).
-
-    Thời hạn làm đơn: Sinh viên cần nộp đơn nhập học lại trước khi học kỳ mới hoặc khóa học bắt đầu, hoặc trước Block 5 của học kỳ (nếu sinh viên có nguyện vọng học ngay trong Block 5).
-
-    Phí dịch vụ: Phí nhập học trở lại là 2,300,000 đồng.
-
-    Cách thức đăng ký:
-        Đăng nhập vào fap.fpt.edu.vn.
-        Vào mục Thủ tục/Đơn từ => Send application (Gửi đơn) => Chọn Đơn xin nhập học trở lại và trình bày nguyện vọng.
-        Thanh toán và quét mã QR để thanh toán phí dịch vụ trong vòng 10 phút.
-
-    Theo dõi đơn: Sau khi gửi đơn, sinh viên sẽ theo dõi tại mục "View application (Xem đơn)" để nhận phản hồi từ bộ phận xử lý trong vòng 2 ngày làm việc.
-
-Lưu ý: Đối với các trường hợp sinh viên từ K18 trở về trước, nếu có nguyện vọng nhập học trở lại cần liên hệ với phòng Dịch vụ sinh viên tại cơ sở đang theo học để được kích hoạt email đuôi "@fpt.edu.vn" để có thể làm đơn trên FAP."
+        "content": "Để nhập học lại sau khi thôi học tự nguyện, sinh viên cần thực hiện các bước sau: \nĐiều kiện nhập học lại: Sinh viên phải đảm bảo rằng thời gian hoàn thành chương trình học không vượt quá thời hạn học tập theo quy định và đã nộp Bằng Tốt nghiệp THPT (đối với sinh viên đã có thời gian học tập tại Trường từ 1 năm trở đi). \nThời hạn làm đơn: Sinh viên cần nộp đơn nhập học lại trước khi học kỳ mới hoặc khóa học bắt đầu, hoặc trước Block 5 của học kỳ (nếu sinh viên có nguyện vọng học ngay trong Block 5). \nPhí dịch vụ: Phí nhập học trở lại là 2,300,000 đồng. \nCách thức đăng ký: \n    -Đăng nhập vào fap.fpt.edu.vn. \n    -Vào mục Thủ tục/Đơn từ => Send application (Gửi đơn) => Chọn Đơn xin nhập học trở lại và trình bày nguyện vọng. \n    -Thanh toán và quét mã QR để thanh toán phí dịch vụ trong vòng 10 phút. \nTheo dõi đơn: Sau khi gửi đơn, sinh viên sẽ theo dõi tại mục \"View application (Xem đơn)\" để nhận phản hồi từ bộ phận xử lý trong vòng 2 ngày làm việc. \nLưu ý: Đối với các trường hợp sinh viên từ K18 trở về trước, nếu có nguyện vọng nhập học trở lại cần liên hệ với phòng Dịch vụ sinh viên tại cơ sở đang theo học để được kích hoạt email đuôi \"@fpt.edu.vn\" để có thể làm đơn trên FAP."
       }
     ]
   },
@@ -956,13 +939,7 @@ Lưu ý: Đối với các trường hợp sinh viên từ K18 trở về trư�
       },
       {
         "role": "assistant",
-        "content": "Khi sinh viên bị đình chỉ thi do vi phạm quy chế, hình phạt sẽ được áp dụng như sau:
-
-    Môn thi bị đình chỉ sẽ bị điểm 0 cho toàn bộ môn thi đó.
-    Sinh viên phải ra khỏi phòng thi ngay khi có biên bản đình chỉ thi được lập và phải nộp lại bài thi cùng đề thi cho cán bộ coi thi.
-    Khi sinh viên đăng ký học lại, họ sẽ phải nộp học phí học lại gấp 2 lần so với những sinh viên không vi phạm quy chế thi.
-
-Để biết thêm chi tiết, bạn có thể tham khảo tài liệu tại đây: Nội quy kỳ thi. https://drive.google.com/file/d/1WeVVXKBoOUgFg1JvWKcr28ja9eOzbh1A/view?usp=drive_link"
+        "content": "Khi sinh viên bị đình chỉ thi do vi phạm quy chế, hình phạt sẽ được áp dụng như sau: \nMôn thi bị đình chỉ sẽ bị điểm 0 cho toàn bộ môn thi đó. \nSinh viên phải ra khỏi phòng thi ngay khi có biên bản đình chỉ thi được lập và phải nộp lại bài thi cùng đề thi cho cán bộ coi thi. \nKhi sinh viên đăng ký học lại, họ sẽ phải nộp học phí học lại gấp 2 lần so với những sinh viên không vi phạm quy chế thi. \nĐể biết thêm chi tiết, bạn có thể tham khảo tài liệu tại đây: Nội quy kỳ thi. https://drive.google.com/file/d/1WeVVXKBoOUgFg1JvWKcr28ja9eOzbh1A/view?usp=drive_link"
       }
     ]
   },
@@ -978,13 +955,7 @@ Lưu ý: Đối với các trường hợp sinh viên từ K18 trở về trư�
       },
       {
         "role": "assistant",
-        "content": "Giờ mở cửa Ký túc xá được quy định tùy theo từng campus, cụ thể như sau:
-
-    Ký túc xá Hòa Lạc và Quy Nhơn: 5:00 - 22:30
-    Ký túc xá Hòa Hải (Đà Nẵng): 5:30 - 22:00
-    Ký túc xá Cần Thơ: 5:00 - 23:00
-
-Nếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo các tài liệu liên quan hoặc liên hệ với phòng Dịch vụ sinh viên."
+        "content": "Giờ mở cửa Ký túc xá được quy định tùy theo từng campus, cụ thể như sau: \n-Ký túc xá Hòa Lạc và Quy Nhơn: 5:00 - 22:30 \n-Ký túc xá Hòa Hải (Đà Nẵng): 5:30 - 22:00 \n-Ký túc xá Cần Thơ: 5:00 - 23:00 \nNếu bạn cần thêm thông tin chi tiết, vui lòng tham khảo các tài liệu liên quan hoặc liên hệ với phòng Dịch vụ sinh viên."
       }
     ]
   },

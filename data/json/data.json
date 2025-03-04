@@ -971,7 +971,7 @@
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Thời gian đóng mở cổng trường có thể khác nhau tùy theo từng campus. Tuy nhiên, thông thường, cổng trường sẽ mở cửa vào buổi sáng và đóng vào buổi tối. Để biết chính xác thời gian cụ thể cho từng cơ sở, bạn nên tham khảo thông tin từ phòng Dịch vụ sinh viên hoặc cổng thông tin đào tạo của trường. \nNếu bạn cần thông tin chi tiết hơn về thời gian mở cửa của từng campus, vui lòng cho biết để tôi có thể hỗ trợ thêm!"
       }
     ]
   },
@@ -987,7 +987,7 @@
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Sinh viên không thể hủy phòng Ký túc xá giữa kỳ và sẽ không được hoàn phí dịch vụ ký túc xá nếu hủy phòng hoặc bị chấm dứt dịch vụ KTX do vi phạm nội quy. Tuy nhiên, nếu không có nhu cầu ở tiếp, sinh viên vẫn nên làm thủ tục hủy phòng Ký túc xá để được chốt tiền phụ trội điện nước tại thời điểm hủy phòng."
       }
     ]
   },
@@ -1003,7 +1003,7 @@
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Sinh viên không được phép tự ý chuyển giao hoặc đổi chỗ ở phòng Ký túc xá cho sinh viên khác. Trong trường hợp nếu có lý do, nguyện vọng chính đáng muốn được đổi phòng, sinh viên cần liên hệ với bộ phận Quản lý Ký túc xá để được xem xét."
       }
     ]
   },
@@ -1019,7 +1019,7 @@
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Sinh viên không được phép cho bạn bè từ phòng khác đến ngủ qua đêm tại phòng của mình trong Ký túc xá."
       }
     ]
   },
@@ -1035,7 +1035,7 @@
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Trong Ký túc xá, sinh viên không được phép nấu ăn. Cụ thể, sinh viên không được mang và sử dụng bếp điện, bếp ga hoặc dụng cụ nấu ăn trong phòng KTX. Nếu vi phạm quy định này, sinh viên sẽ bị xử phạt 500.000 VNĐ. Nếu vi phạm lần thứ hai, sinh viên có thể bị ngừng cung cấp dịch vụ ký túc xá."
       }
     ]
   },

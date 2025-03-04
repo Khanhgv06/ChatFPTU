@@ -1,0 +1,544 @@
+app:
+  description: ''
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  mode: advanced-chat
+  name: ChatFPTU
+  use_icon_as_answer_icon: false
+dependencies:
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/gemini:0.0.7@ffabebbd6af5ed2ce0003a0b36f279ff798342032476bc66a7bca52d43c8a0b7
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/ollama:0.0.3@9ded90ac00e8510119a24be7396ba77191c9610d5e1e29f59d68fa1229822fc7
+kind: app
+version: 0.1.5
+workflow:
+  conversation_variables:
+  - description: ''
+    id: 822d50c3-f2bc-41b2-8dd8-ec8f38c2da7f
+    name: map_base64
+    selector:
+    - conversation
+    - map_base64
+    value: ''
+    value_type: string
+  environment_variables: []
+  features:
+    file_upload:
+      allowed_file_extensions:
+      - .JPG
+      - .JPEG
+      - .PNG
+      - .GIF
+      - .WEBP
+      - .SVG
+      allowed_file_types:
+      - image
+      allowed_file_upload_methods:
+      - local_file
+      - remote_url
+      enabled: false
+      fileUploadConfig:
+        audio_file_size_limit: 50
+        batch_count_limit: 5
+        file_size_limit: 15
+        image_file_size_limit: 10
+        video_file_size_limit: 100
+        workflow_file_upload_limit: 10
+      image:
+        enabled: false
+        number_limits: 3
+        transfer_methods:
+        - local_file
+        - remote_url
+      number_limits: 3
+    opening_statement: ''
+    retriever_resource:
+      enabled: true
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    suggested_questions: []
+    suggested_questions_after_answer:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
+  graph:
+    edges:
+    - data:
+        isInIteration: false
+        sourceType: start
+        targetType: question-classifier
+      id: 1741093650726-source-1741093677897-target
+      source: '1741093650726'
+      sourceHandle: source
+      target: '1741093677897'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: question-classifier
+      id: 1741093677897-1-1741093928841-target
+      source: '1741093677897'
+      sourceHandle: '1'
+      target: '1741093928841'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: llm
+      id: 1741093677897-2-1741093933057-target
+      source: '1741093677897'
+      sourceHandle: '2'
+      target: '1741093933057'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: llm
+        targetType: answer
+      id: 1741093933057-source-1741093952994-target
+      source: '1741093933057'
+      sourceHandle: source
+      target: '1741093952994'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: knowledge-retrieval
+      id: 1741093928841-2-1741094008442-target
+      source: '1741093928841'
+      sourceHandle: '2'
+      target: '1741094008442'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: knowledge-retrieval
+        targetType: if-else
+      id: 1741094008442-source-1741094018705-target
+      source: '1741094008442'
+      sourceHandle: source
+      target: '1741094018705'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: if-else
+        targetType: answer
+      id: 1741094018705-true-1741094025744-target
+      source: '1741094018705'
+      sourceHandle: 'true'
+      target: '1741094025744'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: if-else
+        targetType: llm
+      id: 1741094018705-false-1741094035353-target
+      source: '1741094018705'
+      sourceHandle: 'false'
+      target: '1741094035353'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: llm
+        targetType: answer
+      id: 1741094035353-source-1741094038146-target
+      source: '1741094035353'
+      sourceHandle: source
+      target: '1741094038146'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: question-classifier
+      id: 1741093928841-1-1741096229050-target
+      source: '1741093928841'
+      sourceHandle: '1'
+      target: '1741096229050'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    nodes:
+    - data:
+        desc: ''
+        selected: false
+        title: Start
+        type: start
+        variables: []
+      height: 53
+      id: '1741093650726'
+      position:
+        x: 80
+        y: 282
+      positionAbsolute:
+        x: 80
+        y: 282
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        classes:
+        - id: '1'
+          name: FPT University
+        - id: '2'
+          name: Other
+        desc: ''
+        instructions: ''
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gemini-2.0-flash
+          provider: langgenius/gemini/google
+        query_variable_selector:
+        - '1741093650726'
+        - sys.query
+        selected: true
+        title: Question Classifier
+        topics: []
+        type: question-classifier
+        vision:
+          enabled: false
+      height: 167
+      id: '1741093677897'
+      position:
+        x: 383
+        y: 282
+      positionAbsolute:
+        x: 383
+        y: 282
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        classes:
+        - id: '1'
+          name: Building Location
+        - id: '2'
+          name: Other
+        desc: ''
+        instructions: ''
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gemini-2.0-flash
+          provider: langgenius/gemini/google
+        query_variable_selector:
+        - '1741093650726'
+        - sys.query
+        selected: false
+        title: Question Classifier 2
+        topics: []
+        type: question-classifier
+        vision:
+          enabled: false
+      height: 167
+      id: '1741093928841'
+      position:
+        x: 635.0726828482929
+        y: 171.52689664014295
+      positionAbsolute:
+        x: 635.0726828482929
+        y: 171.52689664014295
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        context:
+          enabled: false
+          variable_selector: []
+        desc: ''
+        memory:
+          query_prompt_template: '{{#sys.query#}}'
+          role_prefix:
+            assistant: ''
+            user: ''
+          window:
+            enabled: false
+            size: 50
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gemini-2.0-flash
+          provider: langgenius/gemini/google
+        prompt_template:
+        - id: e2931af0-afac-459c-8b48-ede494121742
+          role: system
+          text: ''
+        selected: false
+        title: LLM
+        type: llm
+        variables: []
+        vision:
+          configs:
+            detail: high
+            variable_selector:
+            - sys
+            - files
+          enabled: true
+      height: 89
+      id: '1741093933057'
+      position:
+        x: 686
+        y: 456
+      positionAbsolute:
+        x: 686
+        y: 456
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: '{{#1741093933057.text#}}'
+        desc: ''
+        selected: false
+        title: Answer
+        type: answer
+        variables: []
+      height: 101
+      id: '1741093952994'
+      position:
+        x: 989
+        y: 456
+      positionAbsolute:
+        x: 989
+        y: 456
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        dataset_ids:
+        - dd8f25bd-2828-4243-b684-f80fc1752f7d
+        desc: ''
+        multiple_retrieval_config:
+          reranking_enable: true
+          reranking_mode: weighted_score
+          top_k: 4
+          weights:
+            keyword_setting:
+              keyword_weight: 0.3
+            vector_setting:
+              embedding_model_name: mxbai-embed-large
+              embedding_provider_name: langgenius/ollama/ollama
+              vector_weight: 0.7
+        query_variable_selector:
+        - '1741093650726'
+        - sys.query
+        retrieval_mode: multiple
+        selected: false
+        title: Knowledge Retrieval
+        type: knowledge-retrieval
+      height: 91
+      id: '1741094008442'
+      position:
+        x: 989
+        y: 282
+      positionAbsolute:
+        x: 989
+        y: 282
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        cases:
+        - case_id: 'true'
+          conditions:
+          - comparison_operator: empty
+            id: 8090547c-10ce-4188-8f3b-b67360fb4bf9
+            value: ''
+            varType: array[object]
+            variable_selector:
+            - '1741094008442'
+            - result
+          id: 'true'
+          logical_operator: and
+        desc: ''
+        selected: false
+        title: IF/ELSE
+        type: if-else
+      height: 125
+      id: '1741094018705'
+      position:
+        x: 1292
+        y: 282
+      positionAbsolute:
+        x: 1292
+        y: 282
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: I apologize. My current knowledge database does not have the answer
+          to that question.
+        desc: ''
+        selected: false
+        title: Answer 2
+        type: answer
+        variables: []
+      height: 131
+      id: '1741094025744'
+      position:
+        x: 1624.4656564139614
+        y: 213.24680170075663
+      positionAbsolute:
+        x: 1624.4656564139614
+        y: 213.24680170075663
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1741094008442'
+          - result
+        desc: ''
+        memory:
+          query_prompt_template: '{{#sys.query#}}'
+          role_prefix:
+            assistant: ''
+            user: ''
+          window:
+            enabled: false
+            size: 50
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gemini-2.0-flash
+          provider: langgenius/gemini/google
+        prompt_template:
+        - id: 6523595c-22c0-4122-a27a-c774da5aae41
+          role: system
+          text: '{{#context#}}'
+        selected: false
+        title: LLM 2
+        type: llm
+        variables: []
+        vision:
+          configs:
+            detail: high
+            variable_selector:
+            - sys
+            - files
+          enabled: true
+      height: 89
+      id: '1741094035353'
+      position:
+        x: 1595
+        y: 404
+      positionAbsolute:
+        x: 1595
+        y: 404
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: '{{#1741094035353.text#}}'
+        desc: ''
+        selected: false
+        title: Answer 3
+        type: answer
+        variables: []
+      height: 101
+      id: '1741094038146'
+      position:
+        x: 1898
+        y: 404
+      positionAbsolute:
+        x: 1898
+        y: 404
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        classes:
+        - id: '1'
+          name: Alpha
+        - id: '2'
+          name: Beta
+        - id: '1741096238323'
+          name: Delta
+        - id: '1741096242098'
+          name: Epsilon
+        - id: '1741096247073'
+          name: Gamma
+        - id: '1741096380290'
+          name: Other
+        desc: ''
+        instructions: ''
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gemini-2.0-flash
+          provider: langgenius/gemini/google
+        query_variable_selector:
+        - '1741093650726'
+        - sys.query
+        selected: false
+        title: Question Classifier 3
+        topics: []
+        type: question-classifier
+        vision:
+          enabled: false
+      height: 311
+      id: '1741096229050'
+      position:
+        x: 1034.501941204045
+        y: -56.123971107214444
+      positionAbsolute:
+        x: 1034.501941204045
+        y: -56.123971107214444
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    viewport:
+      x: -472.9449341754656
+      y: 202.13311538057894
+      zoom: 0.6037402957432483

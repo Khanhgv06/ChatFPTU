@@ -549,23 +549,66 @@ Trong Ký túc xá, sinh viên không được phép nấu ăn. Cụ thể, sinh
 
 ## Q: Có được phép nuôi các loại vật nuôi trong Ký túc xá?
 **A:**  
-
+Theo nội quy Ký túc xá, sinh viên không được đem và nuôi các loại chim, thú trong KTX. Việc này nhằm đảm bảo môi trường sống sạch sẽ và an toàn cho tất cả cư dân trong ký túc xá.
 
 ## Q: Các thiết bị được phép mang vào Ký túc xá?
 **A:**  
+Sinh viên được phép mang vào Ký túc xá các thiết bị sau:
 
+    Tivi
+    Tủ lạnh (dung tích dưới 110L/phòng)
+    Quạt điện
+    Bàn là
+    Ấm điện
+    Đèn học
+
+Nếu sinh viên muốn mang các thiết bị khác vào sử dụng tại Ký túc xá, cần phải được sự đồng ý của bộ quận quản lý KTX.
 
 ## Q: Cách thức xin cấp giấy xác nhận sinh viên?
 **A:**  
+Để xin cấp giấy xác nhận sinh viên, sinh viên cần thực hiện các bước sau:
 
+    Đăng nhập vào hệ thống: Truy cập vào trang web fap.fpt.edu.vn.
+    Chọn mục Thủ tục/Đơn từ: Tìm và chọn mục "Xin xác nhận sinh viên".
+    Lựa chọn loại xác nhận: Chọn loại xác nhận mà bạn cần.
+    Trình bày mục đích: Nhập chính xác mục đích xin cấp giấy xác nhận.
+    Cập nhật thông tin địa chỉ: Nhập chính xác thông tin địa chỉ vào ô cập nhật địa chỉ.
+    Gửi đơn và thanh toán lệ phí: Nhấn "Send" và thanh toán lệ phí trong vòng 10 phút.
+
+Lệ phí
+
+    Lệ phí cấp giấy xác nhận sinh viên: 20.000đ/lần.
+
+Theo dõi đơn
+
+Sau khi gửi đơn thành công, sinh viên có thể theo dõi tình trạng xử lý tại mục View application (Xem đơn) trong vòng 1-2 ngày làm việc.
+
+Video hướng dẫn đăng ký giấy Xác nhận sinh viên (https://www.youtube.com/watch?v=Q2LYPlc3554)
 
 ## Q: Cách thức xin cấp Bảng điểm quá trình?
 **A:**  
+Để xin cấp Bảng điểm quá trình, sinh viên cần thực hiện các bước sau:
 
+    Truy cập trang web: fap.fpt.edu.vn.
+    Vào mục Send application (Gửi đơn).
+    Chọn Đề nghị cấp bảng điểm quá trình.
+    Điền thông tin theo yêu cầu.
+    Thanh toán phí dịch vụ trong vòng 10 phút (phí dịch vụ là 100,000 đồng/lần).
+    Sau khi gửi đơn thành công, sinh viên sẽ theo dõi tại mục View application (Xem đơn) để nhận phản hồi của bộ phận xử lý trong vòng 1-2 ngày làm việc.
+
+Lưu ý: Mỗi lần xin cấp tối đa 5 bản Bảng điểm quá trình.
 
 ## Q: Cách đăng ký làm lại thẻ sinh viên?
 **A:**  
+Để đăng ký làm lại thẻ sinh viên, sinh viên cần thực hiện các bước sau:
 
+    Liên hệ với Phòng Dịch vụ sinh viên: Sinh viên vui lòng đến phòng Dịch vụ sinh viên tại cơ sở mình đang học tập để được hướng dẫn thủ tục chi tiết.
+
+    Nộp phí làm lại thẻ: Mức phí để làm lại thẻ sinh viên là 100,000 đồng.
+
+    Lưu ý: Sinh viên không bắt buộc phải làm thẻ sinh viên, vì có thể sử dụng Căn cước công dân hoặc app VNeID (định danh mức 2) để sử dụng cho các dịch vụ tại Trường. Đồng thời, thẻ sinh viên không thuộc các loại giấy tờ có thể sử dụng khi vào phòng thi.
+
+Nếu cần thêm thông tin, sinh viên có thể tham khảo quy định tài chính năm học 2024-2025.
 
 ## Q: Thời gian đăng ký mua BHYT ?
 **A:**  

@@ -1051,7 +1051,7 @@
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Theo nội quy Ký túc xá, sinh viên không được đem và nuôi các loại chim, thú trong Ký túc xá. Việc này nhằm đảm bảo môi trường sống sạch sẽ và an toàn cho tất cả cư dân trong ký túc xá."
       }
     ]
   },
@@ -1067,7 +1067,16 @@
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Sinh viên được phép mang vào Ký túc xá (KTX) các thiết bị sau:
+
+    Tivi
+    Tủ lạnh (dung tích dưới 110L/phòng)
+    Quạt điện
+    Bàn là
+    Ấm điện
+    Đèn học
+
+Nếu sinh viên muốn mang các thiết bị khác vào sử dụng tại KTX, cần phải được sự đồng ý của bộ quận quản lý KTX."
       }
     ]
   },
@@ -1083,7 +1092,22 @@
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Để xin cấp giấy xác nhận sinh viên, sinh viên cần thực hiện các bước sau:
+
+    Đăng nhập vào hệ thống: Truy cập vào trang web fap.fpt.edu.vn.
+    Chọn mục Thủ tục/Đơn từ: Tìm và chọn mục Xin xác nhận sinh viên.
+    Lựa chọn loại xác nhận: Chọn loại xác nhận phù hợp với mục đích của bạn.
+    Trình bày mục đích: Nhập chính xác thông tin về mục đích xin xác nhận.
+    Cập nhật thông tin địa chỉ: Nhập chính xác địa chỉ vào ô cập nhật địa chỉ.
+    Gửi đơn và thanh toán lệ phí: Nhấn Send và thanh toán lệ phí trong vòng 10 phút.
+
+Lệ phí
+
+    Lệ phí cấp giấy xác nhận sinh viên: 20.000đ/lần.
+
+Theo dõi tình trạng đơn
+
+Sau khi gửi đơn thành công, sinh viên có thể theo dõi tại mục View application (Xem đơn) để nhận phản hồi của bộ phận xử lý trong vòng 1-2 ngày làm việc."
       }
     ]
   },
@@ -1099,7 +1123,16 @@
       },
       {
         "role": "assistant",
-        "content": ""
+        "content": "Để xin cấp bảng điểm quá trình, sinh viên cần thực hiện các bước sau:
+
+    Truy cập trang web: fap.fpt.edu.vn.
+    Vào mục Send application (Gửi đơn).
+    Chọn Đề nghị cấp bảng điểm quá trình.
+    Điền thông tin theo yêu cầu.
+    Thanh toán phí dịch vụ trong vòng 10 phút (phí dịch vụ là 100,000 đồng/lần).
+    Sau khi gửi đơn thành công, sinh viên sẽ theo dõi tại mục View application (Xem đơn) để nhận phản hồi của bộ phận xử lý trong vòng 1-2 ngày làm việc.
+
+Lưu ý: Mỗi lần xin cấp bảng điểm quá trình, sinh viên có thể yêu cầu tối đa 5 bản."
       }
     ]
   },

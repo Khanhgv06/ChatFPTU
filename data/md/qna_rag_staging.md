@@ -965,11 +965,11 @@ Sự khác biệt của Tổ chức giáo dục FPT là đổi mới sáng tạo
 ## Q: Giới thiệu về đại học FPT?
 **A:**
 
-### Lịch sử hình thành
+● Lịch sử hình thành
 
 Đại học FPT được thành lập ngày 8/9/2006 theo Quyết định số 208/2006/QĐ-TTg của Thủ tướng Chính phủ và hoạt động theo Quy chế tổ chức và hoạt động của Trường Đại học tư thục theo Quyết định số 61/2009/QĐ-TTg ban hành ngày 17/4/2009 của Chính phủ.
 
-### Ban lãnh đạo Đại học FPT
+● Ban lãnh đạo Đại học FPT
 
 - -Chủ tịch HĐQT - TS. Lê Trường Tùng
 - -Hiệu trưởng - TS. Nguyễn Khắc Thành
@@ -979,19 +979,19 @@ Sự khác biệt của Tổ chức giáo dục FPT là đổi mới sáng tạo
 - + ThS. Nguyễn Xuân Phong - Phụ trách cơ sở đào tạo FPT Cần Thơ
 - + TS. Nguyễn Kim Ánh - Phụ trách nghiên cứu phát triển và Chương trình Đào tạo
 
-### Đại học FPT cơ sở Hà Nội
+- Đại học FPT cơ sở Hà Nội
 
-#### Trụ sở
+● Trụ sở
 
 Đại học FPT cơ sở Hà Nội có trụ sở đầu tiên tại Tòa nhà Detech, số 8 Tôn Thất Thuyết, Mỹ Đình, Từ Liêm, Hà Nội. Từ tháng 5/2012, campus Hòa Lạc tại Khu Công nghệ cao Hòa Lạc, xã Thạch Hòa, huyện Thạch Thất, Hà Nội - chính thức đi vào hoạt động và dần trở thành trụ sở chính của trường Đại học FPT.
 
-#### Quy mô
+● Quy mô
 
 Campus Hòa Lạc hiện có diện tích đi vào sử dụng là 14ha, với khuôn viên gồm 4 tòa nhà Giảng đường, 8 Ký túc xá, 3 sân bóng đá, 1 sân street workout, 1 sân đa năng, nhà tập Vovinam, sân băng, sân bóng rổ, sân bóng chuyền,…kèm hệ thống cây xanh phủ kín khuôn viên.
 Các dịch vụ tiện ích gồm có: Nhà ăn, siêu thị, nhà hàng, quán Café, phòng tập Gym, dịch vụ giặt là…
 Phòng học được trang bị hiện đại, tận dụng tối đa nguồn sáng tự nhiên. Mạng wifi phủ sóng toàn bộ khu vực giảng đường và ký túc xá.
 
-#### Ngành đào tạo
+● Ngành đào tạo
 
 |   STT | Ngành đào tạo       | Chuyên ngành                                                                                                  |
 |-------|---------------------|---------------------------------------------------------------------------------------------------------------|
@@ -1002,13 +1002,13 @@ Phòng học được trang bị hiện đại, tận dụng tối đa nguồn s
 |     2 | Quản trị kinh doanh | Tài chính Quản trị khách sạn                                                                                  |
 |     3 | Ngôn ngữ Anh        |                                                                                                               |
 
-#### Cơ cấu tổ chức:
+● Cơ cấu tổ chức:
 
 - ● Giám đốc cơ sở đào tạo: TS. Nguyễn Khắc Thành
 - ● Phó Giám đốc cơ sở đào tạo: TS. Tạ Ngọc Cầu
 - ● Ban Đào tạo: Trưởng ban: Ths. Phan Trường Lâm
 
-#### ● Các bộ môn:
+● Các bộ môn:
 
 |   STT | Tên bộ môn                            | Tên Chủ nhiệm bộ môn      |
 |-------|---------------------------------------|---------------------------|
@@ -1026,7 +1026,7 @@ Phòng học được trang bị hiện đại, tận dụng tối đa nguồn s
 |    12 | Traditional Instrument                | Ths: Nguyễn Thu Thủy      |
 |    13 | Multimedia Communication              | TS. Phạm Bình Dương       |
 
-#### ● Các phòng ban chức năng:
+● Các phòng ban chức năng:
 
 |   STT | Tên phòng ban                                 | Tên Trưởng phòng       |
 |-------|-----------------------------------------------|------------------------|

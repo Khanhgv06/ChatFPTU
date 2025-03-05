@@ -9,11 +9,11 @@ dependencies:
 - current_identifier: null
   type: marketplace
   value:
-    marketplace_plugin_unique_identifier: langgenius/gemini:0.0.7@ffabebbd6af5ed2ce0003a0b36f279ff798342032476bc66a7bca52d43c8a0b7
+    marketplace_plugin_unique_identifier: langgenius/ollama:0.0.3@9ded90ac00e8510119a24be7396ba77191c9610d5e1e29f59d68fa1229822fc7
 - current_identifier: null
   type: marketplace
   value:
-    marketplace_plugin_unique_identifier: langgenius/ollama:0.0.3@9ded90ac00e8510119a24be7396ba77191c9610d5e1e29f59d68fa1229822fc7
+    marketplace_plugin_unique_identifier: langgenius/gemini:0.0.8@420e755f870062b3da528617d2c0439a599ce1cbbb00645492c3bdb2b360afb6
 kind: app
 version: 0.1.5
 workflow:
@@ -74,72 +74,6 @@ workflow:
     edges:
     - data:
         isInIteration: false
-        sourceType: start
-        targetType: question-classifier
-      id: 1741093650726-source-1741093677897-target
-      source: '1741093650726'
-      sourceHandle: source
-      target: '1741093677897'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: question-classifier
-        targetType: question-classifier
-      id: 1741093677897-1-1741093928841-target
-      source: '1741093677897'
-      sourceHandle: '1'
-      target: '1741093928841'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: question-classifier
-        targetType: llm
-      id: 1741093677897-2-1741093933057-target
-      source: '1741093677897'
-      sourceHandle: '2'
-      target: '1741093933057'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: llm
-        targetType: answer
-      id: 1741093933057-source-1741093952994-target
-      source: '1741093933057'
-      sourceHandle: source
-      target: '1741093952994'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: question-classifier
-        targetType: knowledge-retrieval
-      id: 1741093928841-2-1741094008442-target
-      source: '1741093928841'
-      sourceHandle: '2'
-      target: '1741094008442'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: knowledge-retrieval
-        targetType: if-else
-      id: 1741094008442-source-1741094018705-target
-      source: '1741094008442'
-      sourceHandle: source
-      target: '1741094018705'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
         sourceType: if-else
         targetType: answer
       id: 1741094018705-true-1741094025744-target
@@ -182,6 +116,116 @@ workflow:
       targetHandle: target
       type: custom
       zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: knowledge-retrieval
+      id: 1741093928841-2-1741152497916-target
+      source: '1741093928841'
+      sourceHandle: '2'
+      target: '1741152497916'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: knowledge-retrieval
+        targetType: if-else
+      id: 1741152497916-source-1741094018705-target
+      source: '1741152497916'
+      sourceHandle: source
+      target: '1741094018705'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: start
+        targetType: question-classifier
+      id: 1741093650726-source-1741093928841-target
+      source: '1741093650726'
+      sourceHandle: source
+      target: '1741093928841'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: http-request
+      id: 1741096229050-1-1741152913235-target
+      source: '1741096229050'
+      sourceHandle: '1'
+      target: '1741152913235'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: http-request
+      id: 1741096229050-2-1741152913235-target
+      source: '1741096229050'
+      sourceHandle: '2'
+      target: '1741152913235'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: http-request
+      id: 1741096229050-1741096238323-1741152913235-target
+      source: '1741096229050'
+      sourceHandle: '1741096238323'
+      target: '1741152913235'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: http-request
+      id: 1741096229050-1741096242098-1741152913235-target
+      source: '1741096229050'
+      sourceHandle: '1741096242098'
+      target: '1741152913235'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: http-request
+      id: 1741096229050-1741096247073-1741152913235-target
+      source: '1741096229050'
+      sourceHandle: '1741096247073'
+      target: '1741152913235'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: http-request
+      id: 1741096229050-1741096380290-1741152913235-target
+      source: '1741096229050'
+      sourceHandle: '1741096380290'
+      target: '1741152913235'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: http-request
+        targetType: answer
+      id: 1741152913235-source-1741152628571-target
+      source: '1741152913235'
+      sourceHandle: source
+      target: '1741152628571'
+      targetHandle: target
+      type: custom
+      zIndex: 0
     nodes:
     - data:
         desc: ''
@@ -192,47 +236,12 @@ workflow:
       height: 53
       id: '1741093650726'
       position:
-        x: 80
-        y: 282
+        x: 161.7575423171685
+        y: 241.77009822488537
       positionAbsolute:
-        x: 80
-        y: 282
-      sourcePosition: right
-      targetPosition: left
-      type: custom
-      width: 243
-    - data:
-        classes:
-        - id: '1'
-          name: FPT University
-        - id: '2'
-          name: Other
-        desc: ''
-        instructions: ''
-        model:
-          completion_params:
-            temperature: 0.7
-          mode: chat
-          name: gemini-2.0-flash
-          provider: langgenius/gemini/google
-        query_variable_selector:
-        - '1741093650726'
-        - sys.query
-        selected: true
-        title: Question Classifier
-        topics: []
-        type: question-classifier
-        vision:
-          enabled: false
-      height: 167
-      id: '1741093677897'
-      position:
-        x: 383
-        y: 282
-      positionAbsolute:
-        x: 383
-        y: 282
-      selected: true
+        x: 161.7575423171685
+        y: 241.77009822488537
+      selected: false
       sourcePosition: right
       targetPosition: left
       type: custom
@@ -274,107 +283,6 @@ workflow:
       type: custom
       width: 243
     - data:
-        context:
-          enabled: false
-          variable_selector: []
-        desc: ''
-        memory:
-          query_prompt_template: '{{#sys.query#}}'
-          role_prefix:
-            assistant: ''
-            user: ''
-          window:
-            enabled: false
-            size: 50
-        model:
-          completion_params:
-            temperature: 0.7
-          mode: chat
-          name: gemini-2.0-flash
-          provider: langgenius/gemini/google
-        prompt_template:
-        - id: e2931af0-afac-459c-8b48-ede494121742
-          role: system
-          text: ''
-        selected: false
-        title: LLM
-        type: llm
-        variables: []
-        vision:
-          configs:
-            detail: high
-            variable_selector:
-            - sys
-            - files
-          enabled: true
-      height: 89
-      id: '1741093933057'
-      position:
-        x: 686
-        y: 456
-      positionAbsolute:
-        x: 686
-        y: 456
-      selected: false
-      sourcePosition: right
-      targetPosition: left
-      type: custom
-      width: 243
-    - data:
-        answer: '{{#1741093933057.text#}}'
-        desc: ''
-        selected: false
-        title: Answer
-        type: answer
-        variables: []
-      height: 101
-      id: '1741093952994'
-      position:
-        x: 989
-        y: 456
-      positionAbsolute:
-        x: 989
-        y: 456
-      sourcePosition: right
-      targetPosition: left
-      type: custom
-      width: 243
-    - data:
-        dataset_ids:
-        - dd8f25bd-2828-4243-b684-f80fc1752f7d
-        desc: ''
-        multiple_retrieval_config:
-          reranking_enable: true
-          reranking_mode: weighted_score
-          top_k: 4
-          weights:
-            keyword_setting:
-              keyword_weight: 0.3
-            vector_setting:
-              embedding_model_name: mxbai-embed-large
-              embedding_provider_name: langgenius/ollama/ollama
-              vector_weight: 0.7
-        query_variable_selector:
-        - '1741093650726'
-        - sys.query
-        retrieval_mode: multiple
-        selected: false
-        title: Knowledge Retrieval
-        type: knowledge-retrieval
-      height: 91
-      id: '1741094008442'
-      position:
-        x: 989
-        y: 282
-      positionAbsolute:
-        x: 989
-        y: 282
-      selected: false
-      sourcePosition: right
-      targetPosition: left
-      type: custom
-      width: 243
-    - data:
         cases:
         - case_id: 'true'
           conditions:
@@ -383,7 +291,7 @@ workflow:
             value: ''
             varType: array[object]
             variable_selector:
-            - '1741094008442'
+            - '1741152497916'
             - result
           id: 'true'
           logical_operator: and
@@ -429,7 +337,7 @@ workflow:
         context:
           enabled: true
           variable_selector:
-          - '1741094008442'
+          - '1741152497916'
           - result
         desc: ''
         memory:
@@ -538,7 +446,101 @@ workflow:
       targetPosition: left
       type: custom
       width: 243
+    - data:
+        dataset_ids:
+        - 4a60dec3-cd55-447a-bdad-0d276249abbe
+        desc: ''
+        multiple_retrieval_config:
+          reranking_enable: true
+          reranking_mode: weighted_score
+          top_k: 4
+          weights:
+            keyword_setting:
+              keyword_weight: 0.3
+            vector_setting:
+              embedding_model_name: mxbai-embed-large
+              embedding_provider_name: langgenius/ollama/ollama
+              vector_weight: 0.7
+        query_variable_selector:
+        - '1741093650726'
+        - sys.query
+        retrieval_mode: multiple
+        selected: false
+        title: Knowledge Retrieval
+        type: knowledge-retrieval
+      height: 91
+      id: '1741152497916'
+      position:
+        x: 1034.501941204045
+        y: 293.87602889278554
+      positionAbsolute:
+        x: 1034.501941204045
+        y: 293.87602889278554
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: 'Please consult the map
+
+          {{#1741152913235.files#}}'
+        desc: ''
+        selected: false
+        title: Answer 4
+        type: answer
+        variables: []
+      height: 117
+      id: '1741152628571'
+      position:
+        x: 1837.7582337788008
+        y: -34.06241206924834
+      positionAbsolute:
+        x: 1837.7582337788008
+        y: -34.06241206924834
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        authorization:
+          config: null
+          type: no-auth
+        body:
+          data: []
+          type: none
+        desc: ''
+        headers: ''
+        method: get
+        params: ''
+        retry_config:
+          max_retries: 3
+          retry_enabled: true
+          retry_interval: 100
+        selected: false
+        timeout:
+          max_connect_timeout: 0
+          max_read_timeout: 0
+          max_write_timeout: 0
+        title: HTTP Request
+        type: http-request
+        url: https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/456783036_901803835311214_6540626638198645520_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=PLSYf32yHhMQ7kNvgGcE_A_&_nc_oc=AdjY-HAVdHGq_2SrQkXJOlt7V2k__c5aoly_Y09DBc83PI6JZsC12BD9854RA8nMAbU&_nc_zt=23&_nc_ht=scontent.fhan2-3.fna&_nc_gid=A_3NP7BKwUEiULVlV1hn0LR&oh=00_AYBh83ETBSZ68ZB009KGTSTvg-lu4kdM2VYt6yOJ_RmL5Q&oe=67CDA6A0
+        variables: []
+      height: 342
+      id: '1741152913235'
+      position:
+        x: 1373.226094064287
+        y: -110.66523300201419
+      positionAbsolute:
+        x: 1373.226094064287
+        y: -110.66523300201419
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
     viewport:
-      x: -472.9449341754656
-      y: 202.13311538057894
-      zoom: 0.6037402957432483
+      x: -537.1683533298053
+      y: 270.27543125110356
+      zoom: 0.770571108358408

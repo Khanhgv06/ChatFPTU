@@ -1,7 +1,1 @@
-fastapi
-uvicorn
-langchain
-langchain-core
-langchain-community
-langchain-ollama
-chromadb
+flask

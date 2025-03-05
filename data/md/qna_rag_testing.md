@@ -655,12 +655,101 @@ Tại Đại học FPT, các ngành đào tạo áp dụng cho K20 gồm có:
 
 Nếu bạn cần thêm thông tin chi tiết về từng ngành học, hãy tham khảo trang học liệu của trường tại flm.fpt.edu.vn.
 
-## Q: Hệ thống đánh giá ở Đại học FPT như thế nào?
-**A:**  
+## Q: Giới thiệu về tập đoàn FPT?
+**A:**
+Năm 1988, 13 nhà khoa học trẻ thành lập Công ty FPT với mong muốn xây dựng 'Một tổ chức kiểu mới, giàu mạnh bằng nỗ lực lao động sáng tạo trong khoa học kỹ thuật và công nghệ, làm khách hàng hài lòng, góp phần hưng thịnh quốc gia, đem lại cho mỗi thành viên của mình điều kiện phát triển đầy đủ nhất về tài năng và một cuộc sống đầy đủ về vật chất, phong phú về tinh thần'.
+Không ngừng đổi mới, liên tục sáng tạo và luôn tiên phong mang lại cho khách hàng các sản phẩm/ giải pháp/ dịch vụ công nghệ tối ưu nhất đã giúp FPT phát triển mạnh mẽ trong những năm qua. FPT trở thành công ty CNTT-VT lớn nhất trong khu vực kinh tế tư nhân của Việt Nam với hơn 30.600 cán bộ nhân viên, trong đó có 17.700 kỹ sư CNTT, lập trình viên, chuyên gia công nghệ. Đồng thời, FPT cũng là doanh nghiệp dẫn đầu trong các lĩnh vực: Xuất khẩu phần mềm; Tích hợp hệ thống; Phát triển phần mềm; Dịch vụ CNTT; Phân phối sản phẩm công nghệ tại Việt Nam. Hầu hết các hệ thống thông tin lớn trong các cơ quan nhà nước và các ngành kinh tế trọng điểm của Việt Nam đều do FPT xây dựng và phát triển.
+Không chỉ cung cấp sản phẩm, dịch vụ tại 63/63 tỉnh thành của Việt Nam, FPT đã mở rộng hoạt động ra thị trường toàn cầu với hệ thống 48 văn phòng tại 26 quốc gia và vùng lãnh thổ bên ngoài Việt Nam.
+Vị thế của FPT trên toàn cầu đã được công nhận và khẳng định thông qua danh sách khách hàng gồm hơn 450 doanh nghiệp lớn trên thế giới, đặc biệt trong đó có trên 100 khách hàng nằm trong danh sách Fortune Global 500. Một số tên tuổi khách hàng lớn có thể kể đến Toshiba, Hitachi, Nissen, Deutsche Bank, Unilever, Panasonic... FPT cũng nhận được chứng chỉ đối tác cấp cao nhất của các nhà cung cấp lớn trên thế giới như Cisco, IBM, Microsoft, Oracle, SAP, Dell, Juniper, Amazon Web Services...
+Trong năm 2019, FPT nằm trong top 300 doanh nghiệp hàng đầu Châu Á do Nikkei Asian Review bình chọn. Năm 2020, FPT được Asean Corporate Governance xếp vào top 3 doanh nghiệp niêm yết của Việt Nam được đánh giá cao về quản trị công ty.
 
+## Q: Giới thiệu về tổ chức giáo dục FPT?
+**A:**
+Được thành lập năm 1999, trải qua 22 năm hình thành - xây dựng - phát triển, Tổ chức giáo dục FPT đã trở thành hệ thống giáo dục lớn của Việt Nam, gồm các hệ giáo dục đào tạo Tiểu học và THCS, THPT, Cao đẳng, Đại học, sau Đại học, đào tạo nghề, đào tạo dành cho khối doanh nghiệp… và các dự án ươm tạo. Hiện tổ chức giáo dục FPT đã đạt quy mô hơn 100.000 học sinh, sinh viên, học viên ở tất cả các hệ đào tạo trên cả nước.
+Trường Đại học FPT xác định nền tảng phát triển dựa trên quan điểm 5 tốt nhằm đạt được Sứ mạng, Tầm nhìn, Triết lý giáo dục: (1) Đào tạo tốt, (2) Quan hệ doanh nghiệp tốt, (3) Quốc tế hóa - Toàn cầu hóa tốt, (4) Nghiên cứu khoa học tốt, (5) Quan hệ cộng đồng tốt.
+Sứ mệnh của Tổ chức giáo dục FPT (FPT Education) là cung cấp năng lực cạnh tranh toàn cầu cho đông đảo người học, góp phần mở mang bờ cõi trí tuệ đất nước.
+Với định hướng iGSM - [Industry Relevant - Global - Smart Education - Mega], Tổ chức Giáo dục FPT kỳ vọng đưa giáo dục Việt Nam cạnh tranh trên tầm khu vực và thế giới.
+Triết lý giáo dục của Trường đại học FPT là 'Giáo dục đào tạo là tổ chức và quản trị việc tự học của người học'. Người học được đào tạo toàn diện, học xong có thể làm việc được ngay trong môi trường toàn cầu.
+Sự khác biệt của Tổ chức giáo dục FPT là đổi mới sáng tạo, đào tạo theo hình thức liên kết chặt chẽ với các doanh nghiệp CNTT, gắn đào tạo với thực tiễn, với nghiên cứu - triển khai và các công nghệ hiện đại nhất.
 
-## Q: Làm sao để truy cập các tạp chí học thuật và bài báo nghiên cứu tại Đại học FPT?
-**A:**  
+## Q: Giới thiệu về đại học FPT?
+**A:**
+● Lịch sử hình thành
+
+Đại học FPT được thành lập ngày 8/9/2006 theo Quyết định số 208/2006/QĐ-TTg của Thủ tướng Chính phủ và hoạt động theo Quy chế tổ chức và hoạt động của Trường Đại học tư thục theo Quyết định số 61/2009/QĐ-TTg ban hành ngày 17/4/2009 của Chính phủ.
+
+● Ban lãnh đạo Đại học FPT
+
+- -Chủ tịch HĐQT - TS. Lê Trường Tùng
+- -Hiệu trưởng - TS. Nguyễn Khắc Thành
+- -Phó Hiệu trưởng:
+- + TS. Trần Ngọc Tuấn - Phụ trách cơ sở đào tạo FPT TP.HCM & FPT Đà Nẵng
+- + TS. Nguyễn Việt Thắng - Phụ trách Viện Quản trị kinh doanh và Công nghệ
+- + ThS. Nguyễn Xuân Phong - Phụ trách cơ sở đào tạo FPT Cần Thơ
+- + TS. Nguyễn Kim Ánh - Phụ trách nghiên cứu phát triển và Chương trình Đào tạo
+
+- Đại học FPT cơ sở Hà Nội
+
+● Trụ sở
+
+Đại học FPT cơ sở Hà Nội có trụ sở đầu tiên tại Tòa nhà Detech, số 8 Tôn Thất Thuyết, Mỹ Đình, Từ Liêm, Hà Nội. Từ tháng 5/2012, campus Hòa Lạc tại Khu Công nghệ cao Hòa Lạc, xã Thạch Hòa, huyện Thạch Thất, Hà Nội - chính thức đi vào hoạt động và dần trở thành trụ sở chính của trường Đại học FPT.
+
+● Quy mô
+
+Campus Hòa Lạc hiện có diện tích đi vào sử dụng là 14ha, với khuôn viên gồm 4 tòa nhà Giảng đường, 8 Ký túc xá, 3 sân bóng đá, 1 sân street workout, 1 sân đa năng, nhà tập Vovinam, sân băng, sân bóng rổ, sân bóng chuyền,…kèm hệ thống cây xanh phủ kín khuôn viên.
+Các dịch vụ tiện ích gồm có: Nhà ăn, siêu thị, nhà hàng, quán Café, phòng tập Gym, dịch vụ giặt là…
+Phòng học được trang bị hiện đại, tận dụng tối đa nguồn sáng tự nhiên. Mạng wifi phủ sóng toàn bộ khu vực giảng đường và ký túc xá.
+
+● Ngành đào tạo
+
+|   STT | Ngành đào tạo       | Chuyên ngành                                                                                                  |
+|-------|---------------------|---------------------------------------------------------------------------------------------------------------|
+|     1 | Công nghệ thông tin | Kỹ thuật phần mềm An toàn thông tin Trí tuệ nhân tạo Internet vạn vật Hệ thống thông tin Thiết kế mỹ thuật số |
+|     2 | Quản trị kinh doanh | Digital Marketing                                                                                             |
+|     2 | Quản trị kinh doanh | Kinh doanh quốc tế                                                                                            |
+|     2 | Quản trị kinh doanh | Quản trị truyền thông đa phương tiện                                                                          |
+|     2 | Quản trị kinh doanh | Tài chính Quản trị khách sạn                                                                                  |
+|     3 | Ngôn ngữ Anh        |                                                                                                               |
+
+● Cơ cấu tổ chức:
+
+- ● Giám đốc cơ sở đào tạo: TS. Nguyễn Khắc Thành
+- ● Phó Giám đốc cơ sở đào tạo: TS. Tạ Ngọc Cầu
+- ● Ban Đào tạo: Trưởng ban: Ths. Phan Trường Lâm
+
+● Các bộ môn:
+
+|   STT | Tên bộ môn                            | Tên Chủ nhiệm bộ môn      |
+|-------|---------------------------------------|---------------------------|
+|     1 | Computing Fundamental                 | Ths. Bùi Ngọc Anh         |
+|     2 | Software Engineering                  | Ths. Bùi Đình Chiến       |
+|     3 | Information Assurance                 | TS. Nguyễn Khắc Việt      |
+|     4 | Mathematics                           | TS. Đinh Thành Trung      |
+|     5 | Information Technology Specialization | TS. Phan Duy Hùng         |
+|     6 | English                               | Ths. Nguyễn Thị Quỳnh Hoa |
+|     7 | Japanese                              | Thầy Nguyễn Cường         |
+|     8 | Business Administration               | TS. Trịnh Trọng Hùng      |
+|     9 | Graphic Design                        | Ths. Trần Thị Lệ Quyên    |
+|    10 | Soft Skill                            | Ths. Trịnh Thị Mai        |
+|    11 | Physical training                     | Ths. Đỗ Kinh Kha          |
+|    12 | Traditional Instrument                | Ths: Nguyễn Thu Thủy      |
+|    13 | Multimedia Communication              | TS. Phạm Bình Dương       |
+
+● Các phòng ban chức năng:
+
+|   STT | Tên phòng ban                                 | Tên Trưởng phòng       |
+|-------|-----------------------------------------------|------------------------|
+|     1 | Tổ chức & Quản lý Đào tạo                     | Cô Phạm Thị Hường      |
+|     2 | Khảo Thí                                      | Cô Lê Thị Thanh Nga    |
+|     3 | Công tác sinh viên                            | Cô Phạm Tuyết Hạnh Hà  |
+|     4 | Hợp tác quốc tế & Phát triển cá nhân (IC-PDP) | Cô Nguyễn Hà Thành     |
+|     5 | Kế toán                                       | Cô Nguyễn Minh Thu     |
+|     6 | Hành Chính                                    | Cô Nguyễn Thúy Châm    |
+|     7 | Công nghệ thông tin                           | Thầy Lê Thanh Trúc     |
+|     8 | Trung tâm thông tin và Thư viện               | Thầy Nguyễn Tuấn Anh   |
+|     9 | Dịch vụ sinh viên                             | Cô Nguyễn Thị Thu Hằng |
+|    10 | Quan hệ doanh nghiệp và                       | Cô Vũ Thị Phương Thảo  |
+
 
 ## Q: Các kỳ thi cuối kỳ tại Đại học FPT như thế nào, và khi nào chúng được lên lịch?
 **A:**  
@@ -671,22 +760,8 @@ Thông tin cụ thể về lịch thi cuối kỳ, bao gồm phòng thi, ca thi,
 
 Để biết thêm thông tin chi tiết, sinh viên có thể tham khảo trên cổng thông tin hoặc ứng dụng MyFAP.
 
-## Q: Chính sách trung thực học thuật tại Đại học FPT là gì?
-**A:**  
-
-
-## Q: Tôi có thể thi lại kỳ thi hoặc môn học bị rớt không?
-**A:**  
-
-
-## Q: Làm sao để chuẩn bị cho một kỳ thi tổng hợp tại Đại học FPT?
-**A:**  
-
-
 ## Q: Thư viện của Đại học FPT ở đâu, và giờ mở cửa là bao lâu?
 **A:**  
-Thư viện của Đại học FPT có mặt tại nhiều cơ sở khác nhau. Dưới đây là thông tin cụ thể về địa điểm và giờ mở cửa của từng thư viện:
-
     Thư viện cơ sở Hòa Lạc:
         Địa điểm: Phòng 108, tòa nhà Delta, Trường Đại học FPT Hà Nội
         Giờ mở cửa:
@@ -717,6 +792,23 @@ Thư viện của Đại học FPT có mặt tại nhiều cơ sở khác nhau. 
             Thứ 2 đến Thứ 7: 07:00 – 19:00
 
 Thư viện Nhà trường cũng là khu vực tự học dành cho sinh viên, mở cửa cả buổi tối và cuối tuần để phục vụ nhu cầu tự học của sinh viên.
+
+## Q: Hệ thống đánh giá ở Đại học FPT như thế nào?
+**A:**  
+
+## Q: Làm sao để truy cập các tạp chí học thuật và bài báo nghiên cứu tại Đại học FPT?
+**A:**  
+
+## Q: Chính sách trung thực học thuật tại Đại học FPT là gì?
+**A:**  
+
+
+## Q: Tôi có thể thi lại kỳ thi hoặc môn học bị rớt không?
+**A:**  
+
+
+## Q: Làm sao để chuẩn bị cho một kỳ thi tổng hợp tại Đại học FPT?
+**A:**  
 
 ## Q: Tôi có thể tìm thấy đồ ăn ở đâu trong khuôn viên trường Đại học FPT, và có những lựa chọn ăn uống nào?
 **A:**  
@@ -945,101 +1037,7 @@ Thư viện Nhà trường cũng là khu vực tự học dành cho sinh viên, 
 ## Q: Làm sao để tôi hợp tác hiệu quả trong các dự án nhóm?
 **A:**  
 
-## Q: Giới thiệu về tập đoàn FPT?
-**A:**
-Năm 1988, 13 nhà khoa học trẻ thành lập Công ty FPT với mong muốn xây dựng 'Một tổ chức kiểu mới, giàu mạnh bằng nỗ lực lao động sáng tạo trong khoa học kỹ thuật và công nghệ, làm khách hàng hài lòng, góp phần hưng thịnh quốc gia, đem lại cho mỗi thành viên của mình điều kiện phát triển đầy đủ nhất về tài năng và một cuộc sống đầy đủ về vật chất, phong phú về tinh thần'.
-Không ngừng đổi mới, liên tục sáng tạo và luôn tiên phong mang lại cho khách hàng các sản phẩm/ giải pháp/ dịch vụ công nghệ tối ưu nhất đã giúp FPT phát triển mạnh mẽ trong những năm qua. FPT trở thành công ty CNTT-VT lớn nhất trong khu vực kinh tế tư nhân của Việt Nam với hơn 30.600 cán bộ nhân viên, trong đó có 17.700 kỹ sư CNTT, lập trình viên, chuyên gia công nghệ. Đồng thời, FPT cũng là doanh nghiệp dẫn đầu trong các lĩnh vực: Xuất khẩu phần mềm; Tích hợp hệ thống; Phát triển phần mềm; Dịch vụ CNTT; Phân phối sản phẩm công nghệ tại Việt Nam. Hầu hết các hệ thống thông tin lớn trong các cơ quan nhà nước và các ngành kinh tế trọng điểm của Việt Nam đều do FPT xây dựng và phát triển.
-Không chỉ cung cấp sản phẩm, dịch vụ tại 63/63 tỉnh thành của Việt Nam, FPT đã mở rộng hoạt động ra thị trường toàn cầu với hệ thống 48 văn phòng tại 26 quốc gia và vùng lãnh thổ bên ngoài Việt Nam.
-Vị thế của FPT trên toàn cầu đã được công nhận và khẳng định thông qua danh sách khách hàng gồm hơn 450 doanh nghiệp lớn trên thế giới, đặc biệt trong đó có trên 100 khách hàng nằm trong danh sách Fortune Global 500. Một số tên tuổi khách hàng lớn có thể kể đến Toshiba, Hitachi, Nissen, Deutsche Bank, Unilever, Panasonic... FPT cũng nhận được chứng chỉ đối tác cấp cao nhất của các nhà cung cấp lớn trên thế giới như Cisco, IBM, Microsoft, Oracle, SAP, Dell, Juniper, Amazon Web Services...
-Trong năm 2019, FPT nằm trong top 300 doanh nghiệp hàng đầu Châu Á do Nikkei Asian Review bình chọn. Năm 2020, FPT được Asean Corporate Governance xếp vào top 3 doanh nghiệp niêm yết của Việt Nam được đánh giá cao về quản trị công ty.
 
-## Q: Giới thiệu về tổ chức giáo dục FPT?
-**A:**
-Được thành lập năm 1999, trải qua 22 năm hình thành - xây dựng - phát triển, Tổ chức giáo dục FPT đã trở thành hệ thống giáo dục lớn của Việt Nam, gồm các hệ giáo dục đào tạo Tiểu học và THCS, THPT, Cao đẳng, Đại học, sau Đại học, đào tạo nghề, đào tạo dành cho khối doanh nghiệp… và các dự án ươm tạo. Hiện tổ chức giáo dục FPT đã đạt quy mô hơn 100.000 học sinh, sinh viên, học viên ở tất cả các hệ đào tạo trên cả nước.
-Trường Đại học FPT xác định nền tảng phát triển dựa trên quan điểm 5 tốt nhằm đạt được Sứ mạng, Tầm nhìn, Triết lý giáo dục: (1) Đào tạo tốt, (2) Quan hệ doanh nghiệp tốt, (3) Quốc tế hóa - Toàn cầu hóa tốt, (4) Nghiên cứu khoa học tốt, (5) Quan hệ cộng đồng tốt.
-Sứ mệnh của Tổ chức giáo dục FPT (FPT Education) là cung cấp năng lực cạnh tranh toàn cầu cho đông đảo người học, góp phần mở mang bờ cõi trí tuệ đất nước.
-Với định hướng iGSM - [Industry Relevant - Global - Smart Education - Mega], Tổ chức Giáo dục FPT kỳ vọng đưa giáo dục Việt Nam cạnh tranh trên tầm khu vực và thế giới.
-Triết lý giáo dục của Trường đại học FPT là 'Giáo dục đào tạo là tổ chức và quản trị việc tự học của người học'. Người học được đào tạo toàn diện, học xong có thể làm việc được ngay trong môi trường toàn cầu.
-Sự khác biệt của Tổ chức giáo dục FPT là đổi mới sáng tạo, đào tạo theo hình thức liên kết chặt chẽ với các doanh nghiệp CNTT, gắn đào tạo với thực tiễn, với nghiên cứu - triển khai và các công nghệ hiện đại nhất.
-
-## Q: Giới thiệu về đại học FPT?
-**A:**
-
-● Lịch sử hình thành
-
-Đại học FPT được thành lập ngày 8/9/2006 theo Quyết định số 208/2006/QĐ-TTg của Thủ tướng Chính phủ và hoạt động theo Quy chế tổ chức và hoạt động của Trường Đại học tư thục theo Quyết định số 61/2009/QĐ-TTg ban hành ngày 17/4/2009 của Chính phủ.
-
-● Ban lãnh đạo Đại học FPT
-
-- -Chủ tịch HĐQT - TS. Lê Trường Tùng
-- -Hiệu trưởng - TS. Nguyễn Khắc Thành
-- -Phó Hiệu trưởng:
-- + TS. Trần Ngọc Tuấn - Phụ trách cơ sở đào tạo FPT TP.HCM & FPT Đà Nẵng
-- + TS. Nguyễn Việt Thắng - Phụ trách Viện Quản trị kinh doanh và Công nghệ
-- + ThS. Nguyễn Xuân Phong - Phụ trách cơ sở đào tạo FPT Cần Thơ
-- + TS. Nguyễn Kim Ánh - Phụ trách nghiên cứu phát triển và Chương trình Đào tạo
-
-- Đại học FPT cơ sở Hà Nội
-
-● Trụ sở
-
-Đại học FPT cơ sở Hà Nội có trụ sở đầu tiên tại Tòa nhà Detech, số 8 Tôn Thất Thuyết, Mỹ Đình, Từ Liêm, Hà Nội. Từ tháng 5/2012, campus Hòa Lạc tại Khu Công nghệ cao Hòa Lạc, xã Thạch Hòa, huyện Thạch Thất, Hà Nội - chính thức đi vào hoạt động và dần trở thành trụ sở chính của trường Đại học FPT.
-
-● Quy mô
-
-Campus Hòa Lạc hiện có diện tích đi vào sử dụng là 14ha, với khuôn viên gồm 4 tòa nhà Giảng đường, 8 Ký túc xá, 3 sân bóng đá, 1 sân street workout, 1 sân đa năng, nhà tập Vovinam, sân băng, sân bóng rổ, sân bóng chuyền,…kèm hệ thống cây xanh phủ kín khuôn viên.
-Các dịch vụ tiện ích gồm có: Nhà ăn, siêu thị, nhà hàng, quán Café, phòng tập Gym, dịch vụ giặt là…
-Phòng học được trang bị hiện đại, tận dụng tối đa nguồn sáng tự nhiên. Mạng wifi phủ sóng toàn bộ khu vực giảng đường và ký túc xá.
-
-● Ngành đào tạo
-
-|   STT | Ngành đào tạo       | Chuyên ngành                                                                                                  |
-|-------|---------------------|---------------------------------------------------------------------------------------------------------------|
-|     1 | Công nghệ thông tin | Kỹ thuật phần mềm An toàn thông tin Trí tuệ nhân tạo Internet vạn vật Hệ thống thông tin Thiết kế mỹ thuật số |
-|     2 | Quản trị kinh doanh | Digital Marketing                                                                                             |
-|     2 | Quản trị kinh doanh | Kinh doanh quốc tế                                                                                            |
-|     2 | Quản trị kinh doanh | Quản trị truyền thông đa phương tiện                                                                          |
-|     2 | Quản trị kinh doanh | Tài chính Quản trị khách sạn                                                                                  |
-|     3 | Ngôn ngữ Anh        |                                                                                                               |
-
-● Cơ cấu tổ chức:
-
-- ● Giám đốc cơ sở đào tạo: TS. Nguyễn Khắc Thành
-- ● Phó Giám đốc cơ sở đào tạo: TS. Tạ Ngọc Cầu
-- ● Ban Đào tạo: Trưởng ban: Ths. Phan Trường Lâm
-
-● Các bộ môn:
-
-|   STT | Tên bộ môn                            | Tên Chủ nhiệm bộ môn      |
-|-------|---------------------------------------|---------------------------|
-|     1 | Computing Fundamental                 | Ths. Bùi Ngọc Anh         |
-|     2 | Software Engineering                  | Ths. Bùi Đình Chiến       |
-|     3 | Information Assurance                 | TS. Nguyễn Khắc Việt      |
-|     4 | Mathematics                           | TS. Đinh Thành Trung      |
-|     5 | Information Technology Specialization | TS. Phan Duy Hùng         |
-|     6 | English                               | Ths. Nguyễn Thị Quỳnh Hoa |
-|     7 | Japanese                              | Thầy Nguyễn Cường         |
-|     8 | Business Administration               | TS. Trịnh Trọng Hùng      |
-|     9 | Graphic Design                        | Ths. Trần Thị Lệ Quyên    |
-|    10 | Soft Skill                            | Ths. Trịnh Thị Mai        |
-|    11 | Physical training                     | Ths. Đỗ Kinh Kha          |
-|    12 | Traditional Instrument                | Ths: Nguyễn Thu Thủy      |
-|    13 | Multimedia Communication              | TS. Phạm Bình Dương       |
-
-● Các phòng ban chức năng:
-
-|   STT | Tên phòng ban                                 | Tên Trưởng phòng       |
-|-------|-----------------------------------------------|------------------------|
-|     1 | Tổ chức & Quản lý Đào tạo                     | Cô Phạm Thị Hường      |
-|     2 | Khảo Thí                                      | Cô Lê Thị Thanh Nga    |
-|     3 | Công tác sinh viên                            | Cô Phạm Tuyết Hạnh Hà  |
-|     4 | Hợp tác quốc tế & Phát triển cá nhân (IC-PDP) | Cô Nguyễn Hà Thành     |
-|     5 | Kế toán                                       | Cô Nguyễn Minh Thu     |
-|     6 | Hành Chính                                    | Cô Nguyễn Thúy Châm    |
-|     7 | Công nghệ thông tin                           | Thầy Lê Thanh Trúc     |
-|     8 | Trung tâm thông tin và Thư viện               | Thầy Nguyễn Tuấn Anh   |
-|     9 | Dịch vụ sinh viên                             | Cô Nguyễn Thị Thu Hằng |
-|    10 | Quan hệ doanh nghiệp và                       | Cô Vũ Thị Phương Thảo  |
 
 
 

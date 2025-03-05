@@ -1,15 +1,11 @@
 app:
-  description: ''
-  icon: f1a16c7e-0a40-47f5-be7d-0efb489bdab5
+  description: Staging ver
+  icon: 🤖
   icon_background: '#FFEAD5'
   mode: advanced-chat
   name: ChatFPTU_staging
   use_icon_as_answer_icon: false
 dependencies:
-- current_identifier: null
-  type: marketplace
-  value:
-    marketplace_plugin_unique_identifier: langgenius/ollama:0.0.3@9ded90ac00e8510119a24be7396ba77191c9610d5e1e29f59d68fa1229822fc7
 - current_identifier: null
   type: marketplace
   value:
@@ -74,67 +70,12 @@ workflow:
     edges:
     - data:
         isInIteration: false
-        sourceType: if-else
-        targetType: answer
-      id: 1741094018705-true-1741094025744-target
-      source: '1741094018705'
-      sourceHandle: 'true'
-      target: '1741094025744'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: if-else
-        targetType: llm
-      id: 1741094018705-false-1741094035353-target
-      source: '1741094018705'
-      sourceHandle: 'false'
-      target: '1741094035353'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: llm
-        targetType: answer
-      id: 1741094035353-source-1741094038146-target
-      source: '1741094035353'
-      sourceHandle: source
-      target: '1741094038146'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
         sourceType: question-classifier
         targetType: question-classifier
       id: 1741093928841-1-1741096229050-target
       source: '1741093928841'
       sourceHandle: '1'
       target: '1741096229050'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: question-classifier
-        targetType: knowledge-retrieval
-      id: 1741093928841-2-1741152497916-target
-      source: '1741093928841'
-      sourceHandle: '2'
-      target: '1741152497916'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: knowledge-retrieval
-        targetType: if-else
-      id: 1741152497916-source-1741094018705-target
-      source: '1741152497916'
-      sourceHandle: source
-      target: '1741094018705'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -229,11 +170,242 @@ workflow:
     - data:
         isInIteration: false
         sourceType: question-classifier
-        targetType: knowledge-retrieval
-      id: 1741096229050-1741157729097-1741152497916-target
+        targetType: answer
+      id: 1741096229050-1741157729097-1741182062462-target
       source: '1741096229050'
       sourceHandle: '1741157729097'
-      target: '1741152497916'
+      target: '1741182062462'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: question-classifier
+      id: 1741093928841-2-1741182458061-target
+      source: '1741093928841'
+      sourceHandle: '2'
+      target: '1741182458061'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: knowledge-retrieval
+      id: 1741182458061-1-1741182630844-target
+      source: '1741182458061'
+      sourceHandle: '1'
+      target: '1741182630844'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: knowledge-retrieval
+      id: 1741182458061-2-1741182639109-target
+      source: '1741182458061'
+      sourceHandle: '2'
+      target: '1741182639109'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: knowledge-retrieval
+      id: 1741182458061-1741182459909-1741182641918-target
+      source: '1741182458061'
+      sourceHandle: '1741182459909'
+      target: '1741182641918'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: knowledge-retrieval
+      id: 1741182458061-1741182460773-1741182644398-target
+      source: '1741182458061'
+      sourceHandle: '1741182460773'
+      target: '1741182644398'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: knowledge-retrieval
+      id: 1741182458061-1741182476205-1741182647613-target
+      source: '1741182458061'
+      sourceHandle: '1741182476205'
+      target: '1741182647613'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: knowledge-retrieval
+      id: 1741182458061-1741182477004-1741182650741-target
+      source: '1741182458061'
+      sourceHandle: '1741182477004'
+      target: '1741182650741'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: knowledge-retrieval
+      id: 1741182458061-1741182503347-1741182653157-target
+      source: '1741182458061'
+      sourceHandle: '1741182503347'
+      target: '1741182653157'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: knowledge-retrieval
+      id: 1741182458061-1741182508373-1741182655926-target
+      source: '1741182458061'
+      sourceHandle: '1741182508373'
+      target: '1741182655926'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: knowledge-retrieval
+        targetType: variable-aggregator
+      id: 1741182630844-source-1741182660932-target
+      source: '1741182630844'
+      sourceHandle: source
+      target: '1741182660932'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: knowledge-retrieval
+        targetType: variable-aggregator
+      id: 1741182639109-source-1741182660932-target
+      source: '1741182639109'
+      sourceHandle: source
+      target: '1741182660932'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: knowledge-retrieval
+        targetType: variable-aggregator
+      id: 1741182641918-source-1741182660932-target
+      source: '1741182641918'
+      sourceHandle: source
+      target: '1741182660932'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: knowledge-retrieval
+        targetType: variable-aggregator
+      id: 1741182644398-source-1741182660932-target
+      source: '1741182644398'
+      sourceHandle: source
+      target: '1741182660932'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: knowledge-retrieval
+        targetType: variable-aggregator
+      id: 1741182647613-source-1741182660932-target
+      source: '1741182647613'
+      sourceHandle: source
+      target: '1741182660932'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: knowledge-retrieval
+        targetType: variable-aggregator
+      id: 1741182650741-source-1741182660932-target
+      source: '1741182650741'
+      sourceHandle: source
+      target: '1741182660932'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: knowledge-retrieval
+        targetType: variable-aggregator
+      id: 1741182653157-source-1741182660932-target
+      source: '1741182653157'
+      sourceHandle: source
+      target: '1741182660932'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: knowledge-retrieval
+        targetType: variable-aggregator
+      id: 1741182655926-source-1741182660932-target
+      source: '1741182655926'
+      sourceHandle: source
+      target: '1741182660932'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: variable-aggregator
+        targetType: if-else
+      id: 1741182660932-source-1741182798703-target
+      source: '1741182660932'
+      sourceHandle: source
+      target: '1741182798703'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: if-else
+        targetType: answer
+      id: 1741182798703-true-1741182808220-target
+      source: '1741182798703'
+      sourceHandle: 'true'
+      target: '1741182808220'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: if-else
+        targetType: llm
+      id: 1741182798703-false-1741182848493-target
+      source: '1741182798703'
+      sourceHandle: 'false'
+      target: '1741182848493'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: llm
+        targetType: answer
+      id: 1741182848493-source-1741182883299-target
+      source: '1741182848493'
+      sourceHandle: source
+      target: '1741182883299'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -247,11 +419,11 @@ workflow:
       height: 53
       id: '1741093650726'
       position:
-        x: 161.7575423171685
-        y: 241.77009822488537
+        x: 30
+        y: 373.5
       positionAbsolute:
-        x: 161.7575423171685
-        y: 241.77009822488537
+        x: 30
+        y: 373.5
       selected: false
       sourcePosition: right
       targetPosition: left
@@ -288,131 +460,11 @@ workflow:
       height: 167
       id: '1741093928841'
       position:
-        x: 635.0726828482929
-        y: 171.52689664014295
+        x: 333
+        y: 373.5
       positionAbsolute:
-        x: 635.0726828482929
-        y: 171.52689664014295
-      selected: false
-      sourcePosition: right
-      targetPosition: left
-      type: custom
-      width: 243
-    - data:
-        cases:
-        - case_id: 'true'
-          conditions:
-          - comparison_operator: empty
-            id: 8090547c-10ce-4188-8f3b-b67360fb4bf9
-            value: ''
-            varType: array[object]
-            variable_selector:
-            - '1741152497916'
-            - result
-          id: 'true'
-          logical_operator: and
-        desc: ''
-        selected: false
-        title: IF/ELSE
-        type: if-else
-      height: 125
-      id: '1741094018705'
-      position:
-        x: 1292
-        y: 282
-      positionAbsolute:
-        x: 1292
-        y: 282
-      selected: false
-      sourcePosition: right
-      targetPosition: left
-      type: custom
-      width: 243
-    - data:
-        answer: I apologize. My current knowledge database does not have the answer
-          to that question.
-        desc: ''
-        selected: false
-        title: Answer 2
-        type: answer
-        variables: []
-      height: 131
-      id: '1741094025744'
-      position:
-        x: 1624.4656564139614
-        y: 213.24680170075663
-      positionAbsolute:
-        x: 1624.4656564139614
-        y: 213.24680170075663
-      selected: false
-      sourcePosition: right
-      targetPosition: left
-      type: custom
-      width: 243
-    - data:
-        context:
-          enabled: true
-          variable_selector:
-          - '1741152497916'
-          - result
-        desc: ''
-        memory:
-          query_prompt_template: '{{#sys.query#}}'
-          role_prefix:
-            assistant: ''
-            user: ''
-          window:
-            enabled: false
-            size: 50
-        model:
-          completion_params:
-            temperature: 0.7
-          mode: chat
-          name: gemini-2.0-flash
-          provider: langgenius/gemini/google
-        prompt_template:
-        - id: 6523595c-22c0-4122-a27a-c774da5aae41
-          role: system
-          text: '{{#context#}}'
-        selected: false
-        title: LLM 2
-        type: llm
-        variables: []
-        vision:
-          configs:
-            detail: high
-            variable_selector:
-            - sys
-            - files
-          enabled: true
-      height: 89
-      id: '1741094035353'
-      position:
-        x: 1595
-        y: 404
-      positionAbsolute:
-        x: 1595
-        y: 404
-      selected: true
-      sourcePosition: right
-      targetPosition: left
-      type: custom
-      width: 243
-    - data:
-        answer: '{{#1741094035353.text#}}'
-        desc: ''
-        selected: false
-        title: Answer 3
-        type: answer
-        variables: []
-      height: 101
-      id: '1741094038146'
-      position:
-        x: 1898
-        y: 404
-      positionAbsolute:
-        x: 1898
-        y: 404
+        x: 333
+        y: 373.5
       selected: false
       sourcePosition: right
       targetPosition: left
@@ -459,53 +511,18 @@ workflow:
       height: 347
       id: '1741096229050'
       position:
-        x: 966.2050919228457
-        y: -118.6492556604249
+        x: 636
+        y: 373.5
       positionAbsolute:
-        x: 966.2050919228457
-        y: -118.6492556604249
+        x: 636
+        y: 373.5
       selected: false
       sourcePosition: right
       targetPosition: left
       type: custom
       width: 243
     - data:
-        dataset_ids:
-        - 744afd97-ba71-44ff-b4db-57a7829632a6
-        desc: ''
-        multiple_retrieval_config:
-          reranking_enable: true
-          reranking_mode: weighted_score
-          top_k: 4
-          weights:
-            keyword_setting:
-              keyword_weight: 0.3
-            vector_setting:
-              embedding_model_name: mxbai-embed-large
-              embedding_provider_name: langgenius/ollama/ollama
-              vector_weight: 0.7
-        query_variable_selector:
-        - '1741093650726'
-        - sys.query
-        retrieval_mode: multiple
-        selected: false
-        title: Knowledge Retrieval
-        type: knowledge-retrieval
-      height: 91
-      id: '1741152497916'
-      position:
-        x: 1024.882666657397
-        y: 332.3531270793765
-      positionAbsolute:
-        x: 1024.882666657397
-        y: 332.3531270793765
-      selected: false
-      sourcePosition: right
-      targetPosition: left
-      type: custom
-      width: 243
-    - data:
-        answer: 'Please consult the map
+        answer: 'Xin mời bạn xem bản đồ.
 
           {{#1741152913235.files#}}'
         desc: ''
@@ -516,11 +533,11 @@ workflow:
       height: 117
       id: '1741152628571'
       position:
-        x: 1837.7582337788008
-        y: -34.06241206924834
+        x: 1242
+        y: 373.5
       positionAbsolute:
-        x: 1837.7582337788008
-        y: -34.06241206924834
+        x: 1242
+        y: 373.5
       selected: false
       sourcePosition: right
       targetPosition: left
@@ -553,17 +570,496 @@ workflow:
       height: 342
       id: '1741152913235'
       position:
-        x: 1373.226094064287
-        y: -110.66523300201419
+        x: 939
+        y: 500
       positionAbsolute:
-        x: 1373.226094064287
-        y: -110.66523300201419
+        x: 939
+        y: 500
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: '    Thư viện cơ sở Hòa Lạc:
+
+                  Địa điểm: Phòng 108, tòa nhà Delta, Trường Đại học FPT Hà Nội
+
+                  Giờ mở cửa:
+
+                      Thứ 2 đến Thứ 6: 08:15 đến 21:00
+
+                      Thứ 7 - Chủ nhật: 08:00 đến 12:00 | 13:00 đến 17:00
+
+
+
+              Thư viện cơ sở Hồ Chí Minh:
+
+                  Địa điểm: P.002, đối diện Hồ Sen Trường Đại học FPT cơ sở Hồ Chí
+          Minh
+
+                  Giờ mở cửa:
+
+                      Thứ 2 đến Thứ 6: 07:00 đến 18:00
+
+                      Thứ 7 - Chủ nhật: 07:00 đến 17:00
+
+
+
+              Thư viện cơ sở Cần Thơ:
+
+                  Địa điểm: Thư viện Gamma: Tầng trệt Tòa Gamma; Thư viện Alpha: Tầng
+          trệt Tòa Alpha
+
+                  Giờ mở cửa:
+
+                      Thư viện Beta: Thứ 2 đến Thứ 6: 08:00 đến 17:30; Thứ 7: 08:00
+          đến 12:00
+
+                      Thư viện Gamma: Thứ 2 đến Thứ 6: 08:00 đến 20:00; Thứ 7: 12:00
+          đến 18:00
+
+
+
+              Thư viện cơ sở Đà Nẵng:
+
+                  Địa điểm: Phòng 105 - toà nhà Gamma - Trường Đại học FPT cơ sở Đà
+          Nẵng
+
+                  Giờ mở cửa:
+
+                      Thứ 2 đến Thứ 6: 07:00 đến 17:30
+
+                      Thứ 7: 07:00 đến 12:00
+
+
+
+              Thư viện cơ sở Quy Nhơn:
+
+                  Địa điểm: Phòng 103, Sảnh Beta Trường Đại học FPT cơ sở Quy Nhơn
+
+                  Giờ mở cửa:
+
+                      Thứ 2 đến Thứ 7: 07:00 – 19:00
+
+
+
+          Thư viện Nhà trường cũng là khu vực tự học dành cho sinh viên, mở cửa cả
+          buổi tối và cuối tuần để phục vụ nhu cầu tự học của sinh viên.'
+        desc: ''
+        selected: false
+        title: Answer 2
+        type: answer
+        variables: []
+      height: 595
+      id: '1741182062462'
+      position:
+        x: 939
+        y: 882
+      positionAbsolute:
+        x: 939
+        y: 882
       selected: false
       sourcePosition: right
       targetPosition: left
       type: custom
       width: 243
+    - data:
+        classes:
+        - id: '1'
+          name: Academics
+        - id: '2'
+          name: Campus
+        - id: '1741182459909'
+          name: Career
+        - id: '1741182460773'
+          name: Finance
+        - id: '1741182476205'
+          name: Policies
+        - id: '1741182477004'
+          name: Social
+        - id: '1741182503347'
+          name: Technology
+        - id: '1741182508373'
+          name: Other
+        desc: ''
+        instructions: ''
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gemini-2.0-flash
+          provider: langgenius/gemini/google
+        query_variable_selector:
+        - '1741093650726'
+        - sys.query
+        selected: false
+        title: Question Classifier 3
+        topics: []
+        type: question-classifier
+        vision:
+          enabled: false
+      height: 383
+      id: '1741182458061'
+      position:
+        x: 636
+        y: 1228
+      positionAbsolute:
+        x: 636
+        y: 1228
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        dataset_ids: []
+        desc: ''
+        multiple_retrieval_config:
+          reranking_enable: false
+          top_k: 4
+        query_variable_selector:
+        - '1741093650726'
+        - sys.query
+        retrieval_mode: multiple
+        selected: false
+        title: Knowledge Retrieval
+        type: knowledge-retrieval
+      height: 53
+      id: '1741182630844'
+      position:
+        x: 939
+        y: 1517
+      positionAbsolute:
+        x: 939
+        y: 1517
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        dataset_ids: []
+        desc: ''
+        multiple_retrieval_config:
+          reranking_enable: false
+          top_k: 4
+        query_variable_selector:
+        - '1741093650726'
+        - sys.query
+        retrieval_mode: multiple
+        selected: false
+        title: Knowledge Retrieval 2
+        type: knowledge-retrieval
+      height: 53
+      id: '1741182639109'
+      position:
+        x: 939
+        y: 1610
+      positionAbsolute:
+        x: 939
+        y: 1610
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        dataset_ids: []
+        desc: ''
+        multiple_retrieval_config:
+          reranking_enable: false
+          top_k: 4
+        query_variable_selector:
+        - '1741093650726'
+        - sys.query
+        retrieval_mode: multiple
+        selected: false
+        title: Knowledge Retrieval 3
+        type: knowledge-retrieval
+      height: 53
+      id: '1741182641918'
+      position:
+        x: 939
+        y: 1703
+      positionAbsolute:
+        x: 939
+        y: 1703
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        dataset_ids: []
+        desc: ''
+        multiple_retrieval_config:
+          reranking_enable: false
+          top_k: 4
+        query_variable_selector:
+        - '1741093650726'
+        - sys.query
+        retrieval_mode: multiple
+        selected: false
+        title: Knowledge Retrieval 4
+        type: knowledge-retrieval
+      height: 53
+      id: '1741182644398'
+      position:
+        x: 939
+        y: 1796
+      positionAbsolute:
+        x: 939
+        y: 1796
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        dataset_ids: []
+        desc: ''
+        multiple_retrieval_config:
+          reranking_enable: false
+          top_k: 4
+        query_variable_selector:
+        - '1741093650726'
+        - sys.query
+        retrieval_mode: multiple
+        selected: false
+        title: Knowledge Retrieval 5
+        type: knowledge-retrieval
+      height: 53
+      id: '1741182647613'
+      position:
+        x: 939
+        y: 1889
+      positionAbsolute:
+        x: 939
+        y: 1889
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        dataset_ids: []
+        desc: ''
+        multiple_retrieval_config:
+          reranking_enable: false
+          top_k: 4
+        query_variable_selector:
+        - '1741093650726'
+        - sys.query
+        retrieval_mode: multiple
+        selected: false
+        title: Knowledge Retrieval 6
+        type: knowledge-retrieval
+      height: 53
+      id: '1741182650741'
+      position:
+        x: 939
+        y: 1982
+      positionAbsolute:
+        x: 939
+        y: 1982
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        dataset_ids: []
+        desc: ''
+        multiple_retrieval_config:
+          reranking_enable: false
+          top_k: 4
+        query_variable_selector:
+        - '1741093650726'
+        - sys.query
+        retrieval_mode: multiple
+        selected: false
+        title: Knowledge Retrieval 7
+        type: knowledge-retrieval
+      height: 53
+      id: '1741182653157'
+      position:
+        x: 939
+        y: 2075
+      positionAbsolute:
+        x: 939
+        y: 2075
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        dataset_ids: []
+        desc: ''
+        multiple_retrieval_config:
+          reranking_enable: false
+          top_k: 4
+        query_variable_selector:
+        - '1741093650726'
+        - sys.query
+        retrieval_mode: multiple
+        selected: false
+        title: Knowledge Retrieval 8
+        type: knowledge-retrieval
+      height: 53
+      id: '1741182655926'
+      position:
+        x: 939
+        y: 2168
+      positionAbsolute:
+        x: 939
+        y: 2168
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        desc: ''
+        output_type: array[object]
+        selected: false
+        title: Variable Aggregator
+        type: variable-aggregator
+        variables:
+        - - '1741182655926'
+          - result
+        - - '1741182653157'
+          - result
+        - - '1741182650741'
+          - result
+        - - '1741182647613'
+          - result
+        - - '1741182644398'
+          - result
+        - - '1741182641918'
+          - result
+        - - '1741182639109'
+          - result
+        - - '1741182630844'
+          - result
+      height: 260
+      id: '1741182660932'
+      position:
+        x: 1242
+        y: 1453.5
+      positionAbsolute:
+        x: 1242
+        y: 1453.5
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        cases:
+        - case_id: 'true'
+          conditions:
+          - comparison_operator: empty
+            id: 811fb50b-e729-4013-bd24-0e7a1ca31f8a
+            value: ''
+            varType: array[object]
+            variable_selector:
+            - '1741182660932'
+            - output
+          id: 'true'
+          logical_operator: and
+        desc: ''
+        selected: false
+        title: IF/ELSE
+        type: if-else
+      height: 125
+      id: '1741182798703'
+      position:
+        x: 1545
+        y: 1525
+      positionAbsolute:
+        x: 1545
+        y: 1525
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: I apologize. My current knowledge database does not have information
+          about that. Please contact
+        desc: ''
+        selected: false
+        title: Answer 3
+        type: answer
+        variables: []
+      height: 131
+      id: '1741182808220'
+      position:
+        x: 1848
+        y: 1525
+      positionAbsolute:
+        x: 1848
+        y: 1525
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1741182660932'
+          - output
+        desc: ''
+        memory:
+          query_prompt_template: '{{#sys.query#}}'
+          role_prefix:
+            assistant: ''
+            user: ''
+          window:
+            enabled: false
+            size: 50
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gemini-2.0-flash
+          provider: langgenius/gemini/google
+        prompt_template:
+        - id: c9624c45-4e7d-47db-af23-6ca52d0ed616
+          role: system
+          text: '{{#context#}}'
+        selected: false
+        title: LLM
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 89
+      id: '1741182848493'
+      position:
+        x: 1848
+        y: 1696
+      positionAbsolute:
+        x: 1848
+        y: 1696
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: '{{#1741182848493.text#}}'
+        desc: ''
+        selected: false
+        title: Answer 4
+        type: answer
+        variables: []
+      height: 101
+      id: '1741182883299'
+      position:
+        x: 2151
+        y: 1675
+      positionAbsolute:
+        x: 2151
+        y: 1675
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
     viewport:
-      x: -116.78188071798422
-      y: 223.974441799295
-      zoom: 0.6634225702985809
+      x: 335.4813197910015
+      y: -90.41636075898629
+      zoom: 0.38459897615190786

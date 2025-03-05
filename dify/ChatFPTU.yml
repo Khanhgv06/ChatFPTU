@@ -17,15 +17,7 @@ dependencies:
 kind: app
 version: 0.1.5
 workflow:
-  conversation_variables:
-  - description: ''
-    id: 822d50c3-f2bc-41b2-8dd8-ec8f38c2da7f
-    name: map_base64
-    selector:
-    - conversation
-    - map_base64
-    value: ''
-    value_type: string
+  conversation_variables: []
   environment_variables: []
   features:
     file_upload:
@@ -118,28 +110,6 @@ workflow:
       zIndex: 0
     - data:
         isInIteration: false
-        sourceType: question-classifier
-        targetType: knowledge-retrieval
-      id: 1741093928841-2-1741152497916-target
-      source: '1741093928841'
-      sourceHandle: '2'
-      target: '1741152497916'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: knowledge-retrieval
-        targetType: if-else
-      id: 1741152497916-source-1741094018705-target
-      source: '1741152497916'
-      sourceHandle: source
-      target: '1741094018705'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
         sourceType: start
         targetType: question-classifier
       id: 1741093650726-source-1741093928841-target
@@ -226,6 +196,28 @@ workflow:
       targetHandle: target
       type: custom
       zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: knowledge-retrieval
+      id: 1741093928841-2-1741170961903-target
+      source: '1741093928841'
+      sourceHandle: '2'
+      target: '1741170961903'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: knowledge-retrieval
+        targetType: if-else
+      id: 1741170961903-source-1741094018705-target
+      source: '1741170961903'
+      sourceHandle: source
+      target: '1741094018705'
+      targetHandle: target
+      type: custom
+      zIndex: 0
     nodes:
     - data:
         desc: ''
@@ -291,7 +283,7 @@ workflow:
             value: ''
             varType: array[object]
             variable_selector:
-            - '1741152497916'
+            - '1741170961903'
             - result
           id: 'true'
           logical_operator: and
@@ -337,7 +329,7 @@ workflow:
         context:
           enabled: true
           variable_selector:
-          - '1741152497916'
+          - '1741170961903'
           - result
         desc: ''
         memory:
@@ -377,7 +369,7 @@ workflow:
       positionAbsolute:
         x: 1595
         y: 404
-      selected: false
+      selected: true
       sourcePosition: right
       targetPosition: left
       type: custom
@@ -447,41 +439,6 @@ workflow:
       type: custom
       width: 243
     - data:
-        dataset_ids:
-        - 4a60dec3-cd55-447a-bdad-0d276249abbe
-        desc: ''
-        multiple_retrieval_config:
-          reranking_enable: true
-          reranking_mode: weighted_score
-          top_k: 4
-          weights:
-            keyword_setting:
-              keyword_weight: 0.3
-            vector_setting:
-              embedding_model_name: mxbai-embed-large
-              embedding_provider_name: langgenius/ollama/ollama
-              vector_weight: 0.7
-        query_variable_selector:
-        - '1741093650726'
-        - sys.query
-        retrieval_mode: multiple
-        selected: false
-        title: Knowledge Retrieval
-        type: knowledge-retrieval
-      height: 91
-      id: '1741152497916'
-      position:
-        x: 1034.501941204045
-        y: 293.87602889278554
-      positionAbsolute:
-        x: 1034.501941204045
-        y: 293.87602889278554
-      selected: false
-      sourcePosition: right
-      targetPosition: left
-      type: custom
-      width: 243
-    - data:
         answer: 'Please consult the map
 
           {{#1741152913235.files#}}'
@@ -498,7 +455,7 @@ workflow:
       positionAbsolute:
         x: 1837.7582337788008
         y: -34.06241206924834
-      selected: true
+      selected: false
       sourcePosition: right
       targetPosition: left
       type: custom
@@ -540,7 +497,42 @@ workflow:
       targetPosition: left
       type: custom
       width: 243
+    - data:
+        dataset_ids:
+        - 71cc9f19-9296-4593-97b4-3cf9785f5c90
+        desc: ''
+        multiple_retrieval_config:
+          reranking_enable: true
+          reranking_mode: weighted_score
+          top_k: 4
+          weights:
+            keyword_setting:
+              keyword_weight: 0.3
+            vector_setting:
+              embedding_model_name: mxbai-embed-large
+              embedding_provider_name: langgenius/ollama/ollama
+              vector_weight: 0.7
+        query_variable_selector:
+        - '1741093650726'
+        - sys.query
+        retrieval_mode: multiple
+        selected: false
+        title: Knowledge Retrieval
+        type: knowledge-retrieval
+      height: 91
+      id: '1741170961903'
+      position:
+        x: 891.7506768407347
+        y: 305.5556777952382
+      positionAbsolute:
+        x: 891.7506768407347
+        y: 305.5556777952382
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
     viewport:
-      x: -537.1683533298053
-      y: 270.27543125110356
+      x: -1096.168353329805
+      y: 21.275431251103555
       zoom: 0.770571108358408

@@ -9,8 +9,8 @@ app = Flask(__name__)
 
 # Facebook & Dify API credentials
 FACEBOOK_PAGE_ACCESS_TOKEN = os.environ['META_PAGE_ACCESS_TOKEN']
+DIFY_API_URL = os.environ['DIFY_API_URL']
 DIFY_API_KEY = os.environ['DIFY_API_KEY']
-DIFY_API_URL = "http://localhost/v1/chat-messages"
 VERIFY_TOKEN = os.environ['CHATBOT_VERIFY_TOKEN']
 
 IMAGE_FOLDER = "data/img"

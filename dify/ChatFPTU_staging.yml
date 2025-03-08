@@ -9,6 +9,10 @@ dependencies:
 - current_identifier: null
   type: marketplace
   value:
+    marketplace_plugin_unique_identifier: langgenius/ollama:0.0.3@9ded90ac00e8510119a24be7396ba77191c9610d5e1e29f59d68fa1229822fc7
+- current_identifier: null
+  type: marketplace
+  value:
     marketplace_plugin_unique_identifier: langgenius/gemini:0.0.8@420e755f870062b3da528617d2c0439a599ce1cbbb00645492c3bdb2b360afb6
 kind: app
 version: 0.1.5
@@ -172,6 +176,7 @@ workflow:
         sourceType: question-classifier
         targetType: answer
       id: 1741096229050-1741157729097-1741182062462-target
+      selected: false
       source: '1741096229050'
       sourceHandle: '1741157729097'
       target: '1741182062462'
@@ -182,10 +187,10 @@ workflow:
         isInIteration: false
         sourceType: question-classifier
         targetType: question-classifier
-      id: 1741093928841-2-1741182458061-target
+      id: 1741093928841-2-1741339720314-target
       source: '1741093928841'
       sourceHandle: '2'
-      target: '1741182458061'
+      target: '1741339720314'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -193,10 +198,10 @@ workflow:
         isInIteration: false
         sourceType: question-classifier
         targetType: knowledge-retrieval
-      id: 1741182458061-1-1741182630844-target
-      source: '1741182458061'
+      id: 1741339720314-1-1741339901501-target
+      source: '1741339720314'
       sourceHandle: '1'
-      target: '1741182630844'
+      target: '1741339901501'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -204,10 +209,10 @@ workflow:
         isInIteration: false
         sourceType: question-classifier
         targetType: knowledge-retrieval
-      id: 1741182458061-2-1741182639109-target
-      source: '1741182458061'
+      id: 1741339720314-2-1741339904151-target
+      source: '1741339720314'
       sourceHandle: '2'
-      target: '1741182639109'
+      target: '1741339904151'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -215,10 +220,10 @@ workflow:
         isInIteration: false
         sourceType: question-classifier
         targetType: knowledge-retrieval
-      id: 1741182458061-1741182459909-1741182641918-target
-      source: '1741182458061'
-      sourceHandle: '1741182459909'
-      target: '1741182641918'
+      id: 1741339720314-1741339794699-1741339906484-target
+      source: '1741339720314'
+      sourceHandle: '1741339794699'
+      target: '1741339906484'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -226,10 +231,10 @@ workflow:
         isInIteration: false
         sourceType: question-classifier
         targetType: knowledge-retrieval
-      id: 1741182458061-1741182460773-1741182644398-target
-      source: '1741182458061'
-      sourceHandle: '1741182460773'
-      target: '1741182644398'
+      id: 1741339720314-1741339798866-1741339909118-target
+      source: '1741339720314'
+      sourceHandle: '1741339798866'
+      target: '1741339909118'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -237,10 +242,10 @@ workflow:
         isInIteration: false
         sourceType: question-classifier
         targetType: knowledge-retrieval
-      id: 1741182458061-1741182476205-1741182647613-target
-      source: '1741182458061'
-      sourceHandle: '1741182476205'
-      target: '1741182647613'
+      id: 1741339720314-1741339806866-1741339911518-target
+      source: '1741339720314'
+      sourceHandle: '1741339806866'
+      target: '1741339911518'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -248,10 +253,10 @@ workflow:
         isInIteration: false
         sourceType: question-classifier
         targetType: knowledge-retrieval
-      id: 1741182458061-1741182477004-1741182650741-target
-      source: '1741182458061'
-      sourceHandle: '1741182477004'
-      target: '1741182650741'
+      id: 1741339720314-1741339820849-1741339913301-target
+      source: '1741339720314'
+      sourceHandle: '1741339820849'
+      target: '1741339913301'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -259,21 +264,10 @@ workflow:
         isInIteration: false
         sourceType: question-classifier
         targetType: knowledge-retrieval
-      id: 1741182458061-1741182503347-1741182653157-target
-      source: '1741182458061'
-      sourceHandle: '1741182503347'
-      target: '1741182653157'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: question-classifier
-        targetType: knowledge-retrieval
-      id: 1741182458061-1741182508373-1741182655926-target
-      source: '1741182458061'
-      sourceHandle: '1741182508373'
-      target: '1741182655926'
+      id: 1741339720314-1741339825816-1741339915535-target
+      source: '1741339720314'
+      sourceHandle: '1741339825816'
+      target: '1741339915535'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -281,10 +275,10 @@ workflow:
         isInIteration: false
         sourceType: knowledge-retrieval
         targetType: variable-aggregator
-      id: 1741182630844-source-1741182660932-target
-      source: '1741182630844'
+      id: 1741339901501-source-1741340607865-target
+      source: '1741339901501'
       sourceHandle: source
-      target: '1741182660932'
+      target: '1741340607865'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -292,10 +286,10 @@ workflow:
         isInIteration: false
         sourceType: knowledge-retrieval
         targetType: variable-aggregator
-      id: 1741182639109-source-1741182660932-target
-      source: '1741182639109'
+      id: 1741339904151-source-1741340607865-target
+      source: '1741339904151'
       sourceHandle: source
-      target: '1741182660932'
+      target: '1741340607865'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -303,10 +297,10 @@ workflow:
         isInIteration: false
         sourceType: knowledge-retrieval
         targetType: variable-aggregator
-      id: 1741182641918-source-1741182660932-target
-      source: '1741182641918'
+      id: 1741339906484-source-1741340607865-target
+      source: '1741339906484'
       sourceHandle: source
-      target: '1741182660932'
+      target: '1741340607865'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -314,10 +308,10 @@ workflow:
         isInIteration: false
         sourceType: knowledge-retrieval
         targetType: variable-aggregator
-      id: 1741182644398-source-1741182660932-target
-      source: '1741182644398'
+      id: 1741339909118-source-1741340607865-target
+      source: '1741339909118'
       sourceHandle: source
-      target: '1741182660932'
+      target: '1741340607865'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -325,10 +319,10 @@ workflow:
         isInIteration: false
         sourceType: knowledge-retrieval
         targetType: variable-aggregator
-      id: 1741182647613-source-1741182660932-target
-      source: '1741182647613'
+      id: 1741339911518-source-1741340607865-target
+      source: '1741339911518'
       sourceHandle: source
-      target: '1741182660932'
+      target: '1741340607865'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -336,10 +330,10 @@ workflow:
         isInIteration: false
         sourceType: knowledge-retrieval
         targetType: variable-aggregator
-      id: 1741182650741-source-1741182660932-target
-      source: '1741182650741'
+      id: 1741339913301-source-1741340607865-target
+      source: '1741339913301'
       sourceHandle: source
-      target: '1741182660932'
+      target: '1741340607865'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -347,21 +341,10 @@ workflow:
         isInIteration: false
         sourceType: knowledge-retrieval
         targetType: variable-aggregator
-      id: 1741182653157-source-1741182660932-target
-      source: '1741182653157'
+      id: 1741339915535-source-1741340607865-target
+      source: '1741339915535'
       sourceHandle: source
-      target: '1741182660932'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: knowledge-retrieval
-        targetType: variable-aggregator
-      id: 1741182655926-source-1741182660932-target
-      source: '1741182655926'
-      sourceHandle: source
-      target: '1741182660932'
+      target: '1741340607865'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -369,21 +352,10 @@ workflow:
         isInIteration: false
         sourceType: variable-aggregator
         targetType: if-else
-      id: 1741182660932-source-1741182798703-target
-      source: '1741182660932'
+      id: 1741340607865-source-1741340658099-target
+      source: '1741340607865'
       sourceHandle: source
-      target: '1741182798703'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: if-else
-        targetType: answer
-      id: 1741182798703-true-1741182808220-target
-      source: '1741182798703'
-      sourceHandle: 'true'
-      target: '1741182808220'
+      target: '1741340658099'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -391,10 +363,10 @@ workflow:
         isInIteration: false
         sourceType: if-else
         targetType: llm
-      id: 1741182798703-false-1741182848493-target
-      source: '1741182798703'
+      id: 1741340658099-false-1741340668766-target
+      source: '1741340658099'
       sourceHandle: 'false'
-      target: '1741182848493'
+      target: '1741340668766'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -402,10 +374,65 @@ workflow:
         isInIteration: false
         sourceType: llm
         targetType: answer
-      id: 1741182848493-source-1741182883299-target
-      source: '1741182848493'
+      id: 1741340668766-source-1741340694534-target
+      source: '1741340668766'
       sourceHandle: source
-      target: '1741182883299'
+      target: '1741340694534'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: if-else
+        targetType: knowledge-retrieval
+      id: 1741340658099-true-1741340718151-target
+      source: '1741340658099'
+      sourceHandle: 'true'
+      target: '1741340718151'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: knowledge-retrieval
+        targetType: if-else
+      id: 1741340718151-source-1741340743235-target
+      source: '1741340718151'
+      sourceHandle: source
+      target: '1741340743235'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: if-else
+        targetType: llm
+      id: 1741340743235-false-1741340753301-target
+      source: '1741340743235'
+      sourceHandle: 'false'
+      target: '1741340753301'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: llm
+        targetType: answer
+      id: 1741340753301-source-1741340768352-target
+      source: '1741340753301'
+      sourceHandle: source
+      target: '1741340768352'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: if-else
+        targetType: answer
+      id: 1741340743235-true-1741340786585-target
+      source: '1741340743235'
+      sourceHandle: 'true'
+      target: '1741340786585'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -565,16 +592,16 @@ workflow:
           max_write_timeout: 0
         title: HTTP Request
         type: http-request
-        url: https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/456783036_901803835311214_6540626638198645520_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=PLSYf32yHhMQ7kNvgGcE_A_&_nc_oc=AdjY-HAVdHGq_2SrQkXJOlt7V2k__c5aoly_Y09DBc83PI6JZsC12BD9854RA8nMAbU&_nc_zt=23&_nc_ht=scontent.fhan2-3.fna&_nc_gid=A_3NP7BKwUEiULVlV1hn0LR&oh=00_AYBh83ETBSZ68ZB009KGTSTvg-lu4kdM2VYt6yOJ_RmL5Q&oe=67CDA6A0
+        url: https://chatfptu.onrender.com/map
         variables: []
-      height: 342
+      height: 134
       id: '1741152913235'
       position:
         x: 939
-        y: 500
+        y: 373.5
       positionAbsolute:
         x: 939
-        y: 500
+        y: 373.5
       selected: true
       sourcePosition: right
       targetPosition: left
@@ -651,14 +678,14 @@ workflow:
         title: Answer 2
         type: answer
         variables: []
-      height: 595
+      height: 611
       id: '1741182062462'
       position:
         x: 939
-        y: 882
+        y: 755.5
       positionAbsolute:
         x: 939
-        y: 882
+        y: 755.5
       selected: false
       sourcePosition: right
       targetPosition: left
@@ -667,22 +694,37 @@ workflow:
     - data:
         classes:
         - id: '1'
-          name: Academics
+          name: Academic
         - id: '2'
-          name: Campus
-        - id: '1741182459909'
-          name: Career
-        - id: '1741182460773'
-          name: Finance
-        - id: '1741182476205'
-          name: Policies
-        - id: '1741182477004'
-          name: Social
-        - id: '1741182503347'
-          name: Technology
-        - id: '1741182508373'
+          name: Student Services
+        - id: '1741339794699'
+          name: Financial
+        - id: '1741339798866'
+          name: Campus Life
+        - id: '1741339806866'
+          name: Careers
+        - id: '1741339820849'
+          name: About
+        - id: '1741339825816'
           name: Other
         desc: ''
+        instruction: '    ''academic'': ''Questions about courses, programs, grades,
+          exams, and academic policies'',
+
+              ''student_services'': ''Questions about library, health services, and
+          other campus facilities'',
+
+              ''financial'': ''Questions about tuition, scholarships, financial aid,
+          and fees'',
+
+              ''campus_life'': ''Questions about housing, clubs, activities, and student
+          life'',
+
+              ''careers'': ''Questions about internships, jobs, career services, and
+          employment'',
+
+              ''about'': ''Questions about FPT history, organization, and general
+          information'''
         instructions: ''
         model:
           completion_params:
@@ -699,25 +741,34 @@ workflow:
         type: question-classifier
         vision:
           enabled: false
-      height: 383
-      id: '1741182458061'
+      height: 347
+      id: '1741339720314'
       position:
         x: 636
-        y: 1228
+        y: 1281
       positionAbsolute:
         x: 636
-        y: 1228
+        y: 1281
       selected: false
       sourcePosition: right
       targetPosition: left
       type: custom
       width: 243
     - data:
-        dataset_ids: []
+        dataset_ids:
+        - 72c7bafb-576b-4a17-a0e6-8874dc19b452
         desc: ''
         multiple_retrieval_config:
-          reranking_enable: false
+          reranking_enable: true
+          reranking_mode: weighted_score
           top_k: 4
+          weights:
+            keyword_setting:
+              keyword_weight: 0.3
+            vector_setting:
+              embedding_model_name: mxbai-embed-large
+              embedding_provider_name: langgenius/ollama/ollama
+              vector_weight: 0.7
         query_variable_selector:
         - '1741093650726'
         - sys.query
@@ -725,24 +776,34 @@ workflow:
         selected: false
         title: Knowledge Retrieval
         type: knowledge-retrieval
-      height: 53
-      id: '1741182630844'
+      height: 91
+      id: '1741339901501'
       position:
         x: 939
-        y: 1517
+        y: 1406.5
       positionAbsolute:
         x: 939
-        y: 1517
+        y: 1406.5
+      selected: false
       sourcePosition: right
       targetPosition: left
       type: custom
       width: 243
     - data:
-        dataset_ids: []
+        dataset_ids:
+        - 7c6c1431-74f0-4b9c-858c-c7696fbf2080
         desc: ''
         multiple_retrieval_config:
-          reranking_enable: false
+          reranking_enable: true
+          reranking_mode: weighted_score
           top_k: 4
+          weights:
+            keyword_setting:
+              keyword_weight: 0.3
+            vector_setting:
+              embedding_model_name: mxbai-embed-large
+              embedding_provider_name: langgenius/ollama/ollama
+              vector_weight: 0.7
         query_variable_selector:
         - '1741093650726'
         - sys.query
@@ -750,24 +811,34 @@ workflow:
         selected: false
         title: Knowledge Retrieval 2
         type: knowledge-retrieval
-      height: 53
-      id: '1741182639109'
+      height: 91
+      id: '1741339904151'
       position:
         x: 939
-        y: 1610
+        y: 1537.5
       positionAbsolute:
         x: 939
-        y: 1610
+        y: 1537.5
+      selected: false
       sourcePosition: right
       targetPosition: left
       type: custom
       width: 243
     - data:
-        dataset_ids: []
+        dataset_ids:
+        - 33db4de7-3b56-4055-b452-ef81f61511e6
         desc: ''
         multiple_retrieval_config:
-          reranking_enable: false
+          reranking_enable: true
+          reranking_mode: weighted_score
           top_k: 4
+          weights:
+            keyword_setting:
+              keyword_weight: 0.3
+            vector_setting:
+              embedding_model_name: mxbai-embed-large
+              embedding_provider_name: langgenius/ollama/ollama
+              vector_weight: 0.7
         query_variable_selector:
         - '1741093650726'
         - sys.query
@@ -775,24 +846,34 @@ workflow:
         selected: false
         title: Knowledge Retrieval 3
         type: knowledge-retrieval
-      height: 53
-      id: '1741182641918'
+      height: 91
+      id: '1741339906484'
       position:
         x: 939
-        y: 1703
+        y: 1668.5
       positionAbsolute:
         x: 939
-        y: 1703
+        y: 1668.5
+      selected: false
       sourcePosition: right
       targetPosition: left
       type: custom
       width: 243
     - data:
-        dataset_ids: []
+        dataset_ids:
+        - 888d6f87-f4ec-4690-98e8-bb330ae7b717
         desc: ''
         multiple_retrieval_config:
-          reranking_enable: false
+          reranking_enable: true
+          reranking_mode: weighted_score
           top_k: 4
+          weights:
+            keyword_setting:
+              keyword_weight: 0.3
+            vector_setting:
+              embedding_model_name: mxbai-embed-large
+              embedding_provider_name: langgenius/ollama/ollama
+              vector_weight: 0.7
         query_variable_selector:
         - '1741093650726'
         - sys.query
@@ -800,24 +881,34 @@ workflow:
         selected: false
         title: Knowledge Retrieval 4
         type: knowledge-retrieval
-      height: 53
-      id: '1741182644398'
+      height: 91
+      id: '1741339909118'
       position:
         x: 939
-        y: 1796
+        y: 1799.5
       positionAbsolute:
         x: 939
-        y: 1796
+        y: 1799.5
+      selected: false
       sourcePosition: right
       targetPosition: left
       type: custom
       width: 243
     - data:
-        dataset_ids: []
+        dataset_ids:
+        - 3ba3ce3b-7812-41a5-9c1f-90bf8a11b6ff
         desc: ''
         multiple_retrieval_config:
-          reranking_enable: false
+          reranking_enable: true
+          reranking_mode: weighted_score
           top_k: 4
+          weights:
+            keyword_setting:
+              keyword_weight: 0.3
+            vector_setting:
+              embedding_model_name: mxbai-embed-large
+              embedding_provider_name: langgenius/ollama/ollama
+              vector_weight: 0.7
         query_variable_selector:
         - '1741093650726'
         - sys.query
@@ -825,24 +916,34 @@ workflow:
         selected: false
         title: Knowledge Retrieval 5
         type: knowledge-retrieval
-      height: 53
-      id: '1741182647613'
+      height: 91
+      id: '1741339911518'
       position:
         x: 939
-        y: 1889
+        y: 1930.5
       positionAbsolute:
         x: 939
-        y: 1889
+        y: 1930.5
+      selected: false
       sourcePosition: right
       targetPosition: left
       type: custom
       width: 243
     - data:
-        dataset_ids: []
+        dataset_ids:
+        - 380dd362-6c7e-4dc8-9e9b-68305ec36086
         desc: ''
         multiple_retrieval_config:
-          reranking_enable: false
+          reranking_enable: true
+          reranking_mode: weighted_score
           top_k: 4
+          weights:
+            keyword_setting:
+              keyword_weight: 0.3
+            vector_setting:
+              embedding_model_name: mxbai-embed-large
+              embedding_provider_name: langgenius/ollama/ollama
+              vector_weight: 0.7
         query_variable_selector:
         - '1741093650726'
         - sys.query
@@ -850,24 +951,34 @@ workflow:
         selected: false
         title: Knowledge Retrieval 6
         type: knowledge-retrieval
-      height: 53
-      id: '1741182650741'
+      height: 91
+      id: '1741339913301'
       position:
         x: 939
-        y: 1982
+        y: 2023.5
       positionAbsolute:
         x: 939
-        y: 1982
+        y: 2023.5
+      selected: false
       sourcePosition: right
       targetPosition: left
       type: custom
       width: 243
     - data:
-        dataset_ids: []
+        dataset_ids:
+        - 4db30a92-567d-488d-a8a0-cb3aee3aacee
         desc: ''
         multiple_retrieval_config:
-          reranking_enable: false
+          reranking_enable: true
+          reranking_mode: weighted_score
           top_k: 4
+          weights:
+            keyword_setting:
+              keyword_weight: 0.3
+            vector_setting:
+              embedding_model_name: mxbai-embed-large
+              embedding_provider_name: langgenius/ollama/ollama
+              vector_weight: 0.7
         query_variable_selector:
         - '1741093650726'
         - sys.query
@@ -875,39 +986,15 @@ workflow:
         selected: false
         title: Knowledge Retrieval 7
         type: knowledge-retrieval
-      height: 53
-      id: '1741182653157'
+      height: 91
+      id: '1741339915535'
       position:
         x: 939
-        y: 2075
+        y: 2116.5
       positionAbsolute:
         x: 939
-        y: 2075
-      sourcePosition: right
-      targetPosition: left
-      type: custom
-      width: 243
-    - data:
-        dataset_ids: []
-        desc: ''
-        multiple_retrieval_config:
-          reranking_enable: false
-          top_k: 4
-        query_variable_selector:
-        - '1741093650726'
-        - sys.query
-        retrieval_mode: multiple
-        selected: false
-        title: Knowledge Retrieval 8
-        type: knowledge-retrieval
-      height: 53
-      id: '1741182655926'
-      position:
-        x: 939
-        y: 2168
-      positionAbsolute:
-        x: 939
-        y: 2168
+        y: 2116.5
+      selected: false
       sourcePosition: right
       targetPosition: left
       type: custom
@@ -919,30 +1006,28 @@ workflow:
         title: Variable Aggregator
         type: variable-aggregator
         variables:
-        - - '1741182655926'
+        - - '1741339915535'
           - result
-        - - '1741182653157'
+        - - '1741339913301'
           - result
-        - - '1741182650741'
+        - - '1741339911518'
           - result
-        - - '1741182647613'
+        - - '1741339909118'
           - result
-        - - '1741182644398'
+        - - '1741339906484'
           - result
-        - - '1741182641918'
+        - - '1741339904151'
           - result
-        - - '1741182639109'
+        - - '1741339901501'
           - result
-        - - '1741182630844'
-          - result
-      height: 260
-      id: '1741182660932'
+      height: 238
+      id: '1741340607865'
       position:
         x: 1242
-        y: 1453.5
+        y: 1613.5
       positionAbsolute:
         x: 1242
-        y: 1453.5
+        y: 1613.5
       sourcePosition: right
       targetPosition: left
       type: custom
@@ -952,11 +1037,11 @@ workflow:
         - case_id: 'true'
           conditions:
           - comparison_operator: empty
-            id: 811fb50b-e729-4013-bd24-0e7a1ca31f8a
+            id: 86f3ea95-f756-48e5-86f3-6be37d3004e1
             value: ''
             varType: array[object]
             variable_selector:
-            - '1741182660932'
+            - '1741340607865'
             - output
           id: 'true'
           logical_operator: and
@@ -965,34 +1050,13 @@ workflow:
         title: IF/ELSE
         type: if-else
       height: 125
-      id: '1741182798703'
+      id: '1741340658099'
       position:
         x: 1545
-        y: 1525
+        y: 1674
       positionAbsolute:
         x: 1545
-        y: 1525
-      sourcePosition: right
-      targetPosition: left
-      type: custom
-      width: 243
-    - data:
-        answer: I apologize. My current knowledge database does not have information
-          about that. Please contact
-        desc: ''
-        selected: false
-        title: Answer 3
-        type: answer
-        variables: []
-      height: 131
-      id: '1741182808220'
-      position:
-        x: 1848
-        y: 1525
-      positionAbsolute:
-        x: 1848
-        y: 1525
-      selected: false
+        y: 1674
       sourcePosition: right
       targetPosition: left
       type: custom
@@ -1001,7 +1065,7 @@ workflow:
         context:
           enabled: true
           variable_selector:
-          - '1741182660932'
+          - '1741340607865'
           - output
         desc: ''
         memory:
@@ -1019,7 +1083,7 @@ workflow:
           name: gemini-2.0-flash
           provider: langgenius/gemini/google
         prompt_template:
-        - id: c9624c45-4e7d-47db-af23-6ca52d0ed616
+        - id: 786ad130-e488-40c2-9376-9a890fa66817
           role: system
           text: '{{#context#}}'
         selected: false
@@ -1029,37 +1093,177 @@ workflow:
         vision:
           enabled: false
       height: 89
-      id: '1741182848493'
+      id: '1741340668766'
       position:
         x: 1848
-        y: 1696
+        y: 1675
       positionAbsolute:
         x: 1848
-        y: 1696
+        y: 1675
+      selected: false
       sourcePosition: right
       targetPosition: left
       type: custom
       width: 243
     - data:
-        answer: '{{#1741182848493.text#}}'
+        answer: '{{#1741340668766.text#}}'
+        desc: ''
+        selected: false
+        title: Answer 3
+        type: answer
+        variables: []
+      height: 101
+      id: '1741340694534'
+      position:
+        x: 2151
+        y: 1686
+      positionAbsolute:
+        x: 2151
+        y: 1686
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        dataset_ids:
+        - 71cc9f19-9296-4593-97b4-3cf9785f5c90
+        desc: ''
+        multiple_retrieval_config:
+          reranking_enable: true
+          reranking_mode: weighted_score
+          top_k: 4
+          weights:
+            keyword_setting:
+              keyword_weight: 0.3
+            vector_setting:
+              embedding_model_name: mxbai-embed-large
+              embedding_provider_name: langgenius/ollama/ollama
+              vector_weight: 0.7
+        query_variable_selector:
+        - '1741093650726'
+        - sys.query
+        retrieval_mode: multiple
+        selected: false
+        title: Knowledge Retrieval 8
+        type: knowledge-retrieval
+      height: 91
+      id: '1741340718151'
+      position:
+        x: 1848
+        y: 1827
+      positionAbsolute:
+        x: 1848
+        y: 1827
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        cases:
+        - case_id: 'true'
+          conditions:
+          - comparison_operator: empty
+            id: 3da81217-df25-408b-9cad-a9c700f9c4cc
+            value: ''
+            varType: array[object]
+            variable_selector:
+            - '1741340718151'
+            - result
+          id: 'true'
+          logical_operator: and
+        desc: ''
+        selected: false
+        title: IF/ELSE 2
+        type: if-else
+      height: 125
+      id: '1741340743235'
+      position:
+        x: 2151
+        y: 1827
+      positionAbsolute:
+        x: 2151
+        y: 1827
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1741340718151'
+          - result
+        desc: ''
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gemini-2.0-flash
+          provider: langgenius/gemini/google
+        prompt_template:
+        - id: 1a159cc5-d7ae-4dfd-852e-95989283d1ab
+          role: system
+          text: '{{#context#}}'
+        selected: false
+        title: LLM 2
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 89
+      id: '1741340753301'
+      position:
+        x: 2454
+        y: 1827
+      positionAbsolute:
+        x: 2454
+        y: 1827
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: '{{#1741340753301.text#}}'
         desc: ''
         selected: false
         title: Answer 4
         type: answer
         variables: []
       height: 101
-      id: '1741182883299'
+      id: '1741340768352'
       position:
-        x: 2151
-        y: 1675
+        x: 2757
+        y: 1827
       positionAbsolute:
-        x: 2151
-        y: 1675
+        x: 2757
+        y: 1827
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: Tôi xin lỗi. Cơ sở dữ liệu kiến thức hiện tại của tôi không có thông
+          tin về việc này.
+        desc: ''
+        selected: false
+        title: Answer 5
+        type: answer
+        variables: []
+      height: 131
+      id: '1741340786585'
+      position:
+        x: 2454
+        y: 1956
+      positionAbsolute:
+        x: 2454
+        y: 1956
       sourcePosition: right
       targetPosition: left
       type: custom
       width: 243
     viewport:
-      x: 335.4813197910015
-      y: -90.41636075898629
-      zoom: 0.38459897615190786
+      x: -1084.6509139005254
+      y: -1297.4686063843249
+      zoom: 0.944371774037789

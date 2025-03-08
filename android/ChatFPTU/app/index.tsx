@@ -13,7 +13,7 @@ export default function Index() {
     setInputText("");
 
     try {
-      const response = await fetch("https://your-api.com/chat", {
+      const response = await fetch("https://chatfptu.onrender.com/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: inputText }),

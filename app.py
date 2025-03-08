@@ -24,6 +24,10 @@ def home():
 def get_image1():
     return send_from_directory(IMAGE_FOLDER, "map.jpg")
 
+@app.route("/privacy-policy", methods=["GET"])
+def verify_webhook():
+    return "No user data is collected", 200
+
 @app.route("/webhook", methods=["GET"])
 def verify_webhook():
     """Verify Facebook webhook during setup"""

@@ -30,8 +30,7 @@ def chat():
         return jsonify({"error": "Message cannot be empty"}), 400
 
     # Send message to Dify AI
-    #dify_response = send_to_dify(user_message)
-    dify_response = "test"
+    dify_response = send_to_dify(user_message)
     return jsonify({"reply": dify_response})
 
 

@@ -43,7 +43,7 @@ def verify_webhook():
 def handle_message():
     """Handles incoming messages from Facebook Messenger"""
     data = request.get_json()
-    print("Incoming:", data)
+    app.logger.debug(data)
 
     if "entry" in data:
         for entry in data["entry"]:

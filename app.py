@@ -47,10 +47,10 @@ def handle_message():
                 if "message" in messaging_event and "text" in messaging_event["message"]:
                     sender_id = messaging_event["sender"]["id"]
                     user_message = messaging_event["message"]["text"]
-
+                    print(f"Sender ID: {sender_id} User message: {user_message}")
                     # Send message to Dify AI
-                    dify_response = send_to_dify(user_message, sender_id)
-
+                    #dify_response = send_to_dify(user_message, sender_id)
+                    dify_response = "okok"
                     # Send response back to Facebook Messenger
                     send_to_messenger(sender_id, dify_response)
 

@@ -94,4 +94,4 @@ def send_to_messenger(recipient_id, response_text):
         print("Error sending to Messenger:", response.text)
 
 if __name__ == "__main__":
-    app.run(port=4869, debug=True)
+    app.run(port=443, debug=True)

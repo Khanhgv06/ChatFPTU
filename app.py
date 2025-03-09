@@ -1,13 +1,13 @@
 import os
 import requests
-from flask import Flask, request, jsonify, send_from_directory, Response
+from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 from dotenv import load_dotenv
 
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app) 
+CORS(app)
 
 DIFY_API_URL = os.environ['DIFY_API_URL']
 DIFY_API_KEY = os.environ['DIFY_API_KEY']
@@ -23,7 +23,7 @@ def get_map():
 
 @app.route("/chat", methods=["POST"])
 def chat():
-    """Handles chat messages from the Expo app and streams the response"""
+    """Handles chat messages from the Expo app and returns the response"""
     data = request.get_json()
     user_message = data.get("message", "")
     conversation_id = data.get("conversation_id", "")
@@ -31,14 +31,15 @@ def chat():
     if not user_message:
         return jsonify({"error": "Message cannot be empty"}), 400
 
-    return Response(send_to_dify(user_message, conversation_id), content_type="text/plain")
+    response = send_to_dify(user_message, conversation_id)
+    return jsonify({"response": response})
 
 def send_to_dify(user_message, conversation_id):
-    """Sends user message to Dify AI and returns a streaming response"""
+    """Sends user message to Dify AI and returns the full response"""
     payload = {
         "inputs": {},
         "query": user_message,
-        "response_mode": "streaming",
+        "response_mode": "blocking",
         "conversation_id": conversation_id,
         "user": "test_user"
     }
@@ -47,12 +48,12 @@ def send_to_dify(user_message, conversation_id):
         "Content-Type": "application/json"
     }
 
-    with requests.post(DIFY_API_URL, json=payload, headers=headers, stream=True) as response:
-        if response.status_code == 200:
-            for chunk in response.iter_content(chunk_size=1024):
-                yield chunk.decode()
-        else:
-            yield "Sorry, something went wrong."
+    response = requests.post(DIFY_API_URL, json=payload, headers=headers)
+
+    if response.status_code == 200:
+        return response.json().get('response', 'No response from AI')
+    else:
+        return "Sorry, something went wrong."
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000, debug=True)

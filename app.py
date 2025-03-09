@@ -32,9 +32,9 @@ def chat():
         return jsonify({"error": "Message cannot be empty"}), 400
 
     response = send_to_dify(user_message, conversation_id)
-    return jsonify({"response": response})
+    return response
 
-def send_to_dify(user_message, conversation_id):
+def send_to_dify(user_message, conversation_id=""):
     """Sends user message to Dify AI and returns the full response"""
     payload = {
         "inputs": {},
@@ -50,7 +50,7 @@ def send_to_dify(user_message, conversation_id):
 
     response = requests.post(DIFY_API_URL, json=payload, headers=headers)
     if response.status_code == 200:
-        return response.json().get('answer', 'No response from AI')
+        return response.json()
     else:
         return "Sorry, something went wrong."
 

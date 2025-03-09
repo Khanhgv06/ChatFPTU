@@ -32,7 +32,6 @@ def chat():
         return jsonify({"error": "Message cannot be empty"}), 400
 
     response = send_to_dify(user_message, conversation_id)
-    app.logger.debug(response)
     return jsonify({"response": response})
 
 def send_to_dify(user_message, conversation_id):
@@ -50,7 +49,6 @@ def send_to_dify(user_message, conversation_id):
     }
 
     response = requests.post(DIFY_API_URL, json=payload, headers=headers)
-    app.logger.debug(response.json())
     if response.status_code == 200:
         return response.json().get('answer', 'No response from AI')
     else:

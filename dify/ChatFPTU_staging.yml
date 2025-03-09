@@ -97,83 +97,6 @@ workflow:
     - data:
         isInIteration: false
         sourceType: question-classifier
-        targetType: http-request
-      id: 1741096229050-1-1741152913235-target
-      source: '1741096229050'
-      sourceHandle: '1'
-      target: '1741152913235'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: question-classifier
-        targetType: http-request
-      id: 1741096229050-2-1741152913235-target
-      source: '1741096229050'
-      sourceHandle: '2'
-      target: '1741152913235'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: question-classifier
-        targetType: http-request
-      id: 1741096229050-1741096238323-1741152913235-target
-      source: '1741096229050'
-      sourceHandle: '1741096238323'
-      target: '1741152913235'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: question-classifier
-        targetType: http-request
-      id: 1741096229050-1741096242098-1741152913235-target
-      source: '1741096229050'
-      sourceHandle: '1741096242098'
-      target: '1741152913235'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: question-classifier
-        targetType: http-request
-      id: 1741096229050-1741096247073-1741152913235-target
-      source: '1741096229050'
-      sourceHandle: '1741096247073'
-      target: '1741152913235'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: question-classifier
-        targetType: http-request
-      id: 1741096229050-1741096380290-1741152913235-target
-      source: '1741096229050'
-      sourceHandle: '1741096380290'
-      target: '1741152913235'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: http-request
-        targetType: answer
-      id: 1741152913235-source-1741152628571-target
-      source: '1741152913235'
-      sourceHandle: source
-      target: '1741152628571'
-      targetHandle: target
-      type: custom
-      zIndex: 0
-    - data:
-        isInIteration: false
-        sourceType: question-classifier
         targetType: answer
       id: 1741096229050-1741157729097-1741182062462-target
       selected: false
@@ -436,6 +359,72 @@ workflow:
       targetHandle: target
       type: custom
       zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: answer
+      id: 1741096229050-1-1741152628571-target
+      source: '1741096229050'
+      sourceHandle: '1'
+      target: '1741152628571'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: answer
+      id: 1741096229050-2-1741152628571-target
+      source: '1741096229050'
+      sourceHandle: '2'
+      target: '1741152628571'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: answer
+      id: 1741096229050-1741096238323-1741152628571-target
+      source: '1741096229050'
+      sourceHandle: '1741096238323'
+      target: '1741152628571'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: answer
+      id: 1741096229050-1741096242098-1741152628571-target
+      source: '1741096229050'
+      sourceHandle: '1741096242098'
+      target: '1741152628571'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: answer
+      id: 1741096229050-1741096247073-1741152628571-target
+      source: '1741096229050'
+      sourceHandle: '1741096247073'
+      target: '1741152628571'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: answer
+      id: 1741096229050-1741096380290-1741152628571-target
+      source: '1741096229050'
+      sourceHandle: '1741096380290'
+      target: '1741152628571'
+      targetHandle: target
+      type: custom
+      zIndex: 0
     nodes:
     - data:
         desc: ''
@@ -451,7 +440,7 @@ workflow:
       positionAbsolute:
         x: 30
         y: 373.5
-      selected: false
+      selected: true
       sourcePosition: right
       targetPosition: left
       type: custom
@@ -551,13 +540,13 @@ workflow:
     - data:
         answer: 'Xin mời bạn xem bản đồ.
 
-          {{#1741152913235.files#}}'
+          ![Map](https://chatfptu.onrender.com/map)'
         desc: ''
         selected: false
         title: Answer 4
         type: answer
         variables: []
-      height: 117
+      height: 115
       id: '1741152628571'
       position:
         x: 1242
@@ -566,43 +555,6 @@ workflow:
         x: 1242
         y: 373.5
       selected: false
-      sourcePosition: right
-      targetPosition: left
-      type: custom
-      width: 243
-    - data:
-        authorization:
-          config: null
-          type: no-auth
-        body:
-          data: []
-          type: none
-        desc: ''
-        headers: ''
-        method: get
-        params: ''
-        retry_config:
-          max_retries: 10
-          retry_enabled: true
-          retry_interval: 100
-        selected: false
-        timeout:
-          max_connect_timeout: 0
-          max_read_timeout: 0
-          max_write_timeout: 0
-        title: HTTP Request
-        type: http-request
-        url: https://chatfptu.onrender.com/map
-        variables: []
-      height: 134
-      id: '1741152913235'
-      position:
-        x: 939
-        y: 373.5
-      positionAbsolute:
-        x: 939
-        y: 373.5
-      selected: true
       sourcePosition: right
       targetPosition: left
       type: custom
@@ -1085,7 +1037,10 @@ workflow:
         prompt_template:
         - id: 786ad130-e488-40c2-9376-9a890fa66817
           role: system
-          text: '{{#context#}}'
+          text: '{{#context#}}
+
+            You are ChatFPTU, an agent designed to help future and new FPT University
+            students.'
         selected: false
         title: LLM
         type: llm
@@ -1195,6 +1150,14 @@ workflow:
           - '1741340718151'
           - result
         desc: ''
+        memory:
+          query_prompt_template: '{{#sys.query#}}'
+          role_prefix:
+            assistant: ''
+            user: ''
+          window:
+            enabled: false
+            size: 50
         model:
           completion_params:
             temperature: 0.7
@@ -1204,7 +1167,10 @@ workflow:
         prompt_template:
         - id: 1a159cc5-d7ae-4dfd-852e-95989283d1ab
           role: system
-          text: '{{#context#}}'
+          text: '{{#context#}}
+
+            You are ChatFPTU, an agent designed to help future and new FPT university
+            students.'
         selected: false
         title: LLM 2
         type: llm
@@ -1264,6 +1230,6 @@ workflow:
       type: custom
       width: 243
     viewport:
-      x: -1084.6509139005254
-      y: -1297.4686063843249
-      zoom: 0.944371774037789
+      x: -100.4500994465892
+      y: -732.3739166573099
+      zoom: 0.6026644318372327

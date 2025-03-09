@@ -39,7 +39,7 @@ def send_to_dify(user_message):
     payload = {
         "inputs": {},
         "query": user_message,
-        "response_mode": "blocking",
+        "response_mode": "streaming",
         "conversation_id": "",
         "user": "test_user"
     }

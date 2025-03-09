@@ -41,7 +41,7 @@ def send_to_dify(user_message, conversation_id=""):
         "query": user_message,
         "response_mode": "blocking",
         "conversation_id": conversation_id,
-        "user": "test_user"
+        "user": "ChatFPTU_Android_App"
     }
     headers = {
         "Authorization": f"Bearer {DIFY_API_KEY}",

@@ -32,6 +32,7 @@ def chat():
         return jsonify({"error": "Message cannot be empty"}), 400
 
     response = send_to_dify(user_message, conversation_id)
+    app.logger.debug(response)
     return jsonify({"response": response})
 
 def send_to_dify(user_message, conversation_id):

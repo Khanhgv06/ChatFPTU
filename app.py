@@ -50,7 +50,7 @@ def send_to_dify(user_message, conversation_id):
     }
 
     response = requests.post(DIFY_API_URL, json=payload, headers=headers)
-
+    app.logger.debug(response)
     if response.status_code == 200:
         return response.json().get('response', 'No response from AI')
     else:

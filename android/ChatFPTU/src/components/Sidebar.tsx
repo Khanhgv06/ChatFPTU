@@ -3,11 +3,10 @@ import { Icon } from 'react-native-paper';
 
 interface SidebarProps {
     isCollapsed: boolean;
-    onToggle: () => void;
     clearMsg: () => void;
 }
 
-const Sidebar = ({ isCollapsed, onToggle, clearMsg }: SidebarProps) => {
+const Sidebar = ({ isCollapsed, clearMsg }: SidebarProps) => {
     return (
         <View style={[styles.container, isCollapsed ? styles.collapsed : styles.expanded]}>
             <View style={styles.menuItems}>

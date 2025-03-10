@@ -31,7 +31,7 @@ const App = () => {
             <SafeAreaView style={{ flex: 1 }}>
                 <View style={{ flex: 1, flexDirection: 'row' }}>
                     {!isCollapsed && (
-                        <Sidebar isCollapsed={isCollapsed} onToggle={() => setIsCollapsed(!isCollapsed)} clearMsg={resetMessages}/>
+                        <Sidebar isCollapsed={isCollapsed} clearMsg={resetMessages}/>
                     )}
                     <TouchableOpacity 
                         style={{ flex: 1 }}

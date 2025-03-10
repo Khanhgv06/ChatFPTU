@@ -1,14 +1,11 @@
 import React, { useState } from 'react';
-import { FlatList, StyleSheet, View, Image, Modal, TouchableOpacity } from 'react-native';
+import { FlatList, StyleSheet, View, Image, Linking, TouchableOpacity } from 'react-native';
 import Markdown from 'react-native-markdown-display';
 
 const ChatMessages = ({ messages }) => {
-    const [modalVisible, setModalVisible] = useState(false);
-    const [selectedImage, setSelectedImage] = useState(null);
 
-    const openImage = (imageUri) => {
-        setSelectedImage(imageUri);
-        setModalVisible(true);
+    const openImageLink = (imageUri) => {
+        Linking.openURL(imageUri).catch(err => console.error('An error occurred', err));
     };
 
     return (
@@ -24,7 +21,7 @@ const ChatMessages = ({ messages }) => {
                                 image: (node) => {
                                     const imageUri = node.attributes.src;
                                     return (
-                                        <TouchableOpacity onPress={() => openImage(imageUri)} key={imageUri}>
+                                        <TouchableOpacity onPress={() => openImageLink(imageUri)} key={imageUri}>
                                             <Image source={{ uri: imageUri }} style={markdownStyles.image} />
                                         </TouchableOpacity>
                                     );
@@ -37,13 +34,6 @@ const ChatMessages = ({ messages }) => {
                 )}
                 style={styles.container}
             />
-
-            {/* Full-screen Image Modal */}
-            <Modal visible={modalVisible} transparent={true} onRequestClose={() => setModalVisible(false)}>
-                <TouchableOpacity style={styles.modalBackground} onPress={() => setModalVisible(false)}>
-                    <Image source={{ uri: selectedImage }} style={styles.fullScreenImage} />
-                </TouchableOpacity>
-            </Modal>
         </View>
     );
 };
@@ -66,17 +56,6 @@ const styles = StyleSheet.create({
     assistantMessage: {
         alignSelf: 'flex-start',
         backgroundColor: '#2a2a2a',
-    },
-    modalBackground: {
-        flex: 1,
-        backgroundColor: 'rgba(0,0,0,0.9)',
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-    fullScreenImage: {
-        width: '90%',
-        height: '80%',
-        resizeMode: 'contain',
     },
 });
 

@@ -4,13 +4,14 @@ import { Icon } from 'react-native-paper';
 interface SidebarProps {
     isCollapsed: boolean;
     clearMsg: () => void;
+    newChat: () => void;
 }
 
-const Sidebar = ({ isCollapsed, clearMsg }: SidebarProps) => {
+const Sidebar = ({ isCollapsed, clearMsg, newChat }: SidebarProps) => {
     return (
         <View style={[styles.container, isCollapsed ? styles.collapsed : styles.expanded]}>
             <View style={styles.menuItems}>
-                <TouchableOpacity style={styles.menuItem}>
+                <TouchableOpacity style={styles.menuItem} onPress={newChat}>
                     <Icon source="chat-plus" size={24} color="white" />
                     {!isCollapsed && <Text style={styles.menuText}>New chat</Text>}
                 </TouchableOpacity>

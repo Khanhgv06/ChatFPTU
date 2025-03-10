@@ -24,14 +24,16 @@ const App = () => {
     );
 
     const setInputText = useCallback((input: string) => setHelpText(input), []);
-    
+    const newChat = () => {
+        setIsCollapsed(!isCollapsed)
+    }
     return (
         <View style={{ flex: 1, backgroundColor: '#1a1a1a' }}>
             <Stack.Screen options={{ headerShown: false, statusBarStyle: 'dark' }} />
             <SafeAreaView style={{ flex: 1 }}>
                 <View style={{ flex: 1, flexDirection: 'row' }}>
                     {!isCollapsed && (
-                        <Sidebar isCollapsed={isCollapsed} clearMsg={resetMessages}/>
+                        <Sidebar isCollapsed={isCollapsed} clearMsg={resetMessages} newChat={newChat}/>
                     )}
                     <TouchableOpacity 
                         style={{ flex: 1 }}

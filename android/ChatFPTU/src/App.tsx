@@ -13,7 +13,17 @@ const App = () => {
     const [isCollapsed, setIsCollapsed] = useState(true);
     const [helpText, setHelpText] = useState('');
     const { messages, conversationId, isLoading, sendMessage, resetMessages } = useChat();
-    let conversations: Conversation[] = [];
+    const [conversations, setConversations] = useState<Conversation[]>([]);
+
+    useEffect(() => {
+        const fetchConversations = async () => {
+            const loadedConversations = await loadConversations();
+            setConversations(loadedConversations);
+        };
+
+        fetchConversations();
+    }, []);    
+
     const handleSendMessage = useCallback(
         async (text: string) => {
             if (text.trim()) {

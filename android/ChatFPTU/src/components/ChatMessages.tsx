@@ -48,6 +48,7 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         marginVertical: 5,
         maxWidth: '80%',
+        marginHorizontal: 15,
     },
     userMessage: {
         alignSelf: 'flex-end',

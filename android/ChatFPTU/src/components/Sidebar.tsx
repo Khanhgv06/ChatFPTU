@@ -1,13 +1,15 @@
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { Icon } from 'react-native-paper';
+import { Conversation } from './Conversations';
 
 interface SidebarProps {
+    conversations: Conversation[];
     isCollapsed: boolean;
     clearMsg: () => void;
     newChat: () => void;
 }
 
-const Sidebar = ({ isCollapsed, clearMsg, newChat }: SidebarProps) => {
+const Sidebar = ({ conversations, isCollapsed, clearMsg, newChat }: SidebarProps) => {
     return (
         <View style={[styles.container, isCollapsed ? styles.collapsed : styles.expanded]}>
             <View style={styles.menuItems}>
@@ -16,6 +18,11 @@ const Sidebar = ({ isCollapsed, clearMsg, newChat }: SidebarProps) => {
                     {!isCollapsed && <Text style={styles.menuText}>New chat</Text>}
                 </TouchableOpacity>
                 <View style={styles.separator} />
+                {conversations.map((conversation) => (
+                    <TouchableOpacity key={conversation.conversationId} style={styles.menuItem}>
+                        {!isCollapsed && <Text style={styles.menuText}>ID: {conversation.conversationId}</Text>}
+                    </TouchableOpacity>
+                ))}
                 <TouchableOpacity style={styles.clearChatsItem} onPress={clearMsg}>
                     <Icon source="trash-can-outline" size={24} color="red" />
                     {!isCollapsed && <Text style={styles.clearChatsText}>Clear chats</Text>}

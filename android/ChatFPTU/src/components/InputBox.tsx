@@ -5,7 +5,12 @@ import ChatAPI from '../ChatAPI';
 
 const chat = new ChatAPI();
 
-const InputBox = ({ onSendMessage, helpTextIn }) => {
+interface InputBoxProps {
+    onSendMessage: (text: string) => void;
+    helpTextIn: string;
+}
+
+const InputBox = ({ onSendMessage, helpTextIn }: InputBoxProps) => {
     const [text, setText] = useState('');
     const [visible, setVisible] = useState(false);
 

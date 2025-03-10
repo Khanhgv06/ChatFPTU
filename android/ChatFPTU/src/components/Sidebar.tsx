@@ -7,23 +7,24 @@ interface SidebarProps {
     isCollapsed: boolean;
     clearMsg: () => void;
     newChat: () => void;
+    useConversation: (conversationId: string) => void;
 }
 
-const Sidebar = ({ conversations, isCollapsed, clearMsg, newChat }: SidebarProps) => {
+const Sidebar = ({ conversations, isCollapsed, clearMsg, newChat, useConversation }: SidebarProps) => {
     return (
         <View style={[styles.container, isCollapsed ? styles.collapsed : styles.expanded]}>
             <View style={styles.menuItems}>
-                <TouchableOpacity style={styles.menuItem} onPress={newChat}>
+                <TouchableOpacity style={styles.menuItem} onPress={() => newChat}>
                     <Icon source="chat-plus" size={24} color="white" />
                     {!isCollapsed && <Text style={styles.menuText}>New chat</Text>}
                 </TouchableOpacity>
                 <View style={styles.separator} />
                 {conversations.map((conversation) => (
-                    <TouchableOpacity key={conversation.conversationId} style={styles.menuItem}>
+                    <TouchableOpacity key={conversation.conversationId} style={styles.menuItem} onPress={() => useConversation(conversation.conversationId)}>
                         {!isCollapsed && <Text style={styles.menuText}>ID: {conversation.conversationId}</Text>}
                     </TouchableOpacity>
                 ))}
-                <TouchableOpacity style={styles.clearChatsItem} onPress={clearMsg}>
+                <TouchableOpacity style={styles.clearChatsItem} onPress={() => clearMsg}>
                     <Icon source="trash-can-outline" size={24} color="red" />
                     {!isCollapsed && <Text style={styles.clearChatsText}>Clear chats</Text>}
                 </TouchableOpacity>

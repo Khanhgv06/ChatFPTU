@@ -1,18 +1,24 @@
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
+import { Icon } from 'react-native-paper';
 
 interface SidebarProps {
     isCollapsed: boolean;
     onToggle: () => void;
+    clearMsg: () => void;
 }
 
-export default function Sidebar({ isCollapsed, onToggle }: SidebarProps) {
+const Sidebar = ({ isCollapsed, onToggle, clearMsg }: SidebarProps) => {
     return (
         <View style={[styles.container, isCollapsed ? styles.collapsed : styles.expanded]}>
             <View style={styles.menuItems}>
                 <TouchableOpacity style={styles.menuItem}>
-                    <Ionicons name="chatbubbles-outline" size={24} color="white" />
+                    <Icon source="chat-plus" size={24} color="white" />
                     {!isCollapsed && <Text style={styles.menuText}>New chat</Text>}
+                </TouchableOpacity>
+                <View style={styles.separator} />
+                <TouchableOpacity style={styles.clearChatsItem} onPress={clearMsg}>
+                    <Icon source="trash-can-outline" size={24} color="red" />
+                    {!isCollapsed && <Text style={styles.clearChatsText}>Clear chats</Text>}
                 </TouchableOpacity>
             </View>
         </View>
@@ -25,6 +31,8 @@ const styles = StyleSheet.create({
         height: '100%',
         borderRightWidth: 1,
         borderRightColor: '#3a3a3a',
+        flexDirection: 'column',
+        paddingBottom: 16, 
     },
     collapsed: {
         width: 60,
@@ -33,9 +41,12 @@ const styles = StyleSheet.create({
         width: 260,
     },
     menuItems: {
+        flex: 1, 
+        justifyContent: 'flex-start',
         padding: 16,
     },
     menuItem: {
+        paddingTop: 5,
         flexDirection: 'row',
         alignItems: 'center',
         marginBottom: 20,
@@ -45,4 +56,20 @@ const styles = StyleSheet.create({
         color: 'white',
         fontSize: 16,
     },
+    separator: {
+        height: 1,
+        backgroundColor: '#CCCCCC',
+    },
+    clearChatsItem: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        gap: 12,
+        marginTop: 'auto',
+    },
+    clearChatsText: {
+        color: 'red',
+        fontSize: 16,
+    },
 });
+
+export default Sidebar;

@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { View, TextInput, StyleSheet } from 'react-native';
-import { IconButton } from 'react-native-paper';
+import { IconButton, Snackbar } from 'react-native-paper';
 import ChatAPI from '../ChatAPI';
 
 const chat = new ChatAPI();
 
 const InputBox = ({ onSendMessage, helpTextIn }) => {
     const [text, setText] = useState('');
+    const [visible, setVisible] = useState(false);
 
     useEffect(() => {
         if (helpTextIn) {
-            console.log("b");
             setText(helpTextIn);
         }
     }, [helpTextIn]);
@@ -20,11 +20,15 @@ const InputBox = ({ onSendMessage, helpTextIn }) => {
         onSendMessage(text);
         setText('');
     };
+
+    const handleMicPress = () => {
+        setVisible(true);
+    };
     return (
         <View style={styles.inputContainer}>
             <IconButton
                 icon="microphone"
-                onPress={() => console.log('Microphone pressed')}
+                onPress={handleMicPress}
                 style={styles.micButton}
                 iconColor="#fff"
             />
@@ -43,6 +47,13 @@ const InputBox = ({ onSendMessage, helpTextIn }) => {
                 style={styles.sendButton}
                 iconColor="#fff"
             />
+            <Snackbar
+                visible={visible}
+                onDismiss={() => setVisible(false)}
+                duration={2000}
+            >
+                Speech-to-text is not supported yet.
+            </Snackbar>
         </View>
     );
 };

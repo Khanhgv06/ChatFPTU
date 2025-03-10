@@ -1,19 +1,25 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { View, TextInput, StyleSheet } from 'react-native';
 import { IconButton } from 'react-native-paper';
 import ChatAPI from '../ChatAPI';
 
 const chat = new ChatAPI();
 
-const InputBox = ({ onSendMessage }) => {
+const InputBox = ({ onSendMessage, helpTextIn }) => {
     const [text, setText] = useState('');
 
+    useEffect(() => {
+        if (helpTextIn) {
+            console.log("b");
+            setText(helpTextIn);
+        }
+    }, [helpTextIn]);
+    
     const handleSendPress = async () => {
         if (text.trim() === '') return;
         onSendMessage(text);
         setText('');
     };
-
     return (
         <View style={styles.inputContainer}>
             <IconButton

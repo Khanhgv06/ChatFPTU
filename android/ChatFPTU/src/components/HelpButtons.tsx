@@ -12,8 +12,7 @@ const HelpButtons = ({ setInputText }) => {
                     mode="outlined"
                     onPress={() => setInputText("Tòa Alpha ở đâu?")}
                     style={styles.button}
-                    labelStyle={styles.buttonText}
-                >
+                    labelStyle={styles.buttonText}>
                     Tòa Alpha ở đâu?
                 </Button>
                 <Button
@@ -21,8 +20,7 @@ const HelpButtons = ({ setInputText }) => {
                     mode="outlined"
                     onPress={() => setInputText("Cách nạp tiền vào ví FAP?")}
                     style={styles.button}
-                    labelStyle={styles.buttonText}
-                >
+                    labelStyle={styles.buttonText}>
                     Cách nạp tiền vào ví FAP?
                 </Button>
             </View>

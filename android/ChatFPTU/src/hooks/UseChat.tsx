@@ -29,7 +29,12 @@ const useChat = () => {
         []
     );
 
-    return { messages, conversationId, isLoading, sendMessage };
+    const resetMessages = () => {
+        setMessages([]);
+        setConversationId('');
+    }
+
+    return { messages, conversationId, isLoading, sendMessage, resetMessages };
 };
 
 export default useChat;

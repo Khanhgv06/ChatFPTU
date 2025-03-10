@@ -12,7 +12,7 @@ import useChat from './hooks/UseChat';
 export default function App() {
     const [isCollapsed, setIsCollapsed] = useState(true);
     const [helpText, setHelpText] = useState('');
-    const { messages, conversationId, isLoading, sendMessage } = useChat();
+    const { messages, conversationId, isLoading, sendMessage, resetMessages } = useChat();
 
     const handleSendMessage = useCallback(
         async (text: string) => {
@@ -24,7 +24,7 @@ export default function App() {
     );
 
     const setInputText = useCallback((input: string) => setHelpText(input), []);
-
+    
     return (
         <View style={{ flex: 1, backgroundColor: '#1a1a1a' }}>
             <Stack.Screen options={{ headerShown: false, statusBarStyle: 'dark' }} />

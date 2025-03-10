@@ -3,7 +3,6 @@ import { useState, useCallback } from 'react';
 import { Stack } from 'expo-router';
 import InputBox from './components/InputBox';
 import ChatMessages from './components/ChatMessages';
-import ChatAPI from './ChatAPI';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import HelpButtons from './components/HelpButtons';

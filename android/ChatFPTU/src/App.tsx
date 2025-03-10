@@ -1,5 +1,5 @@
 import { View, SafeAreaView, TouchableOpacity, ActivityIndicator, Text } from 'react-native';
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { Stack } from 'expo-router';
 import InputBox from './components/InputBox';
 import ChatMessages from './components/ChatMessages';
@@ -7,7 +7,7 @@ import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import HelpButtons from './components/HelpButtons';
 import useChat from './hooks/UseChat';
-import { Conversation } from './components/Conversations';
+import { Conversation, loadConversations, saveConversations, addConversation, clearConversations } from './components/Conversations';
 
 const App = () => {
     const [isCollapsed, setIsCollapsed] = useState(true);
@@ -56,7 +56,7 @@ const App = () => {
             <SafeAreaView style={{ flex: 1 }}>
                 <View style={{ flex: 1, flexDirection: 'row' }}>
                     {!isCollapsed && (
-                        <Sidebar conversations={conversations} isCollapsed={isCollapsed} clearMsg={resetMessages} newChat={newChat}/>
+                        <Sidebar conversations={conversations} isCollapsed={isCollapsed} clearMsg={clearAllConversations} newChat={newChat}/>
                     )}
                     <TouchableOpacity 
                         style={{ flex: 1 }}

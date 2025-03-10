@@ -10,7 +10,7 @@ import Sidebar from './components/Sidebar';
 const chat = new ChatAPI();
 
 export default function App() {
-    const [isCollapsed, setIsCollapsed] = useState(false);
+    const [isCollapsed, setIsCollapsed] = useState(true);
     const [messages, setMessages] = useState([]);
     const [conversationId, setConversationId] = useState('');
 

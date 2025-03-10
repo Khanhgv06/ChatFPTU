@@ -10,7 +10,6 @@ const InputBox = ({ onSendMessage, helpTextIn }) => {
 
     useEffect(() => {
         if (helpTextIn) {
-            console.log("b");
             setText(helpTextIn);
         }
     }, [helpTextIn]);

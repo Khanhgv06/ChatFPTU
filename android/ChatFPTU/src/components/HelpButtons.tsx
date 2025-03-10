@@ -2,7 +2,11 @@ import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { Button } from 'react-native-paper';
 
-const HelpButtons = ({ setInputText }) => {
+interface HelpButtonProps {
+    setInputText: (input: string) => void;
+}
+
+const HelpButtons = ({ setInputText }: HelpButtonProps) => {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>What can I help with?</Text>

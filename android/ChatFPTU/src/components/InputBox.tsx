@@ -5,7 +5,12 @@ import ChatAPI from '../ChatAPI';
 
 const chat = new ChatAPI();
 
-const InputBox = ({ onSendMessage, helpTextIn }) => {
+interface InputBoxProps {
+    onSendMessage: (text: string) => void;
+    helpTextIn: string;
+}
+
+const InputBox = ({ onSendMessage, helpTextIn }: InputBoxProps) => {
     const [text, setText] = useState('');
     const [visible, setVisible] = useState(false);
 
@@ -30,28 +35,24 @@ const InputBox = ({ onSendMessage, helpTextIn }) => {
                 icon="microphone"
                 onPress={handleMicPress}
                 style={styles.micButton}
-                iconColor="#fff"
-            />
+                iconColor="#fff"/>
             
             <TextInput
                 value={text}
                 onChangeText={setText}
                 placeholder="Message ChatFPTU"
                 style={styles.textInput}
-                placeholderTextColor="#808080"
-            />
+                placeholderTextColor="#808080"/>
             
             <IconButton
                 icon="send"
                 onPress={handleSendPress}
                 style={styles.sendButton}
-                iconColor="#fff"
-            />
+                iconColor="#fff"/>
             <Snackbar
                 visible={visible}
                 onDismiss={() => setVisible(false)}
-                duration={2000}
-            >
+                duration={2000}>
                 Speech-to-text is not supported yet.
             </Snackbar>
         </View>

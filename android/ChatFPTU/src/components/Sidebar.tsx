@@ -1,22 +1,30 @@
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { Icon } from 'react-native-paper';
+import { Conversation } from './Conversations';
 
 interface SidebarProps {
+    conversations: Conversation[];
     isCollapsed: boolean;
-    onToggle: () => void;
     clearMsg: () => void;
+    newChat: () => void;
+    useConversation: (conversationId: string) => void;
 }
 
-const Sidebar = ({ isCollapsed, onToggle, clearMsg }: SidebarProps) => {
+const Sidebar = ({ conversations, isCollapsed, clearMsg, newChat, useConversation }: SidebarProps) => {
     return (
         <View style={[styles.container, isCollapsed ? styles.collapsed : styles.expanded]}>
             <View style={styles.menuItems}>
-                <TouchableOpacity style={styles.menuItem}>
+                <TouchableOpacity style={styles.menuItem} onPress={() => newChat}>
                     <Icon source="chat-plus" size={24} color="white" />
                     {!isCollapsed && <Text style={styles.menuText}>New chat</Text>}
                 </TouchableOpacity>
                 <View style={styles.separator} />
-                <TouchableOpacity style={styles.clearChatsItem} onPress={clearMsg}>
+                {conversations.map((conversation) => (
+                    <TouchableOpacity key={conversation.conversationId} style={styles.menuItem} onPress={() => useConversation(conversation.conversationId)}>
+                        {!isCollapsed && <Text style={styles.menuText}>ID: {conversation.conversationId}</Text>}
+                    </TouchableOpacity>
+                ))}
+                <TouchableOpacity style={styles.clearChatsItem} onPress={() => clearMsg}>
                     <Icon source="trash-can-outline" size={24} color="red" />
                     {!isCollapsed && <Text style={styles.clearChatsText}>Clear chats</Text>}
                 </TouchableOpacity>

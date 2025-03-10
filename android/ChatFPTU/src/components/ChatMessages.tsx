@@ -1,10 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FlatList, StyleSheet, View, Image, Linking, TouchableOpacity } from 'react-native';
 import Markdown from 'react-native-markdown-display';
+import { Message } from '../components/Conversations';
 
-const ChatMessages = ({ messages }) => {
+interface ChatMessagesProps {
+    messages: Message[];
+}
 
-    const openImageLink = (imageUri) => {
+const ChatMessages: React.FC<ChatMessagesProps> = ({ messages }) => {
+
+    const openImageLink = (imageUri: string) => {
         Linking.openURL(imageUri).catch(err => console.error('An error occurred', err));
     };
 
@@ -12,9 +17,9 @@ const ChatMessages = ({ messages }) => {
         <View style={{ flex: 1 }}>
             <FlatList
                 data={messages}
-                keyExtractor={(item, index) => index.toString()}
+                keyExtractor={(_, index) => index.toString()}
                 renderItem={({ item }) => (
-                    <View style={[styles.messageContainer, item.sender === 'user' ? styles.userMessage : styles.assistantMessage]}>
+                    <View style={[styles.messageContainer, item.role === 'user' ? styles.userMessage : styles.assistantMessage]}>
                         <Markdown
                             style={markdownStyles}
                             rules={{
@@ -28,7 +33,7 @@ const ChatMessages = ({ messages }) => {
                                 },
                             }}
                         >
-                            {item.text}
+                            {item.content}
                         </Markdown>
                     </View>
                 )}
@@ -48,6 +53,7 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         marginVertical: 5,
         maxWidth: '80%',
+        marginHorizontal: 15,
     },
     userMessage: {
         alignSelf: 'flex-end',

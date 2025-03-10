@@ -2,7 +2,11 @@ import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { Button } from 'react-native-paper';
 
-const HelpButtons = ({ setInputText }) => {
+interface HelpButtonProps {
+    setInputText: (input: string) => void;
+}
+
+const HelpButtons = ({ setInputText }: HelpButtonProps) => {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>What can I help with?</Text>
@@ -12,8 +16,7 @@ const HelpButtons = ({ setInputText }) => {
                     mode="outlined"
                     onPress={() => setInputText("Tòa Alpha ở đâu?")}
                     style={styles.button}
-                    labelStyle={styles.buttonText}
-                >
+                    labelStyle={styles.buttonText}>
                     Tòa Alpha ở đâu?
                 </Button>
                 <Button
@@ -21,8 +24,7 @@ const HelpButtons = ({ setInputText }) => {
                     mode="outlined"
                     onPress={() => setInputText("Cách nạp tiền vào ví FAP?")}
                     style={styles.button}
-                    labelStyle={styles.buttonText}
-                >
+                    labelStyle={styles.buttonText}>
                     Cách nạp tiền vào ví FAP?
                 </Button>
             </View>

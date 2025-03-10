@@ -6,7 +6,7 @@ interface SidebarProps {
     onToggle: () => void;
 }
 
-export default function Sidebar({ isCollapsed, onToggle }: SidebarProps) {
+const Sidebar = ({ isCollapsed, onToggle }: SidebarProps) => {
     return (
         <View style={[styles.container, isCollapsed ? styles.collapsed : styles.expanded]}>
             <View style={styles.menuItems}>
@@ -70,3 +70,5 @@ const styles = StyleSheet.create({
         fontSize: 16,
     },
 });
+
+export default Sidebar;

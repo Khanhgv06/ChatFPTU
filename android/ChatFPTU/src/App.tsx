@@ -9,7 +9,7 @@ import Sidebar from './components/Sidebar';
 import HelpButtons from './components/HelpButtons';
 import useChat from './hooks/UseChat';
 
-export default function App() {
+const App = () => {
     const [isCollapsed, setIsCollapsed] = useState(true);
     const [helpText, setHelpText] = useState('');
     const { messages, conversationId, isLoading, sendMessage, resetMessages } = useChat();
@@ -66,3 +66,5 @@ export default function App() {
         </View>
     );
 }
+
+export default App;

@@ -1,4 +1,4 @@
-export default class ChatAPI {
+class ChatAPI {
     baseURL: string = "https://chatfptu.onrender.com";
 
     constructor() {
@@ -32,3 +32,5 @@ export default class ChatAPI {
         }
     }
 }
+
+export default ChatAPI;

@@ -33,19 +33,6 @@ const App = () => {
         [sendMessage, conversationId]
     );
 
-    const addNewConversation = async (newConversation: Conversation) => {
-        await addConversation(newConversation);
-        const updatedConversations = await loadConversations();
-        setConversations(updatedConversations);
-    };
-
-    
-    const clearAllConversations = async () => {
-        await clearConversations();
-        setConversations([]);
-        resetMessages();
-    };
-
     const setInputText = useCallback((input: string) => setHelpText(input), []);
     const newChat = () => {
         setIsCollapsed(!isCollapsed)

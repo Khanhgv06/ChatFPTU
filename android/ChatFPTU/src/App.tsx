@@ -23,9 +23,12 @@ const App = () => {
     );
 
     const setInputText = useCallback((input: string) => setHelpText(input), []);
+
     const newChat = () => {
+        resetMessages();
         setIsCollapsed(!isCollapsed)
     }
+    
     return (
         <View style={{ flex: 1, backgroundColor: '#1a1a1a' }}>
             <Stack.Screen options={{ headerShown: false, statusBarStyle: 'dark' }} />

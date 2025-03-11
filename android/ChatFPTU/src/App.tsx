@@ -48,8 +48,7 @@ const App = () => {
                     <TouchableOpacity 
                         style={{ flex: 1 }}
                         activeOpacity={1}
-                        onPress={() => !isCollapsed && setIsCollapsed(true)}
-                    >
+                        onPress={() => !isCollapsed && setIsCollapsed(true)}>
                         <View style={{ flex: 1 }}>
                             <Header onToggle={() => setIsCollapsed(!isCollapsed)} />
                             

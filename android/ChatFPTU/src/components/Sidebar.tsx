@@ -14,7 +14,7 @@ const Sidebar = ({ conversations, isCollapsed, clearMsg, newChat, useConversatio
     return (
         <View style={[styles.container, isCollapsed ? styles.collapsed : styles.expanded]}>
             <View style={styles.menuItems}>
-                <TouchableOpacity style={styles.menuItem} onPress={() => newChat}>
+                <TouchableOpacity style={styles.menuItem} onPress={newChat}>
                     <Icon source="chat-plus" size={24} color="white" />
                     {!isCollapsed && <Text style={styles.menuText}>New chat</Text>}
                 </TouchableOpacity>

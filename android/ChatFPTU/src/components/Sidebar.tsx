@@ -14,7 +14,7 @@ const Sidebar = ({ conversations, isCollapsed, clearMsg, newChat, useConversatio
     return (
         <View style={[styles.container, isCollapsed ? styles.collapsed : styles.expanded]}>
             <View style={styles.menuItems}>
-                <TouchableOpacity style={styles.menuItem} onPress={() => newChat}>
+                <TouchableOpacity style={styles.menuItem} onPress={newChat}>
                     <Icon source="chat-plus" size={24} color="white" />
                     {!isCollapsed && <Text style={styles.menuText}>New chat</Text>}
                 </TouchableOpacity>
@@ -24,7 +24,7 @@ const Sidebar = ({ conversations, isCollapsed, clearMsg, newChat, useConversatio
                         {!isCollapsed && <Text style={styles.menuText}>ID: {conversation.conversationId}</Text>}
                     </TouchableOpacity>
                 ))}
-                <TouchableOpacity style={styles.clearChatsItem} onPress={() => clearMsg}>
+                <TouchableOpacity style={styles.clearChatsItem} onPress={clearMsg}>
                     <Icon source="trash-can-outline" size={24} color="red" />
                     {!isCollapsed && <Text style={styles.clearChatsText}>Clear chats</Text>}
                 </TouchableOpacity>

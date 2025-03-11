@@ -24,7 +24,7 @@ const Sidebar = ({ conversations, isCollapsed, clearMsg, newChat, useConversatio
                         {!isCollapsed && <Text style={styles.menuText}>ID: {conversation.conversationId}</Text>}
                     </TouchableOpacity>
                 ))}
-                <TouchableOpacity style={styles.clearChatsItem} onPress={() => clearMsg}>
+                <TouchableOpacity style={styles.clearChatsItem} onPress={clearMsg}>
                     <Icon source="trash-can-outline" size={24} color="red" />
                     {!isCollapsed && <Text style={styles.clearChatsText}>Clear chats</Text>}
                 </TouchableOpacity>

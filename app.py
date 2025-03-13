@@ -53,6 +53,3 @@ def send_to_dify(user_message, conversation_id=""):
         return response.json()
     else:
         return "Sorry, something went wrong."
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=10000, debug=True)

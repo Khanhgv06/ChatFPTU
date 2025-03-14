@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/chatfptu.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.ChatFPTU"
     },
     "web": {
       "bundler": "metro",

@@ -1,15 +1,7 @@
-import * as React from 'react';
-import { AppRegistry } from 'react-native';
-import { PaperProvider } from 'react-native-paper';
-import App from '../src/App';
-
-export default function Main() {
+import { Text, View } from "react-native";
+import App from "./App";
+export default function Index() {
   return (
-
-    <PaperProvider>
-      <App />
-    </PaperProvider>
+      <App></App>
   );
 }
-
-AppRegistry.registerComponent("ChatFPTU", () => Main);

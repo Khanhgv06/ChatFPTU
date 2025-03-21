@@ -21,6 +21,26 @@ def home():
 def get_map():
     return send_from_directory(IMAGE_FOLDER, "map.jpg")
 
+@app.route("/Alpha", methods=["GET"])
+def get_alpha():
+    return send_from_directory(IMAGE_FOLDER, "alpha.jpg")
+
+@app.route("/Beta", methods=["GET"])
+def get_beta():
+    return send_from_directory(IMAGE_FOLDER, "beta.jpg")
+
+@app.route("/Delta", methods=["GET"])
+def get_delta():
+    return send_from_directory(IMAGE_FOLDER, "delta.jpg")
+
+@app.route("/Epsilon", methods=["GET"])
+def get_epsilon():
+    return send_from_directory(IMAGE_FOLDER, "epsilon.jpg")
+
+@app.route("/Gamma", methods=["GET"])
+def get_gamma():
+    return send_from_directory(IMAGE_FOLDER, "gamma.jpg")
+
 @app.route("/chat", methods=["POST"])
 def chat():
     """Handles chat messages from the Expo app and returns the response"""

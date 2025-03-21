@@ -19,11 +19,11 @@ version: 0.1.5
 workflow:
   conversation_variables:
   - description: ''
-    id: 822d50c3-f2bc-41b2-8dd8-ec8f38c2da7f
-    name: map_base64
+    id: 55450440-609c-431c-b484-a3a5de1e1de8
+    name: image_str
     selector:
     - conversation
-    - map_base64
+    - image_str
     value: ''
     value_type: string
   environment_variables: []
@@ -374,10 +374,10 @@ workflow:
         isInIteration: false
         sourceType: question-classifier
         targetType: answer
-      id: 1741096229050-2-1741152628571-target
+      id: 1741096229050-2-1742523734311-target
       source: '1741096229050'
       sourceHandle: '2'
-      target: '1741152628571'
+      target: '1742523734311'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -385,10 +385,10 @@ workflow:
         isInIteration: false
         sourceType: question-classifier
         targetType: answer
-      id: 1741096229050-1741096238323-1741152628571-target
+      id: 1741096229050-1741096238323-1742523748161-target
       source: '1741096229050'
       sourceHandle: '1741096238323'
-      target: '1741152628571'
+      target: '1742523748161'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -396,10 +396,10 @@ workflow:
         isInIteration: false
         sourceType: question-classifier
         targetType: answer
-      id: 1741096229050-1741096242098-1741152628571-target
+      id: 1741096229050-1741096242098-1742523761278-target
       source: '1741096229050'
       sourceHandle: '1741096242098'
-      target: '1741152628571'
+      target: '1742523761278'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -407,10 +407,21 @@ workflow:
         isInIteration: false
         sourceType: question-classifier
         targetType: answer
-      id: 1741096229050-1741096247073-1741152628571-target
+      id: 1741096229050-1741096247073-1742523779295-target
       source: '1741096229050'
       sourceHandle: '1741096247073'
-      target: '1741152628571'
+      target: '1742523779295'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: question-classifier
+      id: 1741096229050-1741096380290-1742524007066-target
+      source: '1741096229050'
+      sourceHandle: '1741096380290'
+      target: '1742524007066'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -418,10 +429,109 @@ workflow:
         isInIteration: false
         sourceType: question-classifier
         targetType: answer
-      id: 1741096229050-1741096380290-1741152628571-target
-      source: '1741096229050'
-      sourceHandle: '1741096380290'
-      target: '1741152628571'
+      id: 1742524007066-2-1742524157169-target
+      source: '1742524007066'
+      sourceHandle: '2'
+      target: '1742524157169'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: question-classifier
+      id: 1742524007066-1-1742524663829-target
+      source: '1742524007066'
+      sourceHandle: '1'
+      target: '1742524663829'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: answer
+      id: 1742524663829-1-1742524742231-target
+      source: '1742524663829'
+      sourceHandle: '1'
+      target: '1742524742231'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: answer
+      id: 1742524663829-2-1742524761131-target
+      source: '1742524663829'
+      sourceHandle: '2'
+      target: '1742524761131'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: answer
+      id: 1742524663829-1742524698396-1742524774348-target
+      source: '1742524663829'
+      sourceHandle: '1742524698396'
+      target: '1742524774348'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: answer
+      id: 1742524663829-1742524702547-1742524777981-target
+      source: '1742524663829'
+      sourceHandle: '1742524702547'
+      target: '1742524777981'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: answer
+      id: 1742524663829-1742524706963-1742524781965-target
+      source: '1742524663829'
+      sourceHandle: '1742524706963'
+      target: '1742524781965'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: answer
+      id: 1742524663829-1742524710097-1742524785932-target
+      source: '1742524663829'
+      sourceHandle: '1742524710097'
+      target: '1742524785932'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: answer
+      id: 1742524663829-1742524713897-1742524789848-target
+      source: '1742524663829'
+      sourceHandle: '1742524713897'
+      target: '1742524789848'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        sourceType: question-classifier
+        targetType: answer
+      id: 1742524663829-1742524716814-1742524793348-target
+      source: '1742524663829'
+      sourceHandle: '1742524716814'
+      target: '1742524793348'
       targetHandle: target
       type: custom
       zIndex: 0
@@ -436,11 +546,11 @@ workflow:
       id: '1741093650726'
       position:
         x: 30
-        y: 373.5
+        y: 505.5
       positionAbsolute:
         x: 30
-        y: 373.5
-      selected: true
+        y: 505.5
+      selected: false
       sourcePosition: right
       targetPosition: left
       type: custom
@@ -477,10 +587,10 @@ workflow:
       id: '1741093928841'
       position:
         x: 333
-        y: 373.5
+        y: 505.5
       positionAbsolute:
         x: 333
-        y: 373.5
+        y: 505.5
       selected: false
       sourcePosition: right
       targetPosition: left
@@ -528,17 +638,22 @@ workflow:
       id: '1741096229050'
       position:
         x: 636
-        y: 373.5
+        y: 505.5
       positionAbsolute:
         x: 636
-        y: 373.5
+        y: 505.5
       selected: false
       sourcePosition: right
       targetPosition: left
       type: custom
       width: 243
     - data:
-        answer: 'Xin mời bạn xem bản đồ.
+        answer: 'Tòa Alpha trông như thế này
+
+          ![Building](https://chatfptu.onrender.com/Alpha)
+
+
+          Xin mời bạn tham khảo bản đồ.
 
           ![Map](https://chatfptu.onrender.com/map)'
         desc: ''
@@ -546,14 +661,14 @@ workflow:
         title: Answer 4
         type: answer
         variables: []
-      height: 115
+      height: 147
       id: '1741152628571'
       position:
-        x: 1242
-        y: 373.5
+        x: 939
+        y: 1156.5
       positionAbsolute:
-        x: 1242
-        y: 373.5
+        x: 939
+        y: 1156.5
       selected: false
       sourcePosition: right
       targetPosition: left
@@ -634,10 +749,10 @@ workflow:
       id: '1741182062462'
       position:
         x: 939
-        y: 755.5
+        y: 505.5
       positionAbsolute:
         x: 939
-        y: 755.5
+        y: 505.5
       selected: false
       sourcePosition: right
       targetPosition: left
@@ -697,10 +812,10 @@ workflow:
       id: '1741339720314'
       position:
         x: 636
-        y: 1281
+        y: 3266.5
       positionAbsolute:
         x: 636
-        y: 1281
+        y: 3266.5
       selected: false
       sourcePosition: right
       targetPosition: left
@@ -732,10 +847,10 @@ workflow:
       id: '1741339901501'
       position:
         x: 939
-        y: 1406.5
+        y: 3526.5
       positionAbsolute:
         x: 939
-        y: 1406.5
+        y: 3526.5
       selected: false
       sourcePosition: right
       targetPosition: left
@@ -767,10 +882,10 @@ workflow:
       id: '1741339904151'
       position:
         x: 939
-        y: 1537.5
+        y: 3657.5
       positionAbsolute:
         x: 939
-        y: 1537.5
+        y: 3657.5
       selected: false
       sourcePosition: right
       targetPosition: left
@@ -802,10 +917,10 @@ workflow:
       id: '1741339906484'
       position:
         x: 939
-        y: 1668.5
+        y: 3788.5
       positionAbsolute:
         x: 939
-        y: 1668.5
+        y: 3788.5
       selected: false
       sourcePosition: right
       targetPosition: left
@@ -837,10 +952,10 @@ workflow:
       id: '1741339909118'
       position:
         x: 939
-        y: 1799.5
+        y: 3919.5
       positionAbsolute:
         x: 939
-        y: 1799.5
+        y: 3919.5
       selected: false
       sourcePosition: right
       targetPosition: left
@@ -872,10 +987,10 @@ workflow:
       id: '1741339911518'
       position:
         x: 939
-        y: 1930.5
+        y: 4050.5
       positionAbsolute:
         x: 939
-        y: 1930.5
+        y: 4050.5
       selected: false
       sourcePosition: right
       targetPosition: left
@@ -907,10 +1022,10 @@ workflow:
       id: '1741339913301'
       position:
         x: 939
-        y: 2023.5
+        y: 4181.5
       positionAbsolute:
         x: 939
-        y: 2023.5
+        y: 4181.5
       selected: false
       sourcePosition: right
       targetPosition: left
@@ -942,10 +1057,10 @@ workflow:
       id: '1741339915535'
       position:
         x: 939
-        y: 2116.5
+        y: 4312.5
       positionAbsolute:
         x: 939
-        y: 2116.5
+        y: 4312.5
       selected: false
       sourcePosition: right
       targetPosition: left
@@ -976,10 +1091,10 @@ workflow:
       id: '1741340607865'
       position:
         x: 1242
-        y: 1613.5
+        y: 3598
       positionAbsolute:
         x: 1242
-        y: 1613.5
+        y: 3598
       sourcePosition: right
       targetPosition: left
       type: custom
@@ -1005,10 +1120,10 @@ workflow:
       id: '1741340658099'
       position:
         x: 1545
-        y: 1674
+        y: 3670.5
       positionAbsolute:
         x: 1545
-        y: 1674
+        y: 3670.5
       sourcePosition: right
       targetPosition: left
       type: custom
@@ -1051,10 +1166,10 @@ workflow:
       id: '1741340668766'
       position:
         x: 1848
-        y: 1675
+        y: 3659.5
       positionAbsolute:
         x: 1848
-        y: 1675
+        y: 3659.5
       selected: false
       sourcePosition: right
       targetPosition: left
@@ -1071,10 +1186,10 @@ workflow:
       id: '1741340694534'
       position:
         x: 2151
-        y: 1686
+        y: 3659.5
       positionAbsolute:
         x: 2151
-        y: 1686
+        y: 3659.5
       sourcePosition: right
       targetPosition: left
       type: custom
@@ -1105,10 +1220,10 @@ workflow:
       id: '1741340718151'
       position:
         x: 1848
-        y: 1827
+        y: 3811.5
       positionAbsolute:
         x: 1848
-        y: 1827
+        y: 3811.5
       selected: false
       sourcePosition: right
       targetPosition: left
@@ -1135,10 +1250,10 @@ workflow:
       id: '1741340743235'
       position:
         x: 2151
-        y: 1827
+        y: 3800.5
       positionAbsolute:
         x: 2151
-        y: 1827
+        y: 3800.5
       sourcePosition: right
       targetPosition: left
       type: custom
@@ -1181,10 +1296,10 @@ workflow:
       id: '1741340753301'
       position:
         x: 2454
-        y: 1827
+        y: 3812.5
       positionAbsolute:
         x: 2454
-        y: 1827
+        y: 3812.5
       selected: false
       sourcePosition: right
       targetPosition: left
@@ -1201,10 +1316,10 @@ workflow:
       id: '1741340768352'
       position:
         x: 2757
-        y: 1827
+        y: 3812.5
       positionAbsolute:
         x: 2757
-        y: 1827
+        y: 3812.5
       sourcePosition: right
       targetPosition: left
       type: custom
@@ -1221,15 +1336,444 @@ workflow:
       id: '1741340786585'
       position:
         x: 2454
-        y: 1956
+        y: 3941.5
       positionAbsolute:
         x: 2454
-        y: 1956
+        y: 3941.5
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: 'Tòa Beta trông như thế này
+
+          ![Building](https://chatfptu.onrender.com/Beta)
+
+
+          Xin mời bạn tham khảo bản đồ.
+
+          ![Map](https://chatfptu.onrender.com/map)'
+        desc: ''
+        selected: false
+        title: Answer 6
+        type: answer
+        variables: []
+      height: 147
+      id: '1742523734311'
+      position:
+        x: 939
+        y: 1343.5
+      positionAbsolute:
+        x: 939
+        y: 1343.5
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: 'Tòa Delta trông như thế này
+
+          ![Building](https://chatfptu.onrender.com/Delta)
+
+
+          Xin mời bạn tham khảo bản đồ.
+
+          ![Map](https://chatfptu.onrender.com/map)'
+        desc: ''
+        selected: false
+        title: Answer 7
+        type: answer
+        variables: []
+      height: 147
+      id: '1742523748161'
+      position:
+        x: 939
+        y: 1530.5
+      positionAbsolute:
+        x: 939
+        y: 1530.5
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: 'Tòa Epsilon trông như thế này
+
+          ![Building](https://chatfptu.onrender.com/Epsilon)
+
+
+          Xin mời bạn tham khảo bản đồ.
+
+          ![Map](https://chatfptu.onrender.com/map)'
+        desc: ''
+        selected: false
+        title: Answer 8
+        type: answer
+        variables: []
+      height: 147
+      id: '1742523761278'
+      position:
+        x: 939
+        y: 1717.5
+      positionAbsolute:
+        x: 939
+        y: 1717.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: 'Tòa Gamma trông như thế này
+
+          ![Building](https://chatfptu.onrender.com/Gamma)
+
+
+          Xin mời bạn tham khảo bản đồ.
+
+          ![Map](https://chatfptu.onrender.com/map)'
+        desc: ''
+        selected: false
+        title: Answer 9
+        type: answer
+        variables: []
+      height: 163
+      id: '1742523779295'
+      position:
+        x: 939
+        y: 1904.5
+      positionAbsolute:
+        x: 939
+        y: 1904.5
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        classes:
+        - id: '1'
+          name: Domitory
+        - id: '2'
+          name: Other
+        desc: ''
+        instructions: ''
+        memory:
+          query_prompt_template: '{{#sys.query#}}'
+          window:
+            enabled: false
+            size: 50
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gemini-2.0-flash
+          provider: langgenius/gemini/google
+        query_variable_selector:
+        - '1741093650726'
+        - sys.query
+        selected: false
+        title: Question Classifier 4
+        topics: []
+        type: question-classifier
+        vision:
+          enabled: false
+      height: 167
+      id: '1742524007066'
+      position:
+        x: 939
+        y: 2107.5
+      positionAbsolute:
+        x: 939
+        y: 2107.5
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: 'Xin mời bạn tham khảo bản đồ.
+
+          ![Map](https://chatfptu.onrender.com/map)'
+        desc: ''
+        selected: false
+        title: Answer 10
+        type: answer
+        variables: []
+      height: 115
+      id: '1742524157169'
+      position:
+        x: 1242
+        y: 1885.5
+      positionAbsolute:
+        x: 1242
+        y: 1885.5
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        classes:
+        - id: '1'
+          name: Dom A
+        - id: '2'
+          name: Dom B
+        - id: '1742524698396'
+          name: Dom C
+        - id: '1742524702547'
+          name: Dom D
+        - id: '1742524706963'
+          name: Dom E
+        - id: '1742524710097'
+          name: Dom F
+        - id: '1742524713897'
+          name: Dom G
+        - id: '1742524716814'
+          name: Dom H
+        desc: ''
+        instructions: ''
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: gemini-2.0-flash
+          provider: langgenius/gemini/google
+        query_variable_selector:
+        - '1741093650726'
+        - sys.query
+        selected: false
+        title: Question Classifier 5
+        topics: []
+        type: question-classifier
+        vision:
+          enabled: false
+      height: 383
+      id: '1742524663829'
+      position:
+        x: 1242
+        y: 2040.5
+      positionAbsolute:
+        x: 1242
+        y: 2040.5
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: 'Dom A trông như thế này
+
+          ![Building](https://chatfptu.onrender.com/dom_a)
+
+
+          Xin mời bạn tham khảo bản đồ.
+
+          ![Map](https://chatfptu.onrender.com/map)'
+        desc: ''
+        selected: false
+        title: Answer 11
+        type: answer
+        variables: []
+      height: 147
+      id: '1742524742231'
+      position:
+        x: 1545
+        y: 2174.5
+      positionAbsolute:
+        x: 1545
+        y: 2174.5
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: 'Dom B trông như thế này
+
+          ![Building](https://chatfptu.onrender.com/dom_b)
+
+
+          Xin mời bạn tham khảo bản đồ.
+
+          ![Map](https://chatfptu.onrender.com/map)'
+        desc: ''
+        selected: false
+        title: Answer 12
+        type: answer
+        variables: []
+      height: 147
+      id: '1742524761131'
+      position:
+        x: 1545
+        y: 2361.5
+      positionAbsolute:
+        x: 1545
+        y: 2361.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: 'Dom C trông như thế này
+
+          ![Building](https://chatfptu.onrender.com/dom_c)
+
+
+          Xin mời bạn tham khảo bản đồ.
+
+          ![Map](https://chatfptu.onrender.com/map)'
+        desc: ''
+        selected: false
+        title: Answer 13
+        type: answer
+        variables: []
+      height: 147
+      id: '1742524774348'
+      position:
+        x: 1545
+        y: 2548.5
+      positionAbsolute:
+        x: 1545
+        y: 2548.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: 'Dom D trông như thế này
+
+          ![Building](https://chatfptu.onrender.com/dom_d)
+
+
+          Xin mời bạn tham khảo bản đồ.
+
+          ![Map](https://chatfptu.onrender.com/map)'
+        desc: ''
+        selected: false
+        title: Answer 14
+        type: answer
+        variables: []
+      height: 147
+      id: '1742524777981'
+      position:
+        x: 1545
+        y: 2735.5
+      positionAbsolute:
+        x: 1545
+        y: 2735.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: 'Dom E trông như thế này
+
+          ![Building](https://chatfptu.onrender.com/dom_e)
+
+
+          Xin mời bạn tham khảo bản đồ.
+
+          ![Map](https://chatfptu.onrender.com/map)'
+        desc: ''
+        selected: false
+        title: Answer 15
+        type: answer
+        variables: []
+      height: 147
+      id: '1742524781965'
+      position:
+        x: 1545
+        y: 2922.5
+      positionAbsolute:
+        x: 1545
+        y: 2922.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: 'Dom F trông như thế này
+
+          ![Building](https://chatfptu.onrender.com/dom_f)
+
+
+          Xin mời bạn tham khảo bản đồ.
+
+          ![Map](https://chatfptu.onrender.com/map)'
+        desc: ''
+        selected: false
+        title: Answer 16
+        type: answer
+        variables: []
+      height: 147
+      id: '1742524785932'
+      position:
+        x: 1545
+        y: 3109.5
+      positionAbsolute:
+        x: 1545
+        y: 3109.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: 'Dom G trông như thế này
+
+          ![Building](https://chatfptu.onrender.com/dom_g)
+
+
+          Xin mời bạn tham khảo bản đồ.
+
+          ![Map](https://chatfptu.onrender.com/map)'
+        desc: ''
+        selected: false
+        title: Answer 17
+        type: answer
+        variables: []
+      height: 147
+      id: '1742524789848'
+      position:
+        x: 1545
+        y: 3296.5
+      positionAbsolute:
+        x: 1545
+        y: 3296.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        answer: 'Dom H trông như thế này
+
+          ![Building](https://chatfptu.onrender.com/dom_h)
+
+
+          Xin mời bạn tham khảo bản đồ.
+
+          ![Map](https://chatfptu.onrender.com/map)'
+        desc: ''
+        selected: false
+        title: Answer 18
+        type: answer
+        variables: []
+      height: 147
+      id: '1742524793348'
+      position:
+        x: 1545
+        y: 3483.5
+      positionAbsolute:
+        x: 1545
+        y: 3483.5
+      selected: false
       sourcePosition: right
       targetPosition: left
       type: custom
       width: 243
     viewport:
-      x: -100.4500994465892
-      y: -732.3739166573099
-      zoom: 0.6026644318372327
+      x: -448.0000000000002
+      y: -2334
+      zoom: 0.7
